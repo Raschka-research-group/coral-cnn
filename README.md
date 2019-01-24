@@ -1,8 +1,8 @@
-# CORAL: Rank Consistent Logits for Ordinal Regression with Convolutional Neural Networks
+# CORAL: Consistent Rank Logits for Ordinal Regression with Convolutional Neural Networks
 
 This repository contains the model code for the paper
 
-- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2019): *Rank Consistent Logits for Ordinal Regression with Convolutional Neural Networks*  
+- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2019): *Consistent Rank Logits for Ordinal Regression with Convolutional Neural Networks*  
 [[ArXiv Preprint](https://arxiv.org/abs/1901.07884)]
 
 ![](images/overview.png)
