@@ -13,6 +13,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import argparse
+import sys
 
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
@@ -20,8 +21,10 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 from PIL import Image
 
-TRAIN_CSV_PATH = '/shared_datasets/UTKFace/utkface_train.csv'
-TEST_CSV_PATH = '/shared_datasets/UTKFace/utkface_test.csv'
+torch.backends.cudnn.deterministic = True
+
+TRAIN_CSV_PATH = '/shared_datasets/UTKFace/utk_train.csv'
+TEST_CSV_PATH = '/shared_datasets/UTKFace/utk_test.csv'
 IMAGE_PATH = '/shared_datasets/UTKFace/jpg'
 
 
@@ -36,6 +39,10 @@ parser.add_argument('--seed',
                     type=int,
                     default=-1)
 
+parser.add_argument('--numworkers',
+                    type=int,
+                    default=3)
+
 parser.add_argument('--outpath',
                     type=str,
                     required=True)
@@ -45,6 +52,8 @@ parser.add_argument('--imp_weight',
                     default=0)
 
 args = parser.parse_args()
+
+NUM_WORKERS = args.numworkers
 
 if args.cuda >= 0:
     DEVICE = torch.device("cuda:%d" % args.cuda)
@@ -62,6 +71,8 @@ PATH = args.outpath
 if not os.path.exists(PATH):
     os.mkdir(PATH)
 LOGFILE = os.path.join(PATH, 'training.log')
+TEST_PREDICTIONS = os.path.join(PATH, 'test_predictions.log')
+TEST_ALLPROBAS = os.path.join(PATH, 'test_allprobas.tensor')
 
 # Logging
 
@@ -73,6 +84,7 @@ header.append('Using CUDA device: %s' % DEVICE)
 header.append('Random Seed: %s' % RANDOM_SEED)
 header.append('Task Importance Weight: %s' % IMP_WEIGHT)
 header.append('Output Path: %s' % PATH)
+header.append('Script: %s' % sys.argv[0])
 
 with open(LOGFILE, 'w') as f:
     for entry in header:
@@ -130,7 +142,6 @@ imp = imp.to(DEVICE)
 # Dataset
 ###################
 
-
 class UTKFaceDataset(Dataset):
     """Custom Dataset for loading UTKFace face images"""
 
@@ -182,12 +193,12 @@ test_dataset = UTKFaceDataset(csv_path=TEST_CSV_PATH,
 train_loader = DataLoader(dataset=train_dataset,
                           batch_size=BATCH_SIZE,
                           shuffle=True,
-                          num_workers=4)
+                          num_workers=NUM_WORKERS)
 
 test_loader = DataLoader(dataset=test_dataset,
                          batch_size=BATCH_SIZE,
                          shuffle=False,
-                         num_workers=4)
+                         num_workers=NUM_WORKERS)
 
 
 ##########################
@@ -400,5 +411,28 @@ print(s)
 with open(LOGFILE, 'a') as f:
     f.write('%s\n' % s)
 
-model = model.to(torch.device('cpu'))
-torch.save(model.state_dict(), os.path.join(PATH, 'model.pt'))
+########## SAVE MODEL #############
+#model = model.to(torch.device('cpu'))
+#torch.save(model.state_dict(), os.path.join(PATH, 'model.pt'))
+
+########## SAVE PREDICTIONS ######
+
+all_pred = []
+all_probas = []
+with torch.set_grad_enabled(False):
+    for batch_idx, (features, targets, levels) in enumerate(test_loader):
+        
+        features = features.to(DEVICE)
+        logits, probas = model(features)
+        all_probas.append(probas)
+        predict_levels = probas > 0.5
+        predicted_labels = torch.sum(predict_levels, dim=1)
+        lst = [str(int(i)) for i in predicted_labels]
+        all_pred.extend(lst)
+
+torch.save(torch.cat(all_probas).to(torch.device('cpu')), TEST_ALLPROBAS)
+with open(TEST_PREDICTIONS, 'w') as f:
+    all_pred = ','.join(all_pred)
+    f.write(all_pred)
+
+

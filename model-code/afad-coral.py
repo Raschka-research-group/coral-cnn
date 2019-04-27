@@ -13,6 +13,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import argparse
+import sys
 
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
@@ -20,9 +21,11 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 from PIL import Image
 
-TRAIN_CSV_PATH = '/shared_datasets/AFAD/afad_train.csv'
-TEST_CSV_PATH = '/shared_datasets/AFAD/afad_test.csv'
-IMAGE_PATH = '/shared_datasets/AFAD/orig/tarball/AFAD-Full/'
+torch.backends.cudnn.deterministic = True
+
+TRAIN_CSV_PATH = '/workspace/sraschka/shared_datasets/AFAD/train_set_class0_max25.csv'
+TEST_CSV_PATH = '/workspace/sraschka/shared_datasets/AFAD/test_set_class0_max25.csv'
+IMAGE_PATH = '/workspace/sraschka/shared_datasets/AFAD/orig/tarball/AFAD-Full'
 
 
 # Argparse helper
@@ -36,6 +39,10 @@ parser.add_argument('--seed',
                     type=int,
                     default=-1)
 
+parser.add_argument('--numworkers',
+                    type=int,
+                    default=3)
+
 parser.add_argument('--outpath',
                     type=str,
                     required=True)
@@ -45,6 +52,8 @@ parser.add_argument('--imp_weight',
                     default=0)
 
 args = parser.parse_args()
+
+NUM_WORKERS = args.numworkers
 
 if args.cuda >= 0:
     DEVICE = torch.device("cuda:%d" % args.cuda)
@@ -62,6 +71,8 @@ PATH = args.outpath
 if not os.path.exists(PATH):
     os.mkdir(PATH)
 LOGFILE = os.path.join(PATH, 'training.log')
+TEST_PREDICTIONS = os.path.join(PATH, 'test_predictions.log')
+TEST_ALLPROBAS = os.path.join(PATH, 'test_allprobas.tensor')
 
 # Logging
 
@@ -73,6 +84,7 @@ header.append('Using CUDA device: %s' % DEVICE)
 header.append('Random Seed: %s' % RANDOM_SEED)
 header.append('Task Importance Weight: %s' % IMP_WEIGHT)
 header.append('Output Path: %s' % PATH)
+header.append('Script: %s' % sys.argv[0])
 
 with open(LOGFILE, 'w') as f:
     for entry in header:
@@ -94,9 +106,7 @@ NUM_CLASSES = 26
 BATCH_SIZE = 256
 GRAYSCALE = False
 
-
-csv_path = TRAIN_CSV_PATH
-df = pd.read_csv(csv_path, index_col=0)
+df = pd.read_csv(TRAIN_CSV_PATH, index_col=0)
 ages = df['age'].values
 del df
 ages = torch.tensor(ages, dtype=torch.float)
@@ -131,7 +141,6 @@ imp = imp.to(DEVICE)
 ###################
 # Dataset
 ###################
-
 
 class AFADDatasetAge(Dataset):
     """Custom Dataset for loading AFAD face images"""
@@ -183,12 +192,12 @@ test_dataset = AFADDatasetAge(csv_path=TEST_CSV_PATH,
 train_loader = DataLoader(dataset=train_dataset,
                           batch_size=BATCH_SIZE,
                           shuffle=True,
-                          num_workers=4)
+                          num_workers=NUM_WORKERS)
 
 test_loader = DataLoader(dataset=test_dataset,
                          batch_size=BATCH_SIZE,
                          shuffle=False,
-                         num_workers=4)
+                         num_workers=NUM_WORKERS)
 
 
 ##########################
@@ -354,6 +363,7 @@ for epoch in range(num_epochs):
     for batch_idx, (features, targets, levels) in enumerate(train_loader):
 
         features = features.to(DEVICE)
+        targets = targets
         targets = targets.to(DEVICE)
         levels = levels.to(DEVICE)
 
@@ -400,5 +410,27 @@ print(s)
 with open(LOGFILE, 'a') as f:
     f.write('%s\n' % s)
 
-model = model.to(torch.device('cpu'))
-torch.save(model.state_dict(), os.path.join(PATH, 'model.pt'))
+########## SAVE MODEL #############
+#model = model.to(torch.device('cpu'))
+#torch.save(model.state_dict(), os.path.join(PATH, 'model.pt'))
+
+########## SAVE PREDICTIONS ######
+
+all_pred = []
+all_probas = []
+with torch.set_grad_enabled(False):
+    for batch_idx, (features, targets, levels) in enumerate(test_loader):
+        
+        features = features.to(DEVICE)
+        logits, probas = model(features)
+        all_probas.append(probas)
+        predict_levels = probas > 0.5
+        predicted_labels = torch.sum(predict_levels, dim=1)
+        lst = [str(int(i)) for i in predicted_labels]
+        all_pred.extend(lst)
+
+torch.save(torch.cat(all_probas).to(torch.device('cpu')), TEST_ALLPROBAS)
+with open(TEST_PREDICTIONS, 'w') as f:
+    all_pred = ','.join(all_pred)
+    f.write(all_pred)
+

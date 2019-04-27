@@ -7,7 +7,6 @@ This repository contains the model code for the paper
 
 ![](images/overview.png)
 
-
 ---
 
 
@@ -30,7 +29,7 @@ The model code can be found in the `./model-code` subdirectory, and the code fil
 <dataset>-<loss>.py
 ```
 
-- `<dataset>` refers to either AFAD (`afad`), MORPH-2 (`morph2`), UTKFace (`utk`),
+- `<dataset>` refers to either AFAD (`afad`), MORPH-2 (`morph`), UTKFace (`utk`),
 or CACD (`cacd`).
 
 - `<loss>` refers to either CORAL (`coral`), ordinal regression as in Niu et al.

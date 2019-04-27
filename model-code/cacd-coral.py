@@ -1,7 +1,7 @@
 # coding: utf-8
 
 #############################################
-# Consistent Cumulative Logits with ResNet-34
+# Ordinal Regression Code with ResNet-34
 #############################################
 
 # Imports
@@ -20,8 +20,10 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 from PIL import Image
 
-TRAIN_CSV_PATH = '/shared_datasets/CACD/centercropped/cacd_train_0_48.csv'
-TEST_CSV_PATH = '/shared_datasets/CACD/centercropped/cacd_test_0_48.csv'
+torch.backends.cudnn.deterministic = True
+
+TRAIN_CSV_PATH = '/shared_datasets/CACD/centercropped/cacd_train.csv'
+TEST_CSV_PATH = '/shared_datasets/CACD/centercropped/cacd_test.csv'
 IMAGE_PATH = '/shared_datasets/CACD/entercropped/jpg'
 
 
@@ -36,6 +38,11 @@ parser.add_argument('--seed',
                     type=int,
                     default=-1)
 
+parser.add_argument('--numworkers',
+                    type=int,
+                    default=3)
+
+
 parser.add_argument('--outpath',
                     type=str,
                     required=True)
@@ -45,6 +52,8 @@ parser.add_argument('--imp_weight',
                     default=0)
 
 args = parser.parse_args()
+
+NUM_WORKERS = args.numworkers
 
 if args.cuda >= 0:
     DEVICE = torch.device("cuda:%d" % args.cuda)
@@ -62,6 +71,8 @@ PATH = args.outpath
 if not os.path.exists(PATH):
     os.mkdir(PATH)
 LOGFILE = os.path.join(PATH, 'training.log')
+TEST_PREDICTIONS = os.path.join(PATH, 'test_predictions.log')
+TEST_ALLPROBAS = os.path.join(PATH, 'test_allprobas.tensor')
 
 # Logging
 
@@ -130,7 +141,6 @@ imp = imp.to(DEVICE)
 # Dataset
 ###################
 
-
 class CACDDataset(Dataset):
     """Custom Dataset for loading CACD face images"""
 
@@ -182,12 +192,12 @@ test_dataset = CACDDataset(csv_path=TEST_CSV_PATH,
 train_loader = DataLoader(dataset=train_dataset,
                           batch_size=BATCH_SIZE,
                           shuffle=True,
-                          num_workers=4)
+                          num_workers=NUM_WORKERS)
 
 test_loader = DataLoader(dataset=test_dataset,
                          batch_size=BATCH_SIZE,
                          shuffle=False,
-                         num_workers=4)
+                         num_workers=NUM_WORKERS)
 
 
 ##########################
@@ -253,8 +263,7 @@ class ResNet(nn.Module):
         self.layer3 = self._make_layer(block, 256, layers[2], stride=2)
         self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
         self.avgpool = nn.AvgPool2d(7, stride=1, padding=2)
-        self.fc = nn.Linear(2048 * block.expansion, 1, bias=False)
-        self.linear_1_bias = nn.Parameter(torch.zeros(self.num_classes-1).float())
+        self.fc = nn.Linear(2048 * block.expansion, (self.num_classes-1)*2)
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
@@ -295,14 +304,14 @@ class ResNet(nn.Module):
         x = self.avgpool(x)
         x = x.view(x.size(0), -1)
         logits = self.fc(x)
-        logits = logits + self.linear_1_bias
-        probas = torch.sigmoid(logits)
+        logits = logits.view(-1, (self.num_classes-1), 2)
+        probas = F.softmax(logits, dim=2)[:, :, 1]
         return logits, probas
 
 
 def resnet34(num_classes, grayscale):
     """Constructs a ResNet-34 model."""
-    model = ResNet(block=BasicBlock,
+    model = ResNet(block=BasicBlock, 
                    layers=[3, 4, 6, 3],
                    num_classes=num_classes,
                    grayscale=grayscale)
@@ -314,9 +323,8 @@ def resnet34(num_classes, grayscale):
 ###########################################
 
 def cost_fn(logits, levels, imp):
-    val = (-torch.sum((F.logsigmoid(logits)*levels
-                      + (F.logsigmoid(logits) - logits)*(1-levels))*imp,
-           dim=1))
+    val = (-torch.sum((F.log_softmax(logits, dim=2)[:, :, 1]*levels
+                      + F.log_softmax(logits, dim=2)[:, :, 0]*(1-levels))*imp, dim=1))
     return torch.mean(val)
 
 
@@ -355,7 +363,7 @@ for epoch in range(num_epochs):
         features = features.to(DEVICE)
         targets = targets
         targets = targets.to(DEVICE)
-        levels = levels.to(DEVICE)
+        levels = levels.to(DEVICE) 
 
         # FORWARD AND BACK PROP
         logits, probas = model(features)
@@ -400,5 +408,28 @@ print(s)
 with open(LOGFILE, 'a') as f:
     f.write('%s\n' % s)
 
-model = model.to(torch.device('cpu'))
-torch.save(model.state_dict(), os.path.join(PATH, 'model.pt'))
+########## SAVE MODEL #############
+#model = model.to(torch.device('cpu'))
+#torch.save(model.state_dict(), os.path.join(PATH, 'model.pt'))
+
+########## SAVE PREDICTIONS ######
+
+all_pred = []
+all_probas = []
+with torch.set_grad_enabled(False):
+    for batch_idx, (features, targets, levels) in enumerate(test_loader):
+        
+        features = features.to(DEVICE)
+        logits, probas = model(features)
+        all_probas.append(probas)
+        predict_levels = probas > 0.5
+        predicted_labels = torch.sum(predict_levels, dim=1)
+        lst = [str(int(i)) for i in predicted_labels]
+        all_pred.extend(lst)
+
+torch.save(torch.cat(all_probas).to(torch.device('cpu')), TEST_ALLPROBAS)
+with open(TEST_PREDICTIONS, 'w') as f:
+    all_pred = ','.join(all_pred)
+    f.write(all_pred)
+
+
