@@ -23,7 +23,7 @@ All code was run on PyTorch 1.0 and Python 3.7,
 and we do not guarantee upward and downward compatibility
 to other PyTorch and Python versions.
 
-The model code can be found in the `./model-code` subdirectory, and the code files are labeled using the scheme
+The model code can be found in the `./model-code/resnet34` subdirectory, and the code files are labeled using the scheme
 
 ```
 <dataset>-<loss>.py

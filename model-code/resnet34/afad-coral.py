@@ -1,7 +1,7 @@
 # coding: utf-8
 
 #############################################
-# Ordinal Regression Code with ResNet-34
+# Consistent Cumulative Logits with ResNet-34
 #############################################
 
 # Imports
@@ -13,6 +13,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import argparse
+import sys
 
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
@@ -22,9 +23,9 @@ from PIL import Image
 
 torch.backends.cudnn.deterministic = True
 
-TRAIN_CSV_PATH = '/workspace/sraschka/shared_datasets/AFAD/train_set_class0_max25.csv'
-TEST_CSV_PATH = '/workspace/sraschka/shared_datasets/AFAD/test_set_class0_max25.csv'
-IMAGE_PATH = '/workspace/sraschka/shared_datasets/AFAD/orig/tarball/AFAD-Full'
+TRAIN_CSV_PATH = '/shared_datasets/AFAD/afad_train.csv'
+TEST_CSV_PATH = '/shared_datasets/AFAD/afad_test.csv'
+IMAGE_PATH = '/shared_datasets/AFAD/orig/tarball/AFAD-Full'
 
 
 # Argparse helper
@@ -41,7 +42,6 @@ parser.add_argument('--seed',
 parser.add_argument('--numworkers',
                     type=int,
                     default=3)
-
 
 parser.add_argument('--outpath',
                     type=str,
@@ -84,6 +84,7 @@ header.append('Using CUDA device: %s' % DEVICE)
 header.append('Random Seed: %s' % RANDOM_SEED)
 header.append('Task Importance Weight: %s' % IMP_WEIGHT)
 header.append('Output Path: %s' % PATH)
+header.append('Script: %s' % sys.argv[0])
 
 with open(LOGFILE, 'w') as f:
     for entry in header:
@@ -262,7 +263,8 @@ class ResNet(nn.Module):
         self.layer3 = self._make_layer(block, 256, layers[2], stride=2)
         self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
         self.avgpool = nn.AvgPool2d(7, stride=1, padding=2)
-        self.fc = nn.Linear(2048 * block.expansion, (self.num_classes-1)*2)
+        self.fc = nn.Linear(2048 * block.expansion, 1, bias=False)
+        self.linear_1_bias = nn.Parameter(torch.zeros(self.num_classes-1).float())
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
@@ -303,14 +305,14 @@ class ResNet(nn.Module):
         x = self.avgpool(x)
         x = x.view(x.size(0), -1)
         logits = self.fc(x)
-        logits = logits.view(-1, (self.num_classes-1), 2)
-        probas = F.softmax(logits, dim=2)[:, :, 1]
+        logits = logits + self.linear_1_bias
+        probas = torch.sigmoid(logits)
         return logits, probas
 
 
 def resnet34(num_classes, grayscale):
     """Constructs a ResNet-34 model."""
-    model = ResNet(block=BasicBlock, 
+    model = ResNet(block=BasicBlock,
                    layers=[3, 4, 6, 3],
                    num_classes=num_classes,
                    grayscale=grayscale)
@@ -322,8 +324,9 @@ def resnet34(num_classes, grayscale):
 ###########################################
 
 def cost_fn(logits, levels, imp):
-    val = (-torch.sum((F.log_softmax(logits, dim=2)[:, :, 1]*levels
-                      + F.log_softmax(logits, dim=2)[:, :, 0]*(1-levels))*imp, dim=1))
+    val = (-torch.sum((F.logsigmoid(logits)*levels
+                      + (F.logsigmoid(logits) - logits)*(1-levels))*imp,
+           dim=1))
     return torch.mean(val)
 
 
@@ -362,7 +365,7 @@ for epoch in range(num_epochs):
         features = features.to(DEVICE)
         targets = targets
         targets = targets.to(DEVICE)
-        levels = levels.to(DEVICE) 
+        levels = levels.to(DEVICE)
 
         # FORWARD AND BACK PROP
         logits, probas = model(features)
