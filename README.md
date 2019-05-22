@@ -1,8 +1,8 @@
-# CORAL: Consistent Rank Logits for Ordinal Regression with Convolutional Neural Networks
+# Rank-consistent Ordinal Regression for Neural Networks
 
 This repository contains the model code for the paper
 
-- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2019): *Consistent Rank Logits for Ordinal Regression with Convolutional Neural Networks*  
+- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2019): *Rank-consistent Ordinal Regression for Neural Networks*  
 [[ArXiv Preprint](https://arxiv.org/abs/1901.07884)]
 
 ![](images/overview.png)
@@ -19,7 +19,7 @@ the corresponding dataset organization. **You likely need to change the file pat
 in the scripts depending on where you save the image datasets and label files
 if you wish to run the code.
 
-All code was run on PyTorch 1.0 and Python 3.7,
+All code was run on PyTorch 1.1 and Python 3.7,
 and we do not guarantee upward and downward compatibility
 to other PyTorch and Python versions.
 
@@ -84,3 +84,5 @@ We provide the age labels (obtained from the orginal dataset resources)
 - UTKFace: labels 0-39 correspond to ages 21-60
 - AFAD: labels 0-25 correspond to ages 15-40
 - MORPH-2: labels 0-54 correspond to ages 16-70
+
+In addition, balanced versions of the MORPH-2 and AFAD datasets are available as supplementary material in `./datasets/supplementary/balanced-afad-and-morph/`
