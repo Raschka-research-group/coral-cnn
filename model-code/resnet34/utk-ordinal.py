@@ -13,6 +13,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import argparse
+import sys
 
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
@@ -26,7 +27,6 @@ TRAIN_CSV_PATH = '/shared_datasets/UTKFace/utk_train.csv'
 TEST_CSV_PATH = '/shared_datasets/UTKFace/utk_test.csv'
 IMAGE_PATH = '/shared_datasets/UTKFace/jpg'
 
-
 # Argparse helper
 
 parser = argparse.ArgumentParser()
@@ -34,18 +34,21 @@ parser.add_argument('--cuda',
                     type=int,
                     default=-1)
 
-parser.add_argument('--numworkers',
-                    type=int,
-                    default=3)
-
-
 parser.add_argument('--seed',
                     type=int,
                     default=-1)
 
+parser.add_argument('--numworkers',
+                    type=int,
+                    default=3)
+
 parser.add_argument('--outpath',
                     type=str,
                     required=True)
+
+parser.add_argument('--imp_weight',
+                    type=int,
+                    default=0)
 
 args = parser.parse_args()
 
@@ -61,12 +64,14 @@ if args.seed == -1:
 else:
     RANDOM_SEED = args.seed
 
+IMP_WEIGHT = args.imp_weight
+
 PATH = args.outpath
 if not os.path.exists(PATH):
     os.mkdir(PATH)
 LOGFILE = os.path.join(PATH, 'training.log')
 TEST_PREDICTIONS = os.path.join(PATH, 'test_predictions.log')
-
+TEST_ALLPROBAS = os.path.join(PATH, 'test_allprobas.tensor')
 
 # Logging
 
@@ -76,7 +81,9 @@ header.append('PyTorch Version: %s' % torch.__version__)
 header.append('CUDA device available: %s' % torch.cuda.is_available())
 header.append('Using CUDA device: %s' % DEVICE)
 header.append('Random Seed: %s' % RANDOM_SEED)
+header.append('Task Importance Weight: %s' % IMP_WEIGHT)
 header.append('Output Path: %s' % PATH)
+header.append('Script: %s' % sys.argv[0])
 
 with open(LOGFILE, 'w') as f:
     for entry in header:
@@ -98,10 +105,41 @@ NUM_CLASSES = 40
 BATCH_SIZE = 256
 GRAYSCALE = False
 
+df = pd.read_csv(TRAIN_CSV_PATH, index_col=0)
+ages = df['age'].values
+del df
+ages = torch.tensor(ages, dtype=torch.float)
+
+
+def task_importance_weights(label_array):
+    uniq = torch.unique(label_array)
+    num_examples = label_array.size(0)
+
+    m = torch.zeros(uniq.shape[0])
+
+    for i, t in enumerate(torch.arange(torch.min(uniq), torch.max(uniq))):
+        m_k = torch.max(torch.tensor([label_array[label_array > t].size(0), 
+                                      num_examples - label_array[label_array > t].size(0)]))
+        m[i] = torch.sqrt(m_k.float())
+
+    imp = m/torch.max(m)
+    return imp
+
+
+# Data-specific scheme
+if not IMP_WEIGHT:
+    imp = torch.ones(NUM_CLASSES-1, dtype=torch.float)
+elif IMP_WEIGHT == 1:
+    imp = task_importance_weights(ages)
+    imp = imp[0:NUM_CLASSES-1]
+else:
+    raise ValueError('Incorrect importance weight parameter.')
+imp = imp.to(DEVICE)
+
+
 ###################
 # Dataset
 ###################
-
 
 class UTKFaceDataset(Dataset):
     """Custom Dataset for loading UTKFace face images"""
@@ -124,8 +162,10 @@ class UTKFaceDataset(Dataset):
             img = self.transform(img)
 
         label = self.y[index]
+        levels = [1]*label + [0]*(NUM_CLASSES - 1 - label)
+        levels = torch.tensor(levels, dtype=torch.float32)
 
-        return img, label
+        return img, label, levels
 
     def __len__(self):
         return self.y.shape[0]
@@ -206,6 +246,7 @@ class BasicBlock(nn.Module):
 class ResNet(nn.Module):
 
     def __init__(self, block, layers, num_classes, grayscale):
+        self.num_classes = num_classes
         self.inplanes = 64
         if grayscale:
             in_dim = 1
@@ -222,7 +263,7 @@ class ResNet(nn.Module):
         self.layer3 = self._make_layer(block, 256, layers[2], stride=2)
         self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
         self.avgpool = nn.AvgPool2d(7, stride=1, padding=2)
-        self.fc = nn.Linear(2048 * block.expansion, 1)
+        self.fc = nn.Linear(2048 * block.expansion, (self.num_classes-1)*2)
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
@@ -259,11 +300,13 @@ class ResNet(nn.Module):
         x = self.layer2(x)
         x = self.layer3(x)
         x = self.layer4(x)
-        x = self.avgpool(x)
 
+        x = self.avgpool(x)
         x = x.view(x.size(0), -1)
-        logits = self.fc(x).view(-1)
-        return logits
+        logits = self.fc(x)
+        logits = logits.view(-1, (self.num_classes-1), 2)
+        probas = F.softmax(logits, dim=2)[:, :, 1]
+        return logits, probas
 
 
 def resnet34(num_classes, grayscale):
@@ -279,6 +322,12 @@ def resnet34(num_classes, grayscale):
 # Initialize Cost, Model, and Optimizer
 ###########################################
 
+def cost_fn(logits, levels, imp):
+    val = (-torch.sum((F.log_softmax(logits, dim=2)[:, :, 1]*levels
+                      + F.log_softmax(logits, dim=2)[:, :, 0]*(1-levels))*imp, dim=1))
+    return torch.mean(val)
+
+
 torch.manual_seed(RANDOM_SEED)
 torch.cuda.manual_seed(RANDOM_SEED)
 model = resnet34(NUM_CLASSES, GRAYSCALE)
@@ -288,21 +337,20 @@ optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 
 def compute_mae_and_mse(model, data_loader, device):
-    mae, mse, num_examples = 0., 0., 0
-    for i, (features, targets) in enumerate(data_loader):
-            
+    mae, mse, num_examples = 0, 0, 0
+    for i, (features, targets, levels) in enumerate(data_loader):
+
         features = features.to(device)
         targets = targets.to(device)
 
-        logits = model(features)
-        predicted_labels = torch.round(logits).long()
+        logits, probas = model(features)
+        predict_levels = probas > 0.5
+        predicted_labels = torch.sum(predict_levels, dim=1)
         num_examples += targets.size(0)
         mae += torch.sum(torch.abs(predicted_labels - targets))
         mse += torch.sum((predicted_labels - targets)**2)
-    
-    mae = mae.float()/num_examples
-    mse = mse.float()/num_examples
-       
+    mae = mae.float() / num_examples
+    mse = mse.float() / num_examples
     return mae, mse
 
 
@@ -310,14 +358,16 @@ start_time = time.time()
 for epoch in range(num_epochs):
 
     model.train()
-    for batch_idx, (features, targets) in enumerate(train_loader):
+    for batch_idx, (features, targets, levels) in enumerate(train_loader):
 
         features = features.to(DEVICE)
+        targets = targets
         targets = targets.to(DEVICE)
+        levels = levels.to(DEVICE)
 
         # FORWARD AND BACK PROP
-        logits = model(features)
-        cost = F.mse_loss(logits, targets.float())
+        logits, probas = model(features)
+        cost = cost_fn(logits, levels, imp)
         optimizer.zero_grad()
 
         cost.backward()
@@ -365,16 +415,19 @@ with open(LOGFILE, 'a') as f:
 ########## SAVE PREDICTIONS ######
 
 all_pred = []
+all_probas = []
 with torch.set_grad_enabled(False):
-    for batch_idx, (features, targets) in enumerate(test_loader):
-        
+    for batch_idx, (features, targets, levels) in enumerate(test_loader):
+
         features = features.to(DEVICE)
-        logits = model(features)
-        predictions = torch.round(logits).long()
-        lst = [str(int(i)) for i in predictions]
+        logits, probas = model(features)
+        all_probas.append(probas)
+        predict_levels = probas > 0.5
+        predicted_labels = torch.sum(predict_levels, dim=1)
+        lst = [str(int(i)) for i in predicted_labels]
         all_pred.extend(lst)
 
+torch.save(torch.cat(all_probas).to(torch.device('cpu')), TEST_ALLPROBAS)
 with open(TEST_PREDICTIONS, 'w') as f:
     all_pred = ','.join(all_pred)
     f.write(all_pred)
-
