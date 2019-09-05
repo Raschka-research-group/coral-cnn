@@ -86,3 +86,8 @@ We provide the age labels (obtained from the orginal dataset resources)
 - MORPH-2: labels 0-54 correspond to ages 16-70
 
 In addition, balanced versions of the MORPH-2 and AFAD datasets are available as supplementary material in `./datasets/supplementary/balanced-afad-and-morph/`
+
+
+## Single Image Predictions
+
+If you wish to use pre-trained models for making predictions on .jpg images (e.g., for comparison studies), please see the README.md file in the[`single-image-prediction`](./single-image-prediction) subdirectory for more details.
