@@ -4,9 +4,9 @@ Due to the large file sizes of the model, the pre-trained models are not availab
 
 
 
-## 1) Downloading the dataset
+## 1) Downloading the models
 
-Visit the Google Drive link to the `state-dicts` directory via your web browser at https://drive.google.com/drive/folders/1Q9vr5Q0BueHD0Kal2pEmA-NWIbYZnJAL and click on the "Download All" button on the upper right corner (the downloaded files will be ~1GB in total).
+Visit the Google Drive link to the PyTorch model `state-dicts` directory via your web browser at https://drive.google.com/drive/folders/1Q9vr5Q0BueHD0Kal2pEmA-NWIbYZnJAL and click on the "Download All" button on the upper right corner (the downloaded files will be ~1GB in total).
 
 ![](./images/googledrive-download.png)
 
