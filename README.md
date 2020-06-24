@@ -2,10 +2,10 @@
 
 This repository contains the model code for the paper
 
-- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2019): *Rank-consistent Ordinal Regression for Neural Networks*  
+- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2020): *Rank-consistent Ordinal Regression for Neural Networks*  
 [[ArXiv Preprint](https://arxiv.org/abs/1901.07884)]
 
-![](images/overview.png)
+![](./overview.png)
 
 ---
 
@@ -19,17 +19,17 @@ the corresponding dataset organization. **You likely need to change the file pat
 in the scripts depending on where you save the image datasets and label files
 if you wish to run the code.
 
-All code was run on PyTorch 1.1 and Python 3.7,
+All code was run on PyTorch 1.5 and Python 3.7,
 and we do not guarantee upward and downward compatibility
 to other PyTorch and Python versions.
 
-The model code can be found in the `./model-code/resnet34` subdirectory, and the code files are labeled using the scheme
+The model code can be found in the `[./model-code](./model-code)` subdirectory, and the code files are labeled using the scheme
 
 ```
 <dataset>-<loss>.py
 ```
 
-- `<dataset>` refers to either AFAD (`afad`), MORPH-2 (`morph`), UTKFace (`utk`),
+- `<dataset>` refers to either AFAD (`afad`), MORPH-2 (`morph`),
 or CACD (`cacd`).
 
 - `<loss>` refers to either CORAL (`coral`), ordinal regression as in Niu et al.
@@ -38,20 +38,21 @@ or CACD (`cacd`).
 **Example**
 
 ```bash
-python afad-coral.py --seed 1 --imp_weight 1 --cuda 0 --outpath afad-model1
+python afad-coral.py --seed 1 --cuda 0 --outpath afad-model1
 ```
 
 - `--seed <int>`: Integer for the random seed; used for training set shuffling and
 the model weight initialization (note that CUDA convolutions are not fully deterministic).
-
-- `--imp_weight <int>` : If `0`, uses no importance weighted. If `1`, uses the 
-task importance weighting as described in the paper.
 
 - `--cuda <int>`: The CUDA device number of the GPU to be used for training 
 (`--cuda 0` refers to the 1st GPU).
 
 - `--outpath <directory>`: Path for saving the training log (`training.log`) 
 and the parameters of the trained model (`model.pt`). 
+
+## Training Logs and Trained Models
+
+We share all training logs in this GitHub repository under the [./experiment-logs](experiment-logs) subdirectory. Due to the large file-size (85 Mb per model), we could not share the trained models on GitHub; however, all trained models can be downloaded from Google Drive via the following link: [https://drive.google.com/drive/folders/168ijUQyvGLhHoQUQMlFS2fVt2p5ZV2bD?usp=sharing](https://drive.google.com/drive/folders/168ijUQyvGLhHoQUQMlFS2fVt2p5ZV2bD?usp=sharing).
 
 ## Datasets
 
@@ -61,8 +62,6 @@ The image files of the face image datasets are available from the following webs
 
 - CACD: http://bcsiriuschen.github.io/CARC/
 
-- UTKFace: https://susanqq.github.io/UTKFace/
-
 - AFAD: https://github.com/afad-dataset/tarball
 
 - MORPH-2: https://www.faceaginggroup.com/morph/
@@ -70,9 +69,9 @@ The image files of the face image datasets are available from the following webs
 ### Data preprocessing code
 
 We provide the dataset preprocessing code that we used to prepare the CACD and MORPH-2 datasets
-as described in the paper. The code is located in the `./datasets/image-preprocessing-code` 
-subdirectory. AFAD and
-UTKFace do not need further preprocessing.
+as described in the paper. The code is located in the 
+`[./datasets/image-preprocessing-code](./datasets/image-preprocessing-code)` 
+subdirectory. AFAD did not need further preprocessing.
 
 ### Labels and train/test splits
 
@@ -81,13 +80,11 @@ We provide the age labels (obtained from the orginal dataset resources)
  subdirectory.
 
 - CACD: labels 0-48 correspond to ages 14-62
-- UTKFace: labels 0-39 correspond to ages 21-60
 - AFAD: labels 0-25 correspond to ages 15-40
 - MORPH-2: labels 0-54 correspond to ages 16-70
 
-In addition, balanced versions of the MORPH-2 and AFAD datasets are available as supplementary material in `./datasets/supplementary/balanced-afad-and-morph/`
+## Implementations for Other Deep Learning Frameworks
 
+Our models were originally implemented in PyTorch 1.5. We provide a recipe for porting the code is provided at [coral-implementation-recipe.ipynb](coral-implementation-recipe.ipynb).
 
-## Single Image Predictions
-
-If you wish to use pre-trained models for making predictions on .jpg images (e.g., for comparison studies), please see the README.md file in the[`single-image-prediction`](./single-image-prediction) subdirectory for more details.
+A Keras port of this code was recently developed and made available at [https://github.com/ck37/coral-ordinal](https://github.com/ck37/coral-ordinal).
