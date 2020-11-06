@@ -57,7 +57,7 @@ and the parameters of the trained model (`model.pt`).
 
 Here is an overview of the differences between a regular CNN and a CORAL-CNN:
 
-[![](github-images/differences-at-a-glance-small.png)](differences-at-a-glance.pdf)  
+[![](github-images/differences-at-a-glance-small.png)](github-images/differences-at-a-glance.pdf)  
 (Click to see a high resolution version.)
 
 ---
