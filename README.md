@@ -1,16 +1,17 @@
 # Rank-consistent Ordinal Regression for Neural Networks
 
-This repository contains the model code for the paper
+This repository contains the PyTorch model code for the paper
 
-- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2020): *Rank-consistent Ordinal Regression for Neural Networks*  
-[[ArXiv Preprint](https://arxiv.org/abs/1901.07884)]
+- Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2020): *Rank Consistent Ordinal Regression for Neural Networks with Application to Age Estimation*. Pattern Recognition Letters. https://doi.org/10.1016/j.patrec.2020.11.008.     
+[[Journal Paper](https://www.sciencedirect.com/science/article/pii/S016786552030413X)] [[ArXiv Preprint](https://arxiv.org/abs/1901.07884)]  
+[[Keras Port](https://github.com/ck37/coral-ordinal)]
 
-![](./overview.png)
+![](github-images/overview.png)
 
 ---
 
 
-## Model code
+## PyTorch Model Code
 
 Note that the model code across datasets
 is identical for the different datasets, however, we hard coded
@@ -35,7 +36,10 @@ or CACD (`cacd`).
 - `<loss>` refers to either CORAL (`coral`), ordinal regression as in Niu et al.
 (`ordinal`), or cross-entropy (`ce`).
 
+
 **Example**
+
+The following code trains `coral` on the `afad` dataset:
 
 ```bash
 python afad-coral.py --seed 1 --cuda 0 --outpath afad-model1
@@ -50,13 +54,20 @@ the model weight initialization (note that CUDA convolutions are not fully deter
 - `--outpath <directory>`: Path for saving the training log (`training.log`) 
 and the parameters of the trained model (`model.pt`). 
 
-## Training Logs and Trained Models
+
+Here is an overview of the differences between a regular CNN and a CORAL-CNN:
+
+[![](github-images/differences-at-a-glance-small.png)](differences-at-a-glance.pdf)  
+(Click to see a high resolution version.)
+
+---
+
+## Training Logs and Trained Models from the Paper
 
 We share all training logs in this GitHub repository under the [./experiment-logs](experiment-logs) subdirectory. Due to the large file-size (85 Mb per model), we could not share the trained models on GitHub; however, all trained models can be downloaded from Google Drive via the following link: [https://drive.google.com/drive/folders/168ijUQyvGLhHoQUQMlFS2fVt2p5ZV2bD?usp=sharing](https://drive.google.com/drive/folders/168ijUQyvGLhHoQUQMlFS2fVt2p5ZV2bD?usp=sharing).
 
-## Datasets
 
-### Image files
+**Image files**
 
 The image files of the face image datasets are available from the following websites:
 
@@ -66,14 +77,14 @@ The image files of the face image datasets are available from the following webs
 
 - MORPH-2: https://www.faceaginggroup.com/morph/
 
-### Data preprocessing code
+**Data preprocessing code**
 
 We provide the dataset preprocessing code that we used to prepare the CACD and MORPH-2 datasets
 as described in the paper. The code is located in the 
 `[./datasets/image-preprocessing-code](./datasets/image-preprocessing-code)` 
 subdirectory. AFAD did not need further preprocessing.
 
-### Labels and train/test splits
+**Labels and train/test splits**
 
 We provide the age labels (obtained from the orginal dataset resources)
  and train/test splits we used in CSV format located in the `./datasets/train-test-csv`
@@ -83,8 +94,21 @@ We provide the age labels (obtained from the orginal dataset resources)
 - AFAD: labels 0-25 correspond to ages 15-40
 - MORPH-2: labels 0-54 correspond to ages 16-70
 
+---
+
+## Using Trained Models
+
+We share the pre-trained models from the paper that can be used to make predictions on AFAD, MORPH-2, or CACD images. Please see the README in the 
+[single-image-prediction__w-pretrained-models](single-image-prediction__w-pretrained-models) subdirectory for details.
+
+---
+
 ## Implementations for Other Deep Learning Frameworks
 
-Our models were originally implemented in PyTorch 1.5. We provide a recipe for porting the code is provided at [coral-implementation-recipe.ipynb](coral-implementation-recipe.ipynb).
+### Porting Guide
+
+Our models were originally implemented in PyTorch 1.5. We provide a recipe for porting the code is provided at [coral-implementation-recipe.ipynb](coral-implementation-recipe.ipynb). Also see the [the file-diff comparing CORAL with regular CNN.](github-images/differences-at-a-glance.pdf)
+
+### Keras
 
 A Keras port of this code was recently developed and made available at [https://github.com/ck37/coral-ordinal](https://github.com/ck37/coral-ordinal).
