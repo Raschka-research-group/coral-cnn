@@ -4,12 +4,20 @@ This repository contains the PyTorch model code for the paper
 
 - Wenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2020): *Rank Consistent Ordinal Regression for Neural Networks with Application to Age Estimation*. Pattern Recognition Letters. https://doi.org/10.1016/j.patrec.2020.11.008.     
 [[Journal Paper](https://www.sciencedirect.com/science/article/pii/S016786552030413X)] [[ArXiv Preprint](https://arxiv.org/abs/1901.07884)]  
+[[PyTorch Package](https://github.com/rasbt/coral_pytorch)]
 [[Keras Port](https://github.com/ck37/coral-ordinal)]
 
 ![](github-images/overview.png)
 
 ---
 
+This GitHub repository contains the code files and training logs used in the paper. If you are primarily interested in using CORAL, a PyTorch library with Tutorials can be found here:
+
+<a href="https://github.com/rasbt/coral_pytorch"><img src="coral-logo-alpha.png" width=300></a>
+
+- [https://github.com/rasbt/coral_pytorch](https://github.com/rasbt/coral_pytorch)
+
+---
 
 ## PyTorch Model Code
 
