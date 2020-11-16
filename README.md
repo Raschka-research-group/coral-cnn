@@ -13,7 +13,7 @@ This repository contains the PyTorch model code for the paper
 
 This GitHub repository contains the code files and training logs used in the paper. If you are primarily interested in using CORAL, a PyTorch library with Tutorials can be found here:
 
-<a href="https://github.com/rasbt/coral_pytorch"><img src="coral-logo-alpha.png" width=300></a>
+<a href="https://github.com/rasbt/coral_pytorch"><img src="logo.png" width=300></a>
 
 - [https://github.com/rasbt/coral_pytorch](https://github.com/rasbt/coral_pytorch)
 
