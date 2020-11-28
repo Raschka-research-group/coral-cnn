@@ -1,0 +1,2410 @@
+PyTorch Version: 1.5.0
+CUDA device available: True
+Using CUDA device: cuda:7
+Random Seed: 2
+Task Importance Weight: 0
+Output Path: afad-ordinal__seed2
+Script: afad-ordinal.py
+Epoch: 001/200 | Batch 0000/0462 | Cost: 18.7791
+Epoch: 001/200 | Batch 0050/0462 | Cost: 9.3645
+Epoch: 001/200 | Batch 0100/0462 | Cost: 8.3775
+Epoch: 001/200 | Batch 0150/0462 | Cost: 9.2543
+Epoch: 001/200 | Batch 0200/0462 | Cost: 9.2786
+Epoch: 001/200 | Batch 0250/0462 | Cost: 8.0573
+Epoch: 001/200 | Batch 0300/0462 | Cost: 8.7150
+Epoch: 001/200 | Batch 0350/0462 | Cost: 8.4707
+Epoch: 001/200 | Batch 0400/0462 | Cost: 8.0076
+Epoch: 001/200 | Batch 0450/0462 | Cost: 8.1379
+MAE/RMSE: | Current Valid: 8.43/9.45 Ep. 0 | Best Valid : 8.43/9.45 Ep. 0
+Time elapsed: 2.51 min
+Epoch: 002/200 | Batch 0000/0462 | Cost: 8.4109
+Epoch: 002/200 | Batch 0050/0462 | Cost: 8.1117
+Epoch: 002/200 | Batch 0100/0462 | Cost: 6.9579
+Epoch: 002/200 | Batch 0150/0462 | Cost: 8.7017
+Epoch: 002/200 | Batch 0200/0462 | Cost: 8.0817
+Epoch: 002/200 | Batch 0250/0462 | Cost: 8.0626
+Epoch: 002/200 | Batch 0300/0462 | Cost: 7.6984
+Epoch: 002/200 | Batch 0350/0462 | Cost: 7.7303
+Epoch: 002/200 | Batch 0400/0462 | Cost: 8.4990
+Epoch: 002/200 | Batch 0450/0462 | Cost: 7.4601
+MAE/RMSE: | Current Valid: 7.89/9.01 Ep. 1 | Best Valid : 7.89/9.01 Ep. 1
+Time elapsed: 5.02 min
+Epoch: 003/200 | Batch 0000/0462 | Cost: 8.2840
+Epoch: 003/200 | Batch 0050/0462 | Cost: 7.3449
+Epoch: 003/200 | Batch 0100/0462 | Cost: 7.5586
+Epoch: 003/200 | Batch 0150/0462 | Cost: 8.1332
+Epoch: 003/200 | Batch 0200/0462 | Cost: 8.3571
+Epoch: 003/200 | Batch 0250/0462 | Cost: 7.2138
+Epoch: 003/200 | Batch 0300/0462 | Cost: 7.8643
+Epoch: 003/200 | Batch 0350/0462 | Cost: 7.9057
+Epoch: 003/200 | Batch 0400/0462 | Cost: 8.4455
+Epoch: 003/200 | Batch 0450/0462 | Cost: 7.6011
+MAE/RMSE: | Current Valid: 6.95/8.21 Ep. 2 | Best Valid : 6.95/8.21 Ep. 2
+Time elapsed: 7.17 min
+Epoch: 004/200 | Batch 0000/0462 | Cost: 7.2755
+Epoch: 004/200 | Batch 0050/0462 | Cost: 8.0779
+Epoch: 004/200 | Batch 0100/0462 | Cost: 7.2485
+Epoch: 004/200 | Batch 0150/0462 | Cost: 7.4489
+Epoch: 004/200 | Batch 0200/0462 | Cost: 7.4453
+Epoch: 004/200 | Batch 0250/0462 | Cost: 7.6142
+Epoch: 004/200 | Batch 0300/0462 | Cost: 8.0654
+Epoch: 004/200 | Batch 0350/0462 | Cost: 7.7930
+Epoch: 004/200 | Batch 0400/0462 | Cost: 8.0085
+Epoch: 004/200 | Batch 0450/0462 | Cost: 7.1262
+MAE/RMSE: | Current Valid: 7.32/8.44 Ep. 3 | Best Valid : 6.95/8.21 Ep. 2
+Time elapsed: 9.14 min
+Epoch: 005/200 | Batch 0000/0462 | Cost: 7.2989
+Epoch: 005/200 | Batch 0050/0462 | Cost: 7.7797
+Epoch: 005/200 | Batch 0100/0462 | Cost: 8.0756
+Epoch: 005/200 | Batch 0150/0462 | Cost: 7.4472
+Epoch: 005/200 | Batch 0200/0462 | Cost: 6.4433
+Epoch: 005/200 | Batch 0250/0462 | Cost: 6.4640
+Epoch: 005/200 | Batch 0300/0462 | Cost: 7.8327
+Epoch: 005/200 | Batch 0350/0462 | Cost: 7.7591
+Epoch: 005/200 | Batch 0400/0462 | Cost: 7.3411
+Epoch: 005/200 | Batch 0450/0462 | Cost: 7.3798
+MAE/RMSE: | Current Valid: 7.61/8.81 Ep. 4 | Best Valid : 6.95/8.21 Ep. 2
+Time elapsed: 11.12 min
+Epoch: 006/200 | Batch 0000/0462 | Cost: 6.9154
+Epoch: 006/200 | Batch 0050/0462 | Cost: 7.2130
+Epoch: 006/200 | Batch 0100/0462 | Cost: 7.8742
+Epoch: 006/200 | Batch 0150/0462 | Cost: 6.9616
+Epoch: 006/200 | Batch 0200/0462 | Cost: 6.5732
+Epoch: 006/200 | Batch 0250/0462 | Cost: 7.4442
+Epoch: 006/200 | Batch 0300/0462 | Cost: 7.6385
+Epoch: 006/200 | Batch 0350/0462 | Cost: 7.0436
+Epoch: 006/200 | Batch 0400/0462 | Cost: 6.9582
+Epoch: 006/200 | Batch 0450/0462 | Cost: 7.2976
+MAE/RMSE: | Current Valid: 5.82/7.01 Ep. 5 | Best Valid : 5.82/7.01 Ep. 5
+Time elapsed: 13.10 min
+Epoch: 007/200 | Batch 0000/0462 | Cost: 6.7133
+Epoch: 007/200 | Batch 0050/0462 | Cost: 7.1714
+Epoch: 007/200 | Batch 0100/0462 | Cost: 6.5923
+Epoch: 007/200 | Batch 0150/0462 | Cost: 6.7415
+Epoch: 007/200 | Batch 0200/0462 | Cost: 7.4132
+Epoch: 007/200 | Batch 0250/0462 | Cost: 7.6158
+Epoch: 007/200 | Batch 0300/0462 | Cost: 7.2014
+Epoch: 007/200 | Batch 0350/0462 | Cost: 6.8733
+Epoch: 007/200 | Batch 0400/0462 | Cost: 7.1015
+Epoch: 007/200 | Batch 0450/0462 | Cost: 7.1588
+MAE/RMSE: | Current Valid: 6.57/7.82 Ep. 6 | Best Valid : 5.82/7.01 Ep. 5
+Time elapsed: 15.08 min
+Epoch: 008/200 | Batch 0000/0462 | Cost: 6.0179
+Epoch: 008/200 | Batch 0050/0462 | Cost: 6.7575
+Epoch: 008/200 | Batch 0100/0462 | Cost: 6.8913
+Epoch: 008/200 | Batch 0150/0462 | Cost: 7.4725
+Epoch: 008/200 | Batch 0200/0462 | Cost: 7.1307
+Epoch: 008/200 | Batch 0250/0462 | Cost: 6.8621
+Epoch: 008/200 | Batch 0300/0462 | Cost: 7.1001
+Epoch: 008/200 | Batch 0350/0462 | Cost: 7.4526
+Epoch: 008/200 | Batch 0400/0462 | Cost: 6.6529
+Epoch: 008/200 | Batch 0450/0462 | Cost: 6.8014
+MAE/RMSE: | Current Valid: 6.57/7.74 Ep. 7 | Best Valid : 5.82/7.01 Ep. 5
+Time elapsed: 17.06 min
+Epoch: 009/200 | Batch 0000/0462 | Cost: 7.2519
+Epoch: 009/200 | Batch 0050/0462 | Cost: 6.7504
+Epoch: 009/200 | Batch 0100/0462 | Cost: 6.5942
+Epoch: 009/200 | Batch 0150/0462 | Cost: 6.6106
+Epoch: 009/200 | Batch 0200/0462 | Cost: 7.2918
+Epoch: 009/200 | Batch 0250/0462 | Cost: 6.1187
+Epoch: 009/200 | Batch 0300/0462 | Cost: 6.6366
+Epoch: 009/200 | Batch 0350/0462 | Cost: 7.3042
+Epoch: 009/200 | Batch 0400/0462 | Cost: 6.7410
+Epoch: 009/200 | Batch 0450/0462 | Cost: 6.4321
+MAE/RMSE: | Current Valid: 5.88/7.09 Ep. 8 | Best Valid : 5.82/7.01 Ep. 5
+Time elapsed: 19.05 min
+Epoch: 010/200 | Batch 0000/0462 | Cost: 6.5085
+Epoch: 010/200 | Batch 0050/0462 | Cost: 6.8579
+Epoch: 010/200 | Batch 0100/0462 | Cost: 6.6536
+Epoch: 010/200 | Batch 0150/0462 | Cost: 6.4418
+Epoch: 010/200 | Batch 0200/0462 | Cost: 6.5199
+Epoch: 010/200 | Batch 0250/0462 | Cost: 6.4940
+Epoch: 010/200 | Batch 0300/0462 | Cost: 6.7401
+Epoch: 010/200 | Batch 0350/0462 | Cost: 6.4568
+Epoch: 010/200 | Batch 0400/0462 | Cost: 6.8561
+Epoch: 010/200 | Batch 0450/0462 | Cost: 6.8284
+MAE/RMSE: | Current Valid: 4.99/6.29 Ep. 9 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 21.04 min
+Epoch: 011/200 | Batch 0000/0462 | Cost: 5.9890
+Epoch: 011/200 | Batch 0050/0462 | Cost: 6.3771
+Epoch: 011/200 | Batch 0100/0462 | Cost: 5.9856
+Epoch: 011/200 | Batch 0150/0462 | Cost: 6.4401
+Epoch: 011/200 | Batch 0200/0462 | Cost: 6.9775
+Epoch: 011/200 | Batch 0250/0462 | Cost: 6.3150
+Epoch: 011/200 | Batch 0300/0462 | Cost: 6.7254
+Epoch: 011/200 | Batch 0350/0462 | Cost: 6.9713
+Epoch: 011/200 | Batch 0400/0462 | Cost: 6.7524
+Epoch: 011/200 | Batch 0450/0462 | Cost: 6.4157
+MAE/RMSE: | Current Valid: 7.54/8.68 Ep. 10 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 23.02 min
+Epoch: 012/200 | Batch 0000/0462 | Cost: 6.3894
+Epoch: 012/200 | Batch 0050/0462 | Cost: 6.3962
+Epoch: 012/200 | Batch 0100/0462 | Cost: 6.4288
+Epoch: 012/200 | Batch 0150/0462 | Cost: 6.0592
+Epoch: 012/200 | Batch 0200/0462 | Cost: 6.7512
+Epoch: 012/200 | Batch 0250/0462 | Cost: 6.4426
+Epoch: 012/200 | Batch 0300/0462 | Cost: 6.7039
+Epoch: 012/200 | Batch 0350/0462 | Cost: 6.3938
+Epoch: 012/200 | Batch 0400/0462 | Cost: 6.7333
+Epoch: 012/200 | Batch 0450/0462 | Cost: 5.7616
+MAE/RMSE: | Current Valid: 5.23/6.51 Ep. 11 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 25.00 min
+Epoch: 013/200 | Batch 0000/0462 | Cost: 6.3534
+Epoch: 013/200 | Batch 0050/0462 | Cost: 6.0812
+Epoch: 013/200 | Batch 0100/0462 | Cost: 6.2831
+Epoch: 013/200 | Batch 0150/0462 | Cost: 6.5713
+Epoch: 013/200 | Batch 0200/0462 | Cost: 5.9139
+Epoch: 013/200 | Batch 0250/0462 | Cost: 5.8182
+Epoch: 013/200 | Batch 0300/0462 | Cost: 6.6733
+Epoch: 013/200 | Batch 0350/0462 | Cost: 6.8597
+Epoch: 013/200 | Batch 0400/0462 | Cost: 6.7020
+Epoch: 013/200 | Batch 0450/0462 | Cost: 5.4253
+MAE/RMSE: | Current Valid: 6.70/8.02 Ep. 12 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 26.98 min
+Epoch: 014/200 | Batch 0000/0462 | Cost: 5.6524
+Epoch: 014/200 | Batch 0050/0462 | Cost: 6.0793
+Epoch: 014/200 | Batch 0100/0462 | Cost: 6.2836
+Epoch: 014/200 | Batch 0150/0462 | Cost: 5.9190
+Epoch: 014/200 | Batch 0200/0462 | Cost: 6.3090
+Epoch: 014/200 | Batch 0250/0462 | Cost: 6.4707
+Epoch: 014/200 | Batch 0300/0462 | Cost: 6.1448
+Epoch: 014/200 | Batch 0350/0462 | Cost: 5.9700
+Epoch: 014/200 | Batch 0400/0462 | Cost: 6.4426
+Epoch: 014/200 | Batch 0450/0462 | Cost: 6.4106
+MAE/RMSE: | Current Valid: 5.60/6.98 Ep. 13 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 28.96 min
+Epoch: 015/200 | Batch 0000/0462 | Cost: 5.9901
+Epoch: 015/200 | Batch 0050/0462 | Cost: 5.5552
+Epoch: 015/200 | Batch 0100/0462 | Cost: 5.4432
+Epoch: 015/200 | Batch 0150/0462 | Cost: 5.9858
+Epoch: 015/200 | Batch 0200/0462 | Cost: 6.2496
+Epoch: 015/200 | Batch 0250/0462 | Cost: 5.9634
+Epoch: 015/200 | Batch 0300/0462 | Cost: 6.2215
+Epoch: 015/200 | Batch 0350/0462 | Cost: 6.1653
+Epoch: 015/200 | Batch 0400/0462 | Cost: 6.0364
+Epoch: 015/200 | Batch 0450/0462 | Cost: 5.5558
+MAE/RMSE: | Current Valid: 6.39/7.69 Ep. 14 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 30.95 min
+Epoch: 016/200 | Batch 0000/0462 | Cost: 5.5143
+Epoch: 016/200 | Batch 0050/0462 | Cost: 5.1614
+Epoch: 016/200 | Batch 0100/0462 | Cost: 5.5408
+Epoch: 016/200 | Batch 0150/0462 | Cost: 5.5658
+Epoch: 016/200 | Batch 0200/0462 | Cost: 5.7232
+Epoch: 016/200 | Batch 0250/0462 | Cost: 5.9900
+Epoch: 016/200 | Batch 0300/0462 | Cost: 6.0816
+Epoch: 016/200 | Batch 0350/0462 | Cost: 6.1487
+Epoch: 016/200 | Batch 0400/0462 | Cost: 6.0220
+Epoch: 016/200 | Batch 0450/0462 | Cost: 5.5937
+MAE/RMSE: | Current Valid: 6.41/7.73 Ep. 15 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 32.92 min
+Epoch: 017/200 | Batch 0000/0462 | Cost: 5.7384
+Epoch: 017/200 | Batch 0050/0462 | Cost: 5.5667
+Epoch: 017/200 | Batch 0100/0462 | Cost: 5.5053
+Epoch: 017/200 | Batch 0150/0462 | Cost: 5.0436
+Epoch: 017/200 | Batch 0200/0462 | Cost: 6.1931
+Epoch: 017/200 | Batch 0250/0462 | Cost: 5.6450
+Epoch: 017/200 | Batch 0300/0462 | Cost: 5.2704
+Epoch: 017/200 | Batch 0350/0462 | Cost: 5.5777
+Epoch: 017/200 | Batch 0400/0462 | Cost: 5.6866
+Epoch: 017/200 | Batch 0450/0462 | Cost: 5.6587
+MAE/RMSE: | Current Valid: 5.11/6.43 Ep. 16 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 34.91 min
+Epoch: 018/200 | Batch 0000/0462 | Cost: 5.4893
+Epoch: 018/200 | Batch 0050/0462 | Cost: 5.1161
+Epoch: 018/200 | Batch 0100/0462 | Cost: 5.5899
+Epoch: 018/200 | Batch 0150/0462 | Cost: 5.8745
+Epoch: 018/200 | Batch 0200/0462 | Cost: 5.5843
+Epoch: 018/200 | Batch 0250/0462 | Cost: 5.3033
+Epoch: 018/200 | Batch 0300/0462 | Cost: 5.2902
+Epoch: 018/200 | Batch 0350/0462 | Cost: 5.6161
+Epoch: 018/200 | Batch 0400/0462 | Cost: 5.4730
+Epoch: 018/200 | Batch 0450/0462 | Cost: 5.5720
+MAE/RMSE: | Current Valid: 5.64/6.90 Ep. 17 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 36.90 min
+Epoch: 019/200 | Batch 0000/0462 | Cost: 5.1021
+Epoch: 019/200 | Batch 0050/0462 | Cost: 4.9762
+Epoch: 019/200 | Batch 0100/0462 | Cost: 5.0641
+Epoch: 019/200 | Batch 0150/0462 | Cost: 5.5023
+Epoch: 019/200 | Batch 0200/0462 | Cost: 4.8520
+Epoch: 019/200 | Batch 0250/0462 | Cost: 5.4878
+Epoch: 019/200 | Batch 0300/0462 | Cost: 5.7654
+Epoch: 019/200 | Batch 0350/0462 | Cost: 5.4431
+Epoch: 019/200 | Batch 0400/0462 | Cost: 5.8153
+Epoch: 019/200 | Batch 0450/0462 | Cost: 5.6248
+MAE/RMSE: | Current Valid: 5.73/7.08 Ep. 18 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 38.88 min
+Epoch: 020/200 | Batch 0000/0462 | Cost: 5.0135
+Epoch: 020/200 | Batch 0050/0462 | Cost: 4.9663
+Epoch: 020/200 | Batch 0100/0462 | Cost: 5.1386
+Epoch: 020/200 | Batch 0150/0462 | Cost: 4.6300
+Epoch: 020/200 | Batch 0200/0462 | Cost: 5.2572
+Epoch: 020/200 | Batch 0250/0462 | Cost: 4.5884
+Epoch: 020/200 | Batch 0300/0462 | Cost: 5.5700
+Epoch: 020/200 | Batch 0350/0462 | Cost: 5.6953
+Epoch: 020/200 | Batch 0400/0462 | Cost: 5.5032
+Epoch: 020/200 | Batch 0450/0462 | Cost: 5.1337
+MAE/RMSE: | Current Valid: 6.19/7.48 Ep. 19 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 40.87 min
+Epoch: 021/200 | Batch 0000/0462 | Cost: 4.5307
+Epoch: 021/200 | Batch 0050/0462 | Cost: 5.1225
+Epoch: 021/200 | Batch 0100/0462 | Cost: 4.5456
+Epoch: 021/200 | Batch 0150/0462 | Cost: 5.0433
+Epoch: 021/200 | Batch 0200/0462 | Cost: 5.5336
+Epoch: 021/200 | Batch 0250/0462 | Cost: 4.7595
+Epoch: 021/200 | Batch 0300/0462 | Cost: 4.8166
+Epoch: 021/200 | Batch 0350/0462 | Cost: 5.0573
+Epoch: 021/200 | Batch 0400/0462 | Cost: 4.5867
+Epoch: 021/200 | Batch 0450/0462 | Cost: 5.4758
+MAE/RMSE: | Current Valid: 6.31/7.61 Ep. 20 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 42.86 min
+Epoch: 022/200 | Batch 0000/0462 | Cost: 4.7379
+Epoch: 022/200 | Batch 0050/0462 | Cost: 4.5046
+Epoch: 022/200 | Batch 0100/0462 | Cost: 4.3355
+Epoch: 022/200 | Batch 0150/0462 | Cost: 4.5620
+Epoch: 022/200 | Batch 0200/0462 | Cost: 4.6628
+Epoch: 022/200 | Batch 0250/0462 | Cost: 4.9944
+Epoch: 022/200 | Batch 0300/0462 | Cost: 4.8411
+Epoch: 022/200 | Batch 0350/0462 | Cost: 5.1804
+Epoch: 022/200 | Batch 0400/0462 | Cost: 5.1237
+Epoch: 022/200 | Batch 0450/0462 | Cost: 4.9368
+MAE/RMSE: | Current Valid: 6.29/7.71 Ep. 21 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 44.84 min
+Epoch: 023/200 | Batch 0000/0462 | Cost: 4.3650
+Epoch: 023/200 | Batch 0050/0462 | Cost: 4.7982
+Epoch: 023/200 | Batch 0100/0462 | Cost: 5.0031
+Epoch: 023/200 | Batch 0150/0462 | Cost: 4.5841
+Epoch: 023/200 | Batch 0200/0462 | Cost: 4.8207
+Epoch: 023/200 | Batch 0250/0462 | Cost: 4.7505
+Epoch: 023/200 | Batch 0300/0462 | Cost: 5.2838
+Epoch: 023/200 | Batch 0350/0462 | Cost: 5.0233
+Epoch: 023/200 | Batch 0400/0462 | Cost: 4.5626
+Epoch: 023/200 | Batch 0450/0462 | Cost: 5.5441
+MAE/RMSE: | Current Valid: 5.49/6.81 Ep. 22 | Best Valid : 4.99/6.29 Ep. 9
+Time elapsed: 46.81 min
+Epoch: 024/200 | Batch 0000/0462 | Cost: 4.6537
+Epoch: 024/200 | Batch 0050/0462 | Cost: 4.1659
+Epoch: 024/200 | Batch 0100/0462 | Cost: 4.4046
+Epoch: 024/200 | Batch 0150/0462 | Cost: 4.0387
+Epoch: 024/200 | Batch 0200/0462 | Cost: 4.1612
+Epoch: 024/200 | Batch 0250/0462 | Cost: 4.7384
+Epoch: 024/200 | Batch 0300/0462 | Cost: 5.0111
+Epoch: 024/200 | Batch 0350/0462 | Cost: 4.6613
+Epoch: 024/200 | Batch 0400/0462 | Cost: 4.6824
+Epoch: 024/200 | Batch 0450/0462 | Cost: 4.0832
+MAE/RMSE: | Current Valid: 4.98/6.30 Ep. 23 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 48.79 min
+Epoch: 025/200 | Batch 0000/0462 | Cost: 3.8806
+Epoch: 025/200 | Batch 0050/0462 | Cost: 4.3050
+Epoch: 025/200 | Batch 0100/0462 | Cost: 4.4414
+Epoch: 025/200 | Batch 0150/0462 | Cost: 4.3397
+Epoch: 025/200 | Batch 0200/0462 | Cost: 4.1676
+Epoch: 025/200 | Batch 0250/0462 | Cost: 4.4062
+Epoch: 025/200 | Batch 0300/0462 | Cost: 4.3139
+Epoch: 025/200 | Batch 0350/0462 | Cost: 4.5796
+Epoch: 025/200 | Batch 0400/0462 | Cost: 4.5293
+Epoch: 025/200 | Batch 0450/0462 | Cost: 4.4524
+MAE/RMSE: | Current Valid: 5.47/6.83 Ep. 24 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 50.77 min
+Epoch: 026/200 | Batch 0000/0462 | Cost: 3.9972
+Epoch: 026/200 | Batch 0050/0462 | Cost: 3.8249
+Epoch: 026/200 | Batch 0100/0462 | Cost: 4.0791
+Epoch: 026/200 | Batch 0150/0462 | Cost: 4.6002
+Epoch: 026/200 | Batch 0200/0462 | Cost: 3.9592
+Epoch: 026/200 | Batch 0250/0462 | Cost: 4.4041
+Epoch: 026/200 | Batch 0300/0462 | Cost: 4.4299
+Epoch: 026/200 | Batch 0350/0462 | Cost: 3.9747
+Epoch: 026/200 | Batch 0400/0462 | Cost: 4.4630
+Epoch: 026/200 | Batch 0450/0462 | Cost: 4.2748
+MAE/RMSE: | Current Valid: 5.61/6.96 Ep. 25 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 52.75 min
+Epoch: 027/200 | Batch 0000/0462 | Cost: 3.8367
+Epoch: 027/200 | Batch 0050/0462 | Cost: 4.1729
+Epoch: 027/200 | Batch 0100/0462 | Cost: 3.7281
+Epoch: 027/200 | Batch 0150/0462 | Cost: 3.9128
+Epoch: 027/200 | Batch 0200/0462 | Cost: 4.0781
+Epoch: 027/200 | Batch 0250/0462 | Cost: 4.4281
+Epoch: 027/200 | Batch 0300/0462 | Cost: 4.0722
+Epoch: 027/200 | Batch 0350/0462 | Cost: 4.2886
+Epoch: 027/200 | Batch 0400/0462 | Cost: 4.5422
+Epoch: 027/200 | Batch 0450/0462 | Cost: 4.1932
+MAE/RMSE: | Current Valid: 6.36/7.59 Ep. 26 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 54.73 min
+Epoch: 028/200 | Batch 0000/0462 | Cost: 4.0347
+Epoch: 028/200 | Batch 0050/0462 | Cost: 3.7825
+Epoch: 028/200 | Batch 0100/0462 | Cost: 4.1475
+Epoch: 028/200 | Batch 0150/0462 | Cost: 4.0805
+Epoch: 028/200 | Batch 0200/0462 | Cost: 4.0083
+Epoch: 028/200 | Batch 0250/0462 | Cost: 4.1697
+Epoch: 028/200 | Batch 0300/0462 | Cost: 3.8109
+Epoch: 028/200 | Batch 0350/0462 | Cost: 4.1838
+Epoch: 028/200 | Batch 0400/0462 | Cost: 3.7960
+Epoch: 028/200 | Batch 0450/0462 | Cost: 3.6803
+MAE/RMSE: | Current Valid: 5.74/7.13 Ep. 27 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 56.72 min
+Epoch: 029/200 | Batch 0000/0462 | Cost: 4.1288
+Epoch: 029/200 | Batch 0050/0462 | Cost: 4.0083
+Epoch: 029/200 | Batch 0100/0462 | Cost: 3.6657
+Epoch: 029/200 | Batch 0150/0462 | Cost: 4.2250
+Epoch: 029/200 | Batch 0200/0462 | Cost: 3.7922
+Epoch: 029/200 | Batch 0250/0462 | Cost: 3.9270
+Epoch: 029/200 | Batch 0300/0462 | Cost: 3.9759
+Epoch: 029/200 | Batch 0350/0462 | Cost: 3.8003
+Epoch: 029/200 | Batch 0400/0462 | Cost: 3.5548
+Epoch: 029/200 | Batch 0450/0462 | Cost: 3.6979
+MAE/RMSE: | Current Valid: 5.82/7.21 Ep. 28 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 58.70 min
+Epoch: 030/200 | Batch 0000/0462 | Cost: 3.6801
+Epoch: 030/200 | Batch 0050/0462 | Cost: 3.5533
+Epoch: 030/200 | Batch 0100/0462 | Cost: 3.7259
+Epoch: 030/200 | Batch 0150/0462 | Cost: 3.7734
+Epoch: 030/200 | Batch 0200/0462 | Cost: 3.3098
+Epoch: 030/200 | Batch 0250/0462 | Cost: 3.9185
+Epoch: 030/200 | Batch 0300/0462 | Cost: 3.6074
+Epoch: 030/200 | Batch 0350/0462 | Cost: 4.3125
+Epoch: 030/200 | Batch 0400/0462 | Cost: 3.5818
+Epoch: 030/200 | Batch 0450/0462 | Cost: 3.6726
+MAE/RMSE: | Current Valid: 5.62/6.96 Ep. 29 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 60.68 min
+Epoch: 031/200 | Batch 0000/0462 | Cost: 3.2963
+Epoch: 031/200 | Batch 0050/0462 | Cost: 3.1168
+Epoch: 031/200 | Batch 0100/0462 | Cost: 3.2288
+Epoch: 031/200 | Batch 0150/0462 | Cost: 3.5728
+Epoch: 031/200 | Batch 0200/0462 | Cost: 3.7580
+Epoch: 031/200 | Batch 0250/0462 | Cost: 3.1029
+Epoch: 031/200 | Batch 0300/0462 | Cost: 3.6877
+Epoch: 031/200 | Batch 0350/0462 | Cost: 3.8578
+Epoch: 031/200 | Batch 0400/0462 | Cost: 4.4546
+Epoch: 031/200 | Batch 0450/0462 | Cost: 4.0296
+MAE/RMSE: | Current Valid: 6.62/8.01 Ep. 30 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 62.66 min
+Epoch: 032/200 | Batch 0000/0462 | Cost: 3.6785
+Epoch: 032/200 | Batch 0050/0462 | Cost: 3.1165
+Epoch: 032/200 | Batch 0100/0462 | Cost: 3.4973
+Epoch: 032/200 | Batch 0150/0462 | Cost: 3.4764
+Epoch: 032/200 | Batch 0200/0462 | Cost: 3.5094
+Epoch: 032/200 | Batch 0250/0462 | Cost: 3.2351
+Epoch: 032/200 | Batch 0300/0462 | Cost: 3.3812
+Epoch: 032/200 | Batch 0350/0462 | Cost: 3.4833
+Epoch: 032/200 | Batch 0400/0462 | Cost: 3.8326
+Epoch: 032/200 | Batch 0450/0462 | Cost: 3.3847
+MAE/RMSE: | Current Valid: 5.85/7.12 Ep. 31 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 64.64 min
+Epoch: 033/200 | Batch 0000/0462 | Cost: 3.4015
+Epoch: 033/200 | Batch 0050/0462 | Cost: 3.0911
+Epoch: 033/200 | Batch 0100/0462 | Cost: 3.3568
+Epoch: 033/200 | Batch 0150/0462 | Cost: 3.6357
+Epoch: 033/200 | Batch 0200/0462 | Cost: 3.6625
+Epoch: 033/200 | Batch 0250/0462 | Cost: 3.2971
+Epoch: 033/200 | Batch 0300/0462 | Cost: 3.5751
+Epoch: 033/200 | Batch 0350/0462 | Cost: 3.3409
+Epoch: 033/200 | Batch 0400/0462 | Cost: 3.4412
+Epoch: 033/200 | Batch 0450/0462 | Cost: 3.4600
+MAE/RMSE: | Current Valid: 5.86/7.25 Ep. 32 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 66.61 min
+Epoch: 034/200 | Batch 0000/0462 | Cost: 3.0097
+Epoch: 034/200 | Batch 0050/0462 | Cost: 2.9891
+Epoch: 034/200 | Batch 0100/0462 | Cost: 3.5088
+Epoch: 034/200 | Batch 0150/0462 | Cost: 3.1879
+Epoch: 034/200 | Batch 0200/0462 | Cost: 3.4848
+Epoch: 034/200 | Batch 0250/0462 | Cost: 2.9664
+Epoch: 034/200 | Batch 0300/0462 | Cost: 3.1995
+Epoch: 034/200 | Batch 0350/0462 | Cost: 3.2807
+Epoch: 034/200 | Batch 0400/0462 | Cost: 3.4968
+Epoch: 034/200 | Batch 0450/0462 | Cost: 3.7375
+MAE/RMSE: | Current Valid: 6.20/7.53 Ep. 33 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 68.59 min
+Epoch: 035/200 | Batch 0000/0462 | Cost: 3.0117
+Epoch: 035/200 | Batch 0050/0462 | Cost: 2.8074
+Epoch: 035/200 | Batch 0100/0462 | Cost: 3.0834
+Epoch: 035/200 | Batch 0150/0462 | Cost: 2.7066
+Epoch: 035/200 | Batch 0200/0462 | Cost: 2.8996
+Epoch: 035/200 | Batch 0250/0462 | Cost: 2.8440
+Epoch: 035/200 | Batch 0300/0462 | Cost: 2.8751
+Epoch: 035/200 | Batch 0350/0462 | Cost: 3.3181
+Epoch: 035/200 | Batch 0400/0462 | Cost: 3.2143
+Epoch: 035/200 | Batch 0450/0462 | Cost: 3.3483
+MAE/RMSE: | Current Valid: 5.55/6.98 Ep. 34 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 70.57 min
+Epoch: 036/200 | Batch 0000/0462 | Cost: 2.9111
+Epoch: 036/200 | Batch 0050/0462 | Cost: 2.7453
+Epoch: 036/200 | Batch 0100/0462 | Cost: 3.1558
+Epoch: 036/200 | Batch 0150/0462 | Cost: 2.8540
+Epoch: 036/200 | Batch 0200/0462 | Cost: 2.7418
+Epoch: 036/200 | Batch 0250/0462 | Cost: 3.4601
+Epoch: 036/200 | Batch 0300/0462 | Cost: 2.8810
+Epoch: 036/200 | Batch 0350/0462 | Cost: 3.1394
+Epoch: 036/200 | Batch 0400/0462 | Cost: 2.9390
+Epoch: 036/200 | Batch 0450/0462 | Cost: 2.8886
+MAE/RMSE: | Current Valid: 5.92/7.27 Ep. 35 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 72.55 min
+Epoch: 037/200 | Batch 0000/0462 | Cost: 2.8359
+Epoch: 037/200 | Batch 0050/0462 | Cost: 2.7353
+Epoch: 037/200 | Batch 0100/0462 | Cost: 3.1306
+Epoch: 037/200 | Batch 0150/0462 | Cost: 2.8243
+Epoch: 037/200 | Batch 0200/0462 | Cost: 3.0165
+Epoch: 037/200 | Batch 0250/0462 | Cost: 3.0861
+Epoch: 037/200 | Batch 0300/0462 | Cost: 3.0138
+Epoch: 037/200 | Batch 0350/0462 | Cost: 3.2879
+Epoch: 037/200 | Batch 0400/0462 | Cost: 2.9836
+Epoch: 037/200 | Batch 0450/0462 | Cost: 3.1703
+MAE/RMSE: | Current Valid: 6.57/7.83 Ep. 36 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 74.52 min
+Epoch: 038/200 | Batch 0000/0462 | Cost: 2.9368
+Epoch: 038/200 | Batch 0050/0462 | Cost: 2.8730
+Epoch: 038/200 | Batch 0100/0462 | Cost: 2.5320
+Epoch: 038/200 | Batch 0150/0462 | Cost: 2.8012
+Epoch: 038/200 | Batch 0200/0462 | Cost: 2.7000
+Epoch: 038/200 | Batch 0250/0462 | Cost: 3.0494
+Epoch: 038/200 | Batch 0300/0462 | Cost: 2.7300
+Epoch: 038/200 | Batch 0350/0462 | Cost: 3.1102
+Epoch: 038/200 | Batch 0400/0462 | Cost: 2.9215
+Epoch: 038/200 | Batch 0450/0462 | Cost: 3.1213
+MAE/RMSE: | Current Valid: 5.67/7.07 Ep. 37 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 76.50 min
+Epoch: 039/200 | Batch 0000/0462 | Cost: 2.6087
+Epoch: 039/200 | Batch 0050/0462 | Cost: 2.7902
+Epoch: 039/200 | Batch 0100/0462 | Cost: 2.6183
+Epoch: 039/200 | Batch 0150/0462 | Cost: 2.7789
+Epoch: 039/200 | Batch 0200/0462 | Cost: 2.6566
+Epoch: 039/200 | Batch 0250/0462 | Cost: 2.7181
+Epoch: 039/200 | Batch 0300/0462 | Cost: 2.7695
+Epoch: 039/200 | Batch 0350/0462 | Cost: 2.5575
+Epoch: 039/200 | Batch 0400/0462 | Cost: 2.9507
+Epoch: 039/200 | Batch 0450/0462 | Cost: 2.8535
+MAE/RMSE: | Current Valid: 6.13/7.50 Ep. 38 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 78.47 min
+Epoch: 040/200 | Batch 0000/0462 | Cost: 2.6177
+Epoch: 040/200 | Batch 0050/0462 | Cost: 2.5843
+Epoch: 040/200 | Batch 0100/0462 | Cost: 2.7033
+Epoch: 040/200 | Batch 0150/0462 | Cost: 2.7691
+Epoch: 040/200 | Batch 0200/0462 | Cost: 2.6810
+Epoch: 040/200 | Batch 0250/0462 | Cost: 2.8544
+Epoch: 040/200 | Batch 0300/0462 | Cost: 2.8134
+Epoch: 040/200 | Batch 0350/0462 | Cost: 2.9356
+Epoch: 040/200 | Batch 0400/0462 | Cost: 2.5418
+Epoch: 040/200 | Batch 0450/0462 | Cost: 2.8962
+MAE/RMSE: | Current Valid: 6.12/7.55 Ep. 39 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 80.45 min
+Epoch: 041/200 | Batch 0000/0462 | Cost: 2.4316
+Epoch: 041/200 | Batch 0050/0462 | Cost: 2.6205
+Epoch: 041/200 | Batch 0100/0462 | Cost: 2.3146
+Epoch: 041/200 | Batch 0150/0462 | Cost: 2.5006
+Epoch: 041/200 | Batch 0200/0462 | Cost: 2.6717
+Epoch: 041/200 | Batch 0250/0462 | Cost: 2.7611
+Epoch: 041/200 | Batch 0300/0462 | Cost: 2.9432
+Epoch: 041/200 | Batch 0350/0462 | Cost: 2.8136
+Epoch: 041/200 | Batch 0400/0462 | Cost: 2.6673
+Epoch: 041/200 | Batch 0450/0462 | Cost: 2.5875
+MAE/RMSE: | Current Valid: 5.48/6.86 Ep. 40 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 82.43 min
+Epoch: 042/200 | Batch 0000/0462 | Cost: 2.5785
+Epoch: 042/200 | Batch 0050/0462 | Cost: 2.9781
+Epoch: 042/200 | Batch 0100/0462 | Cost: 3.0443
+Epoch: 042/200 | Batch 0150/0462 | Cost: 2.3312
+Epoch: 042/200 | Batch 0200/0462 | Cost: 2.5212
+Epoch: 042/200 | Batch 0250/0462 | Cost: 2.4841
+Epoch: 042/200 | Batch 0300/0462 | Cost: 2.6098
+Epoch: 042/200 | Batch 0350/0462 | Cost: 2.6539
+Epoch: 042/200 | Batch 0400/0462 | Cost: 2.3999
+Epoch: 042/200 | Batch 0450/0462 | Cost: 2.5089
+MAE/RMSE: | Current Valid: 6.33/7.79 Ep. 41 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 84.41 min
+Epoch: 043/200 | Batch 0000/0462 | Cost: 2.0079
+Epoch: 043/200 | Batch 0050/0462 | Cost: 2.4665
+Epoch: 043/200 | Batch 0100/0462 | Cost: 2.4647
+Epoch: 043/200 | Batch 0150/0462 | Cost: 2.5394
+Epoch: 043/200 | Batch 0200/0462 | Cost: 2.4779
+Epoch: 043/200 | Batch 0250/0462 | Cost: 2.1989
+Epoch: 043/200 | Batch 0300/0462 | Cost: 2.9153
+Epoch: 043/200 | Batch 0350/0462 | Cost: 2.5458
+Epoch: 043/200 | Batch 0400/0462 | Cost: 2.4778
+Epoch: 043/200 | Batch 0450/0462 | Cost: 2.4449
+MAE/RMSE: | Current Valid: 5.92/7.26 Ep. 42 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 86.39 min
+Epoch: 044/200 | Batch 0000/0462 | Cost: 2.3616
+Epoch: 044/200 | Batch 0050/0462 | Cost: 2.1788
+Epoch: 044/200 | Batch 0100/0462 | Cost: 2.1627
+Epoch: 044/200 | Batch 0150/0462 | Cost: 2.1687
+Epoch: 044/200 | Batch 0200/0462 | Cost: 2.2952
+Epoch: 044/200 | Batch 0250/0462 | Cost: 2.1932
+Epoch: 044/200 | Batch 0300/0462 | Cost: 2.3384
+Epoch: 044/200 | Batch 0350/0462 | Cost: 2.3557
+Epoch: 044/200 | Batch 0400/0462 | Cost: 2.5728
+Epoch: 044/200 | Batch 0450/0462 | Cost: 2.7241
+MAE/RMSE: | Current Valid: 5.71/7.15 Ep. 43 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 88.36 min
+Epoch: 045/200 | Batch 0000/0462 | Cost: 2.0384
+Epoch: 045/200 | Batch 0050/0462 | Cost: 2.4047
+Epoch: 045/200 | Batch 0100/0462 | Cost: 2.0262
+Epoch: 045/200 | Batch 0150/0462 | Cost: 2.2885
+Epoch: 045/200 | Batch 0200/0462 | Cost: 2.4001
+Epoch: 045/200 | Batch 0250/0462 | Cost: 2.5695
+Epoch: 045/200 | Batch 0300/0462 | Cost: 2.5422
+Epoch: 045/200 | Batch 0350/0462 | Cost: 2.3744
+Epoch: 045/200 | Batch 0400/0462 | Cost: 2.7431
+Epoch: 045/200 | Batch 0450/0462 | Cost: 2.8693
+MAE/RMSE: | Current Valid: 5.99/7.43 Ep. 44 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 90.35 min
+Epoch: 046/200 | Batch 0000/0462 | Cost: 2.2252
+Epoch: 046/200 | Batch 0050/0462 | Cost: 2.2234
+Epoch: 046/200 | Batch 0100/0462 | Cost: 2.3237
+Epoch: 046/200 | Batch 0150/0462 | Cost: 2.0063
+Epoch: 046/200 | Batch 0200/0462 | Cost: 2.0835
+Epoch: 046/200 | Batch 0250/0462 | Cost: 2.4333
+Epoch: 046/200 | Batch 0300/0462 | Cost: 2.5761
+Epoch: 046/200 | Batch 0350/0462 | Cost: 2.4158
+Epoch: 046/200 | Batch 0400/0462 | Cost: 2.3952
+Epoch: 046/200 | Batch 0450/0462 | Cost: 2.4033
+MAE/RMSE: | Current Valid: 6.06/7.49 Ep. 45 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 92.34 min
+Epoch: 047/200 | Batch 0000/0462 | Cost: 2.1000
+Epoch: 047/200 | Batch 0050/0462 | Cost: 1.9047
+Epoch: 047/200 | Batch 0100/0462 | Cost: 1.7909
+Epoch: 047/200 | Batch 0150/0462 | Cost: 1.7229
+Epoch: 047/200 | Batch 0200/0462 | Cost: 2.2721
+Epoch: 047/200 | Batch 0250/0462 | Cost: 2.1280
+Epoch: 047/200 | Batch 0300/0462 | Cost: 2.1544
+Epoch: 047/200 | Batch 0350/0462 | Cost: 2.1516
+Epoch: 047/200 | Batch 0400/0462 | Cost: 2.2218
+Epoch: 047/200 | Batch 0450/0462 | Cost: 2.1316
+MAE/RMSE: | Current Valid: 6.30/7.71 Ep. 46 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 94.32 min
+Epoch: 048/200 | Batch 0000/0462 | Cost: 2.0033
+Epoch: 048/200 | Batch 0050/0462 | Cost: 1.9247
+Epoch: 048/200 | Batch 0100/0462 | Cost: 2.0246
+Epoch: 048/200 | Batch 0150/0462 | Cost: 2.2065
+Epoch: 048/200 | Batch 0200/0462 | Cost: 2.0025
+Epoch: 048/200 | Batch 0250/0462 | Cost: 2.2435
+Epoch: 048/200 | Batch 0300/0462 | Cost: 1.9793
+Epoch: 048/200 | Batch 0350/0462 | Cost: 2.3462
+Epoch: 048/200 | Batch 0400/0462 | Cost: 2.4867
+Epoch: 048/200 | Batch 0450/0462 | Cost: 2.1179
+MAE/RMSE: | Current Valid: 6.13/7.52 Ep. 47 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 96.30 min
+Epoch: 049/200 | Batch 0000/0462 | Cost: 2.0199
+Epoch: 049/200 | Batch 0050/0462 | Cost: 1.9847
+Epoch: 049/200 | Batch 0100/0462 | Cost: 2.2164
+Epoch: 049/200 | Batch 0150/0462 | Cost: 2.1121
+Epoch: 049/200 | Batch 0200/0462 | Cost: 2.2216
+Epoch: 049/200 | Batch 0250/0462 | Cost: 2.2355
+Epoch: 049/200 | Batch 0300/0462 | Cost: 2.1261
+Epoch: 049/200 | Batch 0350/0462 | Cost: 2.3893
+Epoch: 049/200 | Batch 0400/0462 | Cost: 2.0770
+Epoch: 049/200 | Batch 0450/0462 | Cost: 2.4527
+MAE/RMSE: | Current Valid: 6.52/7.86 Ep. 48 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 98.28 min
+Epoch: 050/200 | Batch 0000/0462 | Cost: 1.9840
+Epoch: 050/200 | Batch 0050/0462 | Cost: 1.8405
+Epoch: 050/200 | Batch 0100/0462 | Cost: 1.9196
+Epoch: 050/200 | Batch 0150/0462 | Cost: 2.0417
+Epoch: 050/200 | Batch 0200/0462 | Cost: 1.8720
+Epoch: 050/200 | Batch 0250/0462 | Cost: 1.9628
+Epoch: 050/200 | Batch 0300/0462 | Cost: 2.1528
+Epoch: 050/200 | Batch 0350/0462 | Cost: 2.1927
+Epoch: 050/200 | Batch 0400/0462 | Cost: 2.0450
+Epoch: 050/200 | Batch 0450/0462 | Cost: 1.8693
+MAE/RMSE: | Current Valid: 5.77/7.17 Ep. 49 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 100.27 min
+Epoch: 051/200 | Batch 0000/0462 | Cost: 2.0719
+Epoch: 051/200 | Batch 0050/0462 | Cost: 1.9391
+Epoch: 051/200 | Batch 0100/0462 | Cost: 1.9196
+Epoch: 051/200 | Batch 0150/0462 | Cost: 1.8127
+Epoch: 051/200 | Batch 0200/0462 | Cost: 2.0210
+Epoch: 051/200 | Batch 0250/0462 | Cost: 2.2599
+Epoch: 051/200 | Batch 0300/0462 | Cost: 1.7870
+Epoch: 051/200 | Batch 0350/0462 | Cost: 1.9985
+Epoch: 051/200 | Batch 0400/0462 | Cost: 1.9989
+Epoch: 051/200 | Batch 0450/0462 | Cost: 2.2398
+MAE/RMSE: | Current Valid: 5.56/6.97 Ep. 50 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 102.24 min
+Epoch: 052/200 | Batch 0000/0462 | Cost: 2.1001
+Epoch: 052/200 | Batch 0050/0462 | Cost: 1.6761
+Epoch: 052/200 | Batch 0100/0462 | Cost: 1.7325
+Epoch: 052/200 | Batch 0150/0462 | Cost: 1.8072
+Epoch: 052/200 | Batch 0200/0462 | Cost: 1.7100
+Epoch: 052/200 | Batch 0250/0462 | Cost: 1.9624
+Epoch: 052/200 | Batch 0300/0462 | Cost: 2.0612
+Epoch: 052/200 | Batch 0350/0462 | Cost: 2.1282
+Epoch: 052/200 | Batch 0400/0462 | Cost: 1.7402
+Epoch: 052/200 | Batch 0450/0462 | Cost: 2.4017
+MAE/RMSE: | Current Valid: 5.71/7.14 Ep. 51 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 104.21 min
+Epoch: 053/200 | Batch 0000/0462 | Cost: 1.8396
+Epoch: 053/200 | Batch 0050/0462 | Cost: 1.9547
+Epoch: 053/200 | Batch 0100/0462 | Cost: 2.1362
+Epoch: 053/200 | Batch 0150/0462 | Cost: 1.8750
+Epoch: 053/200 | Batch 0200/0462 | Cost: 1.8096
+Epoch: 053/200 | Batch 0250/0462 | Cost: 1.9354
+Epoch: 053/200 | Batch 0300/0462 | Cost: 1.8443
+Epoch: 053/200 | Batch 0350/0462 | Cost: 1.9857
+Epoch: 053/200 | Batch 0400/0462 | Cost: 1.9960
+Epoch: 053/200 | Batch 0450/0462 | Cost: 1.9700
+MAE/RMSE: | Current Valid: 5.78/7.22 Ep. 52 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 106.19 min
+Epoch: 054/200 | Batch 0000/0462 | Cost: 1.7076
+Epoch: 054/200 | Batch 0050/0462 | Cost: 1.6674
+Epoch: 054/200 | Batch 0100/0462 | Cost: 1.9146
+Epoch: 054/200 | Batch 0150/0462 | Cost: 2.0623
+Epoch: 054/200 | Batch 0200/0462 | Cost: 1.7447
+Epoch: 054/200 | Batch 0250/0462 | Cost: 1.8428
+Epoch: 054/200 | Batch 0300/0462 | Cost: 2.1854
+Epoch: 054/200 | Batch 0350/0462 | Cost: 1.9272
+Epoch: 054/200 | Batch 0400/0462 | Cost: 1.7096
+Epoch: 054/200 | Batch 0450/0462 | Cost: 1.8148
+MAE/RMSE: | Current Valid: 5.65/7.07 Ep. 53 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 108.17 min
+Epoch: 055/200 | Batch 0000/0462 | Cost: 1.9089
+Epoch: 055/200 | Batch 0050/0462 | Cost: 1.6035
+Epoch: 055/200 | Batch 0100/0462 | Cost: 1.4720
+Epoch: 055/200 | Batch 0150/0462 | Cost: 2.0172
+Epoch: 055/200 | Batch 0200/0462 | Cost: 2.1217
+Epoch: 055/200 | Batch 0250/0462 | Cost: 1.8678
+Epoch: 055/200 | Batch 0300/0462 | Cost: 1.7816
+Epoch: 055/200 | Batch 0350/0462 | Cost: 1.8292
+Epoch: 055/200 | Batch 0400/0462 | Cost: 1.8308
+Epoch: 055/200 | Batch 0450/0462 | Cost: 1.7061
+MAE/RMSE: | Current Valid: 5.79/7.16 Ep. 54 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 110.15 min
+Epoch: 056/200 | Batch 0000/0462 | Cost: 1.5509
+Epoch: 056/200 | Batch 0050/0462 | Cost: 1.5446
+Epoch: 056/200 | Batch 0100/0462 | Cost: 1.7690
+Epoch: 056/200 | Batch 0150/0462 | Cost: 1.5810
+Epoch: 056/200 | Batch 0200/0462 | Cost: 1.5941
+Epoch: 056/200 | Batch 0250/0462 | Cost: 1.6947
+Epoch: 056/200 | Batch 0300/0462 | Cost: 1.8413
+Epoch: 056/200 | Batch 0350/0462 | Cost: 1.7504
+Epoch: 056/200 | Batch 0400/0462 | Cost: 1.9210
+Epoch: 056/200 | Batch 0450/0462 | Cost: 1.7090
+MAE/RMSE: | Current Valid: 6.45/7.80 Ep. 55 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 112.13 min
+Epoch: 057/200 | Batch 0000/0462 | Cost: 1.7839
+Epoch: 057/200 | Batch 0050/0462 | Cost: 1.6394
+Epoch: 057/200 | Batch 0100/0462 | Cost: 1.6135
+Epoch: 057/200 | Batch 0150/0462 | Cost: 1.5039
+Epoch: 057/200 | Batch 0200/0462 | Cost: 1.7019
+Epoch: 057/200 | Batch 0250/0462 | Cost: 1.4740
+Epoch: 057/200 | Batch 0300/0462 | Cost: 1.8090
+Epoch: 057/200 | Batch 0350/0462 | Cost: 1.6912
+Epoch: 057/200 | Batch 0400/0462 | Cost: 1.6482
+Epoch: 057/200 | Batch 0450/0462 | Cost: 1.6417
+MAE/RMSE: | Current Valid: 6.17/7.55 Ep. 56 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 114.09 min
+Epoch: 058/200 | Batch 0000/0462 | Cost: 1.5628
+Epoch: 058/200 | Batch 0050/0462 | Cost: 1.5619
+Epoch: 058/200 | Batch 0100/0462 | Cost: 1.4217
+Epoch: 058/200 | Batch 0150/0462 | Cost: 1.4795
+Epoch: 058/200 | Batch 0200/0462 | Cost: 1.7205
+Epoch: 058/200 | Batch 0250/0462 | Cost: 1.7892
+Epoch: 058/200 | Batch 0300/0462 | Cost: 1.5283
+Epoch: 058/200 | Batch 0350/0462 | Cost: 1.4839
+Epoch: 058/200 | Batch 0400/0462 | Cost: 1.5124
+Epoch: 058/200 | Batch 0450/0462 | Cost: 1.5275
+MAE/RMSE: | Current Valid: 5.92/7.42 Ep. 57 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 116.04 min
+Epoch: 059/200 | Batch 0000/0462 | Cost: 1.5084
+Epoch: 059/200 | Batch 0050/0462 | Cost: 1.6044
+Epoch: 059/200 | Batch 0100/0462 | Cost: 1.4341
+Epoch: 059/200 | Batch 0150/0462 | Cost: 1.6226
+Epoch: 059/200 | Batch 0200/0462 | Cost: 1.5310
+Epoch: 059/200 | Batch 0250/0462 | Cost: 1.5074
+Epoch: 059/200 | Batch 0300/0462 | Cost: 1.6515
+Epoch: 059/200 | Batch 0350/0462 | Cost: 1.5007
+Epoch: 059/200 | Batch 0400/0462 | Cost: 1.8862
+Epoch: 059/200 | Batch 0450/0462 | Cost: 1.5385
+MAE/RMSE: | Current Valid: 6.19/7.57 Ep. 58 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 117.99 min
+Epoch: 060/200 | Batch 0000/0462 | Cost: 1.6213
+Epoch: 060/200 | Batch 0050/0462 | Cost: 1.3371
+Epoch: 060/200 | Batch 0100/0462 | Cost: 1.6813
+Epoch: 060/200 | Batch 0150/0462 | Cost: 1.8942
+Epoch: 060/200 | Batch 0200/0462 | Cost: 1.5644
+Epoch: 060/200 | Batch 0250/0462 | Cost: 1.4453
+Epoch: 060/200 | Batch 0300/0462 | Cost: 1.5722
+Epoch: 060/200 | Batch 0350/0462 | Cost: 1.5205
+Epoch: 060/200 | Batch 0400/0462 | Cost: 1.4739
+Epoch: 060/200 | Batch 0450/0462 | Cost: 1.8580
+MAE/RMSE: | Current Valid: 5.83/7.24 Ep. 59 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 119.94 min
+Epoch: 061/200 | Batch 0000/0462 | Cost: 1.5373
+Epoch: 061/200 | Batch 0050/0462 | Cost: 1.4124
+Epoch: 061/200 | Batch 0100/0462 | Cost: 1.3559
+Epoch: 061/200 | Batch 0150/0462 | Cost: 1.4818
+Epoch: 061/200 | Batch 0200/0462 | Cost: 1.7849
+Epoch: 061/200 | Batch 0250/0462 | Cost: 1.3592
+Epoch: 061/200 | Batch 0300/0462 | Cost: 1.4868
+Epoch: 061/200 | Batch 0350/0462 | Cost: 1.4308
+Epoch: 061/200 | Batch 0400/0462 | Cost: 1.7374
+Epoch: 061/200 | Batch 0450/0462 | Cost: 1.3826
+MAE/RMSE: | Current Valid: 5.84/7.30 Ep. 60 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 121.89 min
+Epoch: 062/200 | Batch 0000/0462 | Cost: 1.4082
+Epoch: 062/200 | Batch 0050/0462 | Cost: 1.3386
+Epoch: 062/200 | Batch 0100/0462 | Cost: 1.4876
+Epoch: 062/200 | Batch 0150/0462 | Cost: 1.5101
+Epoch: 062/200 | Batch 0200/0462 | Cost: 1.6412
+Epoch: 062/200 | Batch 0250/0462 | Cost: 1.4409
+Epoch: 062/200 | Batch 0300/0462 | Cost: 1.8040
+Epoch: 062/200 | Batch 0350/0462 | Cost: 1.6250
+Epoch: 062/200 | Batch 0400/0462 | Cost: 1.7119
+Epoch: 062/200 | Batch 0450/0462 | Cost: 1.4615
+MAE/RMSE: | Current Valid: 6.03/7.39 Ep. 61 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 123.84 min
+Epoch: 063/200 | Batch 0000/0462 | Cost: 1.5951
+Epoch: 063/200 | Batch 0050/0462 | Cost: 1.4455
+Epoch: 063/200 | Batch 0100/0462 | Cost: 1.5488
+Epoch: 063/200 | Batch 0150/0462 | Cost: 1.4554
+Epoch: 063/200 | Batch 0200/0462 | Cost: 1.5071
+Epoch: 063/200 | Batch 0250/0462 | Cost: 1.5627
+Epoch: 063/200 | Batch 0300/0462 | Cost: 1.6559
+Epoch: 063/200 | Batch 0350/0462 | Cost: 1.6862
+Epoch: 063/200 | Batch 0400/0462 | Cost: 1.4568
+Epoch: 063/200 | Batch 0450/0462 | Cost: 1.4167
+MAE/RMSE: | Current Valid: 5.91/7.37 Ep. 62 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 125.81 min
+Epoch: 064/200 | Batch 0000/0462 | Cost: 1.3990
+Epoch: 064/200 | Batch 0050/0462 | Cost: 1.4167
+Epoch: 064/200 | Batch 0100/0462 | Cost: 1.2936
+Epoch: 064/200 | Batch 0150/0462 | Cost: 1.5544
+Epoch: 064/200 | Batch 0200/0462 | Cost: 1.4246
+Epoch: 064/200 | Batch 0250/0462 | Cost: 1.4662
+Epoch: 064/200 | Batch 0300/0462 | Cost: 1.5047
+Epoch: 064/200 | Batch 0350/0462 | Cost: 1.4057
+Epoch: 064/200 | Batch 0400/0462 | Cost: 1.3539
+Epoch: 064/200 | Batch 0450/0462 | Cost: 1.6230
+MAE/RMSE: | Current Valid: 5.87/7.33 Ep. 63 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 127.76 min
+Epoch: 065/200 | Batch 0000/0462 | Cost: 1.3387
+Epoch: 065/200 | Batch 0050/0462 | Cost: 1.5177
+Epoch: 065/200 | Batch 0100/0462 | Cost: 1.4355
+Epoch: 065/200 | Batch 0150/0462 | Cost: 1.2948
+Epoch: 065/200 | Batch 0200/0462 | Cost: 1.3978
+Epoch: 065/200 | Batch 0250/0462 | Cost: 1.4974
+Epoch: 065/200 | Batch 0300/0462 | Cost: 1.4196
+Epoch: 065/200 | Batch 0350/0462 | Cost: 1.5241
+Epoch: 065/200 | Batch 0400/0462 | Cost: 1.3076
+Epoch: 065/200 | Batch 0450/0462 | Cost: 1.4949
+MAE/RMSE: | Current Valid: 6.20/7.67 Ep. 64 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 129.72 min
+Epoch: 066/200 | Batch 0000/0462 | Cost: 1.2605
+Epoch: 066/200 | Batch 0050/0462 | Cost: 1.1553
+Epoch: 066/200 | Batch 0100/0462 | Cost: 1.3975
+Epoch: 066/200 | Batch 0150/0462 | Cost: 1.2745
+Epoch: 066/200 | Batch 0200/0462 | Cost: 1.3443
+Epoch: 066/200 | Batch 0250/0462 | Cost: 1.4323
+Epoch: 066/200 | Batch 0300/0462 | Cost: 1.4414
+Epoch: 066/200 | Batch 0350/0462 | Cost: 1.6477
+Epoch: 066/200 | Batch 0400/0462 | Cost: 1.2521
+Epoch: 066/200 | Batch 0450/0462 | Cost: 1.4521
+MAE/RMSE: | Current Valid: 5.89/7.31 Ep. 65 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 131.68 min
+Epoch: 067/200 | Batch 0000/0462 | Cost: 1.2819
+Epoch: 067/200 | Batch 0050/0462 | Cost: 1.1374
+Epoch: 067/200 | Batch 0100/0462 | Cost: 1.3058
+Epoch: 067/200 | Batch 0150/0462 | Cost: 1.4795
+Epoch: 067/200 | Batch 0200/0462 | Cost: 1.2405
+Epoch: 067/200 | Batch 0250/0462 | Cost: 1.5055
+Epoch: 067/200 | Batch 0300/0462 | Cost: 1.3333
+Epoch: 067/200 | Batch 0350/0462 | Cost: 1.3163
+Epoch: 067/200 | Batch 0400/0462 | Cost: 1.2478
+Epoch: 067/200 | Batch 0450/0462 | Cost: 1.5212
+MAE/RMSE: | Current Valid: 6.57/7.93 Ep. 66 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 133.65 min
+Epoch: 068/200 | Batch 0000/0462 | Cost: 1.4955
+Epoch: 068/200 | Batch 0050/0462 | Cost: 1.4455
+Epoch: 068/200 | Batch 0100/0462 | Cost: 1.0737
+Epoch: 068/200 | Batch 0150/0462 | Cost: 1.4251
+Epoch: 068/200 | Batch 0200/0462 | Cost: 1.3239
+Epoch: 068/200 | Batch 0250/0462 | Cost: 1.2163
+Epoch: 068/200 | Batch 0300/0462 | Cost: 1.2066
+Epoch: 068/200 | Batch 0350/0462 | Cost: 1.2134
+Epoch: 068/200 | Batch 0400/0462 | Cost: 1.3807
+Epoch: 068/200 | Batch 0450/0462 | Cost: 1.3071
+MAE/RMSE: | Current Valid: 6.11/7.58 Ep. 67 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 135.61 min
+Epoch: 069/200 | Batch 0000/0462 | Cost: 1.3419
+Epoch: 069/200 | Batch 0050/0462 | Cost: 1.1233
+Epoch: 069/200 | Batch 0100/0462 | Cost: 1.1735
+Epoch: 069/200 | Batch 0150/0462 | Cost: 1.1142
+Epoch: 069/200 | Batch 0200/0462 | Cost: 1.2515
+Epoch: 069/200 | Batch 0250/0462 | Cost: 1.4788
+Epoch: 069/200 | Batch 0300/0462 | Cost: 1.4775
+Epoch: 069/200 | Batch 0350/0462 | Cost: 1.7671
+Epoch: 069/200 | Batch 0400/0462 | Cost: 1.2809
+Epoch: 069/200 | Batch 0450/0462 | Cost: 1.2969
+MAE/RMSE: | Current Valid: 6.13/7.57 Ep. 68 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 137.56 min
+Epoch: 070/200 | Batch 0000/0462 | Cost: 1.1780
+Epoch: 070/200 | Batch 0050/0462 | Cost: 1.1312
+Epoch: 070/200 | Batch 0100/0462 | Cost: 1.4799
+Epoch: 070/200 | Batch 0150/0462 | Cost: 1.3119
+Epoch: 070/200 | Batch 0200/0462 | Cost: 1.7400
+Epoch: 070/200 | Batch 0250/0462 | Cost: 1.2478
+Epoch: 070/200 | Batch 0300/0462 | Cost: 1.2486
+Epoch: 070/200 | Batch 0350/0462 | Cost: 1.3166
+Epoch: 070/200 | Batch 0400/0462 | Cost: 1.2950
+Epoch: 070/200 | Batch 0450/0462 | Cost: 1.4892
+MAE/RMSE: | Current Valid: 5.79/7.25 Ep. 69 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 139.51 min
+Epoch: 071/200 | Batch 0000/0462 | Cost: 1.1414
+Epoch: 071/200 | Batch 0050/0462 | Cost: 1.0140
+Epoch: 071/200 | Batch 0100/0462 | Cost: 1.2304
+Epoch: 071/200 | Batch 0150/0462 | Cost: 1.3295
+Epoch: 071/200 | Batch 0200/0462 | Cost: 1.1476
+Epoch: 071/200 | Batch 0250/0462 | Cost: 1.0724
+Epoch: 071/200 | Batch 0300/0462 | Cost: 1.1325
+Epoch: 071/200 | Batch 0350/0462 | Cost: 1.1349
+Epoch: 071/200 | Batch 0400/0462 | Cost: 1.2346
+Epoch: 071/200 | Batch 0450/0462 | Cost: 1.2151
+MAE/RMSE: | Current Valid: 5.95/7.38 Ep. 70 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 141.47 min
+Epoch: 072/200 | Batch 0000/0462 | Cost: 1.2085
+Epoch: 072/200 | Batch 0050/0462 | Cost: 1.0768
+Epoch: 072/200 | Batch 0100/0462 | Cost: 0.9311
+Epoch: 072/200 | Batch 0150/0462 | Cost: 1.1681
+Epoch: 072/200 | Batch 0200/0462 | Cost: 1.3735
+Epoch: 072/200 | Batch 0250/0462 | Cost: 1.2429
+Epoch: 072/200 | Batch 0300/0462 | Cost: 1.4416
+Epoch: 072/200 | Batch 0350/0462 | Cost: 1.2324
+Epoch: 072/200 | Batch 0400/0462 | Cost: 1.1641
+Epoch: 072/200 | Batch 0450/0462 | Cost: 1.2476
+MAE/RMSE: | Current Valid: 6.01/7.44 Ep. 71 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 143.43 min
+Epoch: 073/200 | Batch 0000/0462 | Cost: 1.1235
+Epoch: 073/200 | Batch 0050/0462 | Cost: 1.2267
+Epoch: 073/200 | Batch 0100/0462 | Cost: 1.0289
+Epoch: 073/200 | Batch 0150/0462 | Cost: 1.1927
+Epoch: 073/200 | Batch 0200/0462 | Cost: 1.0515
+Epoch: 073/200 | Batch 0250/0462 | Cost: 1.1029
+Epoch: 073/200 | Batch 0300/0462 | Cost: 1.1062
+Epoch: 073/200 | Batch 0350/0462 | Cost: 1.3602
+Epoch: 073/200 | Batch 0400/0462 | Cost: 1.1515
+Epoch: 073/200 | Batch 0450/0462 | Cost: 1.8419
+MAE/RMSE: | Current Valid: 6.17/7.61 Ep. 72 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 145.38 min
+Epoch: 074/200 | Batch 0000/0462 | Cost: 1.0193
+Epoch: 074/200 | Batch 0050/0462 | Cost: 0.9661
+Epoch: 074/200 | Batch 0100/0462 | Cost: 1.1249
+Epoch: 074/200 | Batch 0150/0462 | Cost: 1.1492
+Epoch: 074/200 | Batch 0200/0462 | Cost: 1.4483
+Epoch: 074/200 | Batch 0250/0462 | Cost: 1.1677
+Epoch: 074/200 | Batch 0300/0462 | Cost: 1.1390
+Epoch: 074/200 | Batch 0350/0462 | Cost: 1.1229
+Epoch: 074/200 | Batch 0400/0462 | Cost: 1.3721
+Epoch: 074/200 | Batch 0450/0462 | Cost: 1.3251
+MAE/RMSE: | Current Valid: 6.12/7.53 Ep. 73 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 147.34 min
+Epoch: 075/200 | Batch 0000/0462 | Cost: 0.9395
+Epoch: 075/200 | Batch 0050/0462 | Cost: 1.0831
+Epoch: 075/200 | Batch 0100/0462 | Cost: 0.9712
+Epoch: 075/200 | Batch 0150/0462 | Cost: 0.9149
+Epoch: 075/200 | Batch 0200/0462 | Cost: 1.1695
+Epoch: 075/200 | Batch 0250/0462 | Cost: 1.0762
+Epoch: 075/200 | Batch 0300/0462 | Cost: 1.0507
+Epoch: 075/200 | Batch 0350/0462 | Cost: 1.1714
+Epoch: 075/200 | Batch 0400/0462 | Cost: 1.0537
+Epoch: 075/200 | Batch 0450/0462 | Cost: 1.2095
+MAE/RMSE: | Current Valid: 6.08/7.44 Ep. 74 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 149.30 min
+Epoch: 076/200 | Batch 0000/0462 | Cost: 1.0216
+Epoch: 076/200 | Batch 0050/0462 | Cost: 1.1355
+Epoch: 076/200 | Batch 0100/0462 | Cost: 0.9991
+Epoch: 076/200 | Batch 0150/0462 | Cost: 1.0649
+Epoch: 076/200 | Batch 0200/0462 | Cost: 1.2807
+Epoch: 076/200 | Batch 0250/0462 | Cost: 1.0161
+Epoch: 076/200 | Batch 0300/0462 | Cost: 1.1466
+Epoch: 076/200 | Batch 0350/0462 | Cost: 1.6895
+Epoch: 076/200 | Batch 0400/0462 | Cost: 1.2339
+Epoch: 076/200 | Batch 0450/0462 | Cost: 1.2175
+MAE/RMSE: | Current Valid: 5.86/7.28 Ep. 75 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 151.26 min
+Epoch: 077/200 | Batch 0000/0462 | Cost: 0.9591
+Epoch: 077/200 | Batch 0050/0462 | Cost: 1.0528
+Epoch: 077/200 | Batch 0100/0462 | Cost: 1.3248
+Epoch: 077/200 | Batch 0150/0462 | Cost: 1.0210
+Epoch: 077/200 | Batch 0200/0462 | Cost: 0.9728
+Epoch: 077/200 | Batch 0250/0462 | Cost: 1.0836
+Epoch: 077/200 | Batch 0300/0462 | Cost: 0.9679
+Epoch: 077/200 | Batch 0350/0462 | Cost: 1.0477
+Epoch: 077/200 | Batch 0400/0462 | Cost: 1.4106
+Epoch: 077/200 | Batch 0450/0462 | Cost: 1.2920
+MAE/RMSE: | Current Valid: 5.98/7.39 Ep. 76 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 153.22 min
+Epoch: 078/200 | Batch 0000/0462 | Cost: 1.2125
+Epoch: 078/200 | Batch 0050/0462 | Cost: 1.0812
+Epoch: 078/200 | Batch 0100/0462 | Cost: 1.0304
+Epoch: 078/200 | Batch 0150/0462 | Cost: 1.0615
+Epoch: 078/200 | Batch 0200/0462 | Cost: 0.8464
+Epoch: 078/200 | Batch 0250/0462 | Cost: 1.0018
+Epoch: 078/200 | Batch 0300/0462 | Cost: 0.9771
+Epoch: 078/200 | Batch 0350/0462 | Cost: 1.0285
+Epoch: 078/200 | Batch 0400/0462 | Cost: 1.1879
+Epoch: 078/200 | Batch 0450/0462 | Cost: 1.0207
+MAE/RMSE: | Current Valid: 6.36/7.80 Ep. 77 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 155.17 min
+Epoch: 079/200 | Batch 0000/0462 | Cost: 1.0721
+Epoch: 079/200 | Batch 0050/0462 | Cost: 0.8784
+Epoch: 079/200 | Batch 0100/0462 | Cost: 1.1070
+Epoch: 079/200 | Batch 0150/0462 | Cost: 0.9559
+Epoch: 079/200 | Batch 0200/0462 | Cost: 1.0179
+Epoch: 079/200 | Batch 0250/0462 | Cost: 1.1435
+Epoch: 079/200 | Batch 0300/0462 | Cost: 0.9859
+Epoch: 079/200 | Batch 0350/0462 | Cost: 1.0457
+Epoch: 079/200 | Batch 0400/0462 | Cost: 1.0594
+Epoch: 079/200 | Batch 0450/0462 | Cost: 1.3649
+MAE/RMSE: | Current Valid: 5.66/7.13 Ep. 78 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 157.13 min
+Epoch: 080/200 | Batch 0000/0462 | Cost: 0.9624
+Epoch: 080/200 | Batch 0050/0462 | Cost: 0.9493
+Epoch: 080/200 | Batch 0100/0462 | Cost: 0.9215
+Epoch: 080/200 | Batch 0150/0462 | Cost: 0.7947
+Epoch: 080/200 | Batch 0200/0462 | Cost: 0.9418
+Epoch: 080/200 | Batch 0250/0462 | Cost: 0.9612
+Epoch: 080/200 | Batch 0300/0462 | Cost: 1.1119
+Epoch: 080/200 | Batch 0350/0462 | Cost: 1.2086
+Epoch: 080/200 | Batch 0400/0462 | Cost: 1.0520
+Epoch: 080/200 | Batch 0450/0462 | Cost: 1.0160
+MAE/RMSE: | Current Valid: 5.82/7.30 Ep. 79 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 159.08 min
+Epoch: 081/200 | Batch 0000/0462 | Cost: 0.8501
+Epoch: 081/200 | Batch 0050/0462 | Cost: 0.8218
+Epoch: 081/200 | Batch 0100/0462 | Cost: 1.0493
+Epoch: 081/200 | Batch 0150/0462 | Cost: 0.8416
+Epoch: 081/200 | Batch 0200/0462 | Cost: 0.8792
+Epoch: 081/200 | Batch 0250/0462 | Cost: 1.3855
+Epoch: 081/200 | Batch 0300/0462 | Cost: 0.9601
+Epoch: 081/200 | Batch 0350/0462 | Cost: 1.1229
+Epoch: 081/200 | Batch 0400/0462 | Cost: 0.9648
+Epoch: 081/200 | Batch 0450/0462 | Cost: 1.1020
+MAE/RMSE: | Current Valid: 6.30/7.73 Ep. 80 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 161.03 min
+Epoch: 082/200 | Batch 0000/0462 | Cost: 0.8326
+Epoch: 082/200 | Batch 0050/0462 | Cost: 0.8726
+Epoch: 082/200 | Batch 0100/0462 | Cost: 1.0386
+Epoch: 082/200 | Batch 0150/0462 | Cost: 0.9875
+Epoch: 082/200 | Batch 0200/0462 | Cost: 0.8938
+Epoch: 082/200 | Batch 0250/0462 | Cost: 0.9634
+Epoch: 082/200 | Batch 0300/0462 | Cost: 1.1576
+Epoch: 082/200 | Batch 0350/0462 | Cost: 1.0729
+Epoch: 082/200 | Batch 0400/0462 | Cost: 1.0991
+Epoch: 082/200 | Batch 0450/0462 | Cost: 0.9199
+MAE/RMSE: | Current Valid: 5.87/7.31 Ep. 81 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 162.99 min
+Epoch: 083/200 | Batch 0000/0462 | Cost: 0.7534
+Epoch: 083/200 | Batch 0050/0462 | Cost: 1.1152
+Epoch: 083/200 | Batch 0100/0462 | Cost: 0.7053
+Epoch: 083/200 | Batch 0150/0462 | Cost: 0.9233
+Epoch: 083/200 | Batch 0200/0462 | Cost: 0.8829
+Epoch: 083/200 | Batch 0250/0462 | Cost: 0.8578
+Epoch: 083/200 | Batch 0300/0462 | Cost: 0.8815
+Epoch: 083/200 | Batch 0350/0462 | Cost: 0.9624
+Epoch: 083/200 | Batch 0400/0462 | Cost: 0.8398
+Epoch: 083/200 | Batch 0450/0462 | Cost: 1.0114
+MAE/RMSE: | Current Valid: 5.53/6.95 Ep. 82 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 164.94 min
+Epoch: 084/200 | Batch 0000/0462 | Cost: 0.7303
+Epoch: 084/200 | Batch 0050/0462 | Cost: 0.7847
+Epoch: 084/200 | Batch 0100/0462 | Cost: 0.8443
+Epoch: 084/200 | Batch 0150/0462 | Cost: 0.8742
+Epoch: 084/200 | Batch 0200/0462 | Cost: 0.7378
+Epoch: 084/200 | Batch 0250/0462 | Cost: 0.8487
+Epoch: 084/200 | Batch 0300/0462 | Cost: 0.9186
+Epoch: 084/200 | Batch 0350/0462 | Cost: 0.8891
+Epoch: 084/200 | Batch 0400/0462 | Cost: 0.9851
+Epoch: 084/200 | Batch 0450/0462 | Cost: 0.9586
+MAE/RMSE: | Current Valid: 6.41/7.85 Ep. 83 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 166.89 min
+Epoch: 085/200 | Batch 0000/0462 | Cost: 1.0716
+Epoch: 085/200 | Batch 0050/0462 | Cost: 0.9906
+Epoch: 085/200 | Batch 0100/0462 | Cost: 0.7360
+Epoch: 085/200 | Batch 0150/0462 | Cost: 1.0467
+Epoch: 085/200 | Batch 0200/0462 | Cost: 0.9734
+Epoch: 085/200 | Batch 0250/0462 | Cost: 1.0017
+Epoch: 085/200 | Batch 0300/0462 | Cost: 1.1401
+Epoch: 085/200 | Batch 0350/0462 | Cost: 0.7715
+Epoch: 085/200 | Batch 0400/0462 | Cost: 0.7900
+Epoch: 085/200 | Batch 0450/0462 | Cost: 0.8530
+MAE/RMSE: | Current Valid: 6.26/7.70 Ep. 84 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 168.84 min
+Epoch: 086/200 | Batch 0000/0462 | Cost: 0.8893
+Epoch: 086/200 | Batch 0050/0462 | Cost: 0.7162
+Epoch: 086/200 | Batch 0100/0462 | Cost: 0.9720
+Epoch: 086/200 | Batch 0150/0462 | Cost: 0.9305
+Epoch: 086/200 | Batch 0200/0462 | Cost: 0.8483
+Epoch: 086/200 | Batch 0250/0462 | Cost: 0.7380
+Epoch: 086/200 | Batch 0300/0462 | Cost: 1.0215
+Epoch: 086/200 | Batch 0350/0462 | Cost: 1.0002
+Epoch: 086/200 | Batch 0400/0462 | Cost: 0.8707
+Epoch: 086/200 | Batch 0450/0462 | Cost: 0.7852
+MAE/RMSE: | Current Valid: 5.98/7.44 Ep. 85 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 170.79 min
+Epoch: 087/200 | Batch 0000/0462 | Cost: 0.8409
+Epoch: 087/200 | Batch 0050/0462 | Cost: 0.9670
+Epoch: 087/200 | Batch 0100/0462 | Cost: 0.7541
+Epoch: 087/200 | Batch 0150/0462 | Cost: 1.0041
+Epoch: 087/200 | Batch 0200/0462 | Cost: 0.9570
+Epoch: 087/200 | Batch 0250/0462 | Cost: 0.7268
+Epoch: 087/200 | Batch 0300/0462 | Cost: 0.7914
+Epoch: 087/200 | Batch 0350/0462 | Cost: 0.9950
+Epoch: 087/200 | Batch 0400/0462 | Cost: 0.7485
+Epoch: 087/200 | Batch 0450/0462 | Cost: 0.9098
+MAE/RMSE: | Current Valid: 5.71/7.11 Ep. 86 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 172.74 min
+Epoch: 088/200 | Batch 0000/0462 | Cost: 0.7396
+Epoch: 088/200 | Batch 0050/0462 | Cost: 0.5755
+Epoch: 088/200 | Batch 0100/0462 | Cost: 0.7260
+Epoch: 088/200 | Batch 0150/0462 | Cost: 0.6828
+Epoch: 088/200 | Batch 0200/0462 | Cost: 0.9020
+Epoch: 088/200 | Batch 0250/0462 | Cost: 0.7437
+Epoch: 088/200 | Batch 0300/0462 | Cost: 0.8526
+Epoch: 088/200 | Batch 0350/0462 | Cost: 0.9100
+Epoch: 088/200 | Batch 0400/0462 | Cost: 0.8079
+Epoch: 088/200 | Batch 0450/0462 | Cost: 0.8488
+MAE/RMSE: | Current Valid: 5.76/7.19 Ep. 87 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 174.69 min
+Epoch: 089/200 | Batch 0000/0462 | Cost: 0.8093
+Epoch: 089/200 | Batch 0050/0462 | Cost: 0.6519
+Epoch: 089/200 | Batch 0100/0462 | Cost: 0.9182
+Epoch: 089/200 | Batch 0150/0462 | Cost: 0.6547
+Epoch: 089/200 | Batch 0200/0462 | Cost: 0.6823
+Epoch: 089/200 | Batch 0250/0462 | Cost: 0.6101
+Epoch: 089/200 | Batch 0300/0462 | Cost: 0.7519
+Epoch: 089/200 | Batch 0350/0462 | Cost: 0.7079
+Epoch: 089/200 | Batch 0400/0462 | Cost: 0.7890
+Epoch: 089/200 | Batch 0450/0462 | Cost: 0.9386
+MAE/RMSE: | Current Valid: 6.27/7.72 Ep. 88 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 176.64 min
+Epoch: 090/200 | Batch 0000/0462 | Cost: 0.6060
+Epoch: 090/200 | Batch 0050/0462 | Cost: 0.7383
+Epoch: 090/200 | Batch 0100/0462 | Cost: 0.9879
+Epoch: 090/200 | Batch 0150/0462 | Cost: 0.8130
+Epoch: 090/200 | Batch 0200/0462 | Cost: 1.1741
+Epoch: 090/200 | Batch 0250/0462 | Cost: 1.0745
+Epoch: 090/200 | Batch 0300/0462 | Cost: 0.7067
+Epoch: 090/200 | Batch 0350/0462 | Cost: 0.7177
+Epoch: 090/200 | Batch 0400/0462 | Cost: 0.9417
+Epoch: 090/200 | Batch 0450/0462 | Cost: 0.7296
+MAE/RMSE: | Current Valid: 5.98/7.44 Ep. 89 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 178.60 min
+Epoch: 091/200 | Batch 0000/0462 | Cost: 0.7337
+Epoch: 091/200 | Batch 0050/0462 | Cost: 0.6423
+Epoch: 091/200 | Batch 0100/0462 | Cost: 1.0921
+Epoch: 091/200 | Batch 0150/0462 | Cost: 0.7070
+Epoch: 091/200 | Batch 0200/0462 | Cost: 0.7724
+Epoch: 091/200 | Batch 0250/0462 | Cost: 1.0115
+Epoch: 091/200 | Batch 0300/0462 | Cost: 0.8171
+Epoch: 091/200 | Batch 0350/0462 | Cost: 0.7514
+Epoch: 091/200 | Batch 0400/0462 | Cost: 0.8187
+Epoch: 091/200 | Batch 0450/0462 | Cost: 0.9299
+MAE/RMSE: | Current Valid: 5.96/7.40 Ep. 90 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 180.55 min
+Epoch: 092/200 | Batch 0000/0462 | Cost: 0.8043
+Epoch: 092/200 | Batch 0050/0462 | Cost: 0.7577
+Epoch: 092/200 | Batch 0100/0462 | Cost: 0.7114
+Epoch: 092/200 | Batch 0150/0462 | Cost: 0.8818
+Epoch: 092/200 | Batch 0200/0462 | Cost: 0.8126
+Epoch: 092/200 | Batch 0250/0462 | Cost: 0.8091
+Epoch: 092/200 | Batch 0300/0462 | Cost: 0.8517
+Epoch: 092/200 | Batch 0350/0462 | Cost: 1.0088
+Epoch: 092/200 | Batch 0400/0462 | Cost: 0.9714
+Epoch: 092/200 | Batch 0450/0462 | Cost: 1.0042
+MAE/RMSE: | Current Valid: 5.90/7.35 Ep. 91 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 182.50 min
+Epoch: 093/200 | Batch 0000/0462 | Cost: 0.6882
+Epoch: 093/200 | Batch 0050/0462 | Cost: 0.6940
+Epoch: 093/200 | Batch 0100/0462 | Cost: 0.5513
+Epoch: 093/200 | Batch 0150/0462 | Cost: 0.6325
+Epoch: 093/200 | Batch 0200/0462 | Cost: 0.6985
+Epoch: 093/200 | Batch 0250/0462 | Cost: 0.9145
+Epoch: 093/200 | Batch 0300/0462 | Cost: 0.8418
+Epoch: 093/200 | Batch 0350/0462 | Cost: 0.7283
+Epoch: 093/200 | Batch 0400/0462 | Cost: 0.8920
+Epoch: 093/200 | Batch 0450/0462 | Cost: 1.0615
+MAE/RMSE: | Current Valid: 6.32/7.71 Ep. 92 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 184.46 min
+Epoch: 094/200 | Batch 0000/0462 | Cost: 0.8192
+Epoch: 094/200 | Batch 0050/0462 | Cost: 0.6112
+Epoch: 094/200 | Batch 0100/0462 | Cost: 0.6834
+Epoch: 094/200 | Batch 0150/0462 | Cost: 0.6957
+Epoch: 094/200 | Batch 0200/0462 | Cost: 0.7414
+Epoch: 094/200 | Batch 0250/0462 | Cost: 0.7930
+Epoch: 094/200 | Batch 0300/0462 | Cost: 0.6902
+Epoch: 094/200 | Batch 0350/0462 | Cost: 0.8742
+Epoch: 094/200 | Batch 0400/0462 | Cost: 0.7682
+Epoch: 094/200 | Batch 0450/0462 | Cost: 0.8825
+MAE/RMSE: | Current Valid: 5.84/7.26 Ep. 93 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 186.41 min
+Epoch: 095/200 | Batch 0000/0462 | Cost: 0.7069
+Epoch: 095/200 | Batch 0050/0462 | Cost: 0.6601
+Epoch: 095/200 | Batch 0100/0462 | Cost: 0.4632
+Epoch: 095/200 | Batch 0150/0462 | Cost: 0.8236
+Epoch: 095/200 | Batch 0200/0462 | Cost: 0.5976
+Epoch: 095/200 | Batch 0250/0462 | Cost: 0.6744
+Epoch: 095/200 | Batch 0300/0462 | Cost: 0.8172
+Epoch: 095/200 | Batch 0350/0462 | Cost: 0.6078
+Epoch: 095/200 | Batch 0400/0462 | Cost: 0.5942
+Epoch: 095/200 | Batch 0450/0462 | Cost: 0.5695
+MAE/RMSE: | Current Valid: 6.14/7.63 Ep. 94 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 188.36 min
+Epoch: 096/200 | Batch 0000/0462 | Cost: 0.4833
+Epoch: 096/200 | Batch 0050/0462 | Cost: 0.6471
+Epoch: 096/200 | Batch 0100/0462 | Cost: 0.9557
+Epoch: 096/200 | Batch 0150/0462 | Cost: 0.5751
+Epoch: 096/200 | Batch 0200/0462 | Cost: 0.5124
+Epoch: 096/200 | Batch 0250/0462 | Cost: 0.7295
+Epoch: 096/200 | Batch 0300/0462 | Cost: 0.7741
+Epoch: 096/200 | Batch 0350/0462 | Cost: 0.5544
+Epoch: 096/200 | Batch 0400/0462 | Cost: 0.5936
+Epoch: 096/200 | Batch 0450/0462 | Cost: 0.7001
+MAE/RMSE: | Current Valid: 6.12/7.54 Ep. 95 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 190.31 min
+Epoch: 097/200 | Batch 0000/0462 | Cost: 0.5258
+Epoch: 097/200 | Batch 0050/0462 | Cost: 0.5652
+Epoch: 097/200 | Batch 0100/0462 | Cost: 0.5984
+Epoch: 097/200 | Batch 0150/0462 | Cost: 0.6077
+Epoch: 097/200 | Batch 0200/0462 | Cost: 0.7916
+Epoch: 097/200 | Batch 0250/0462 | Cost: 0.8893
+Epoch: 097/200 | Batch 0300/0462 | Cost: 0.7540
+Epoch: 097/200 | Batch 0350/0462 | Cost: 0.6562
+Epoch: 097/200 | Batch 0400/0462 | Cost: 0.7582
+Epoch: 097/200 | Batch 0450/0462 | Cost: 0.5944
+MAE/RMSE: | Current Valid: 5.98/7.40 Ep. 96 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 192.26 min
+Epoch: 098/200 | Batch 0000/0462 | Cost: 0.5739
+Epoch: 098/200 | Batch 0050/0462 | Cost: 0.5360
+Epoch: 098/200 | Batch 0100/0462 | Cost: 0.6254
+Epoch: 098/200 | Batch 0150/0462 | Cost: 0.6280
+Epoch: 098/200 | Batch 0200/0462 | Cost: 0.6075
+Epoch: 098/200 | Batch 0250/0462 | Cost: 0.7386
+Epoch: 098/200 | Batch 0300/0462 | Cost: 0.6249
+Epoch: 098/200 | Batch 0350/0462 | Cost: 0.6819
+Epoch: 098/200 | Batch 0400/0462 | Cost: 0.6406
+Epoch: 098/200 | Batch 0450/0462 | Cost: 0.6950
+MAE/RMSE: | Current Valid: 5.67/7.08 Ep. 97 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 194.22 min
+Epoch: 099/200 | Batch 0000/0462 | Cost: 0.7282
+Epoch: 099/200 | Batch 0050/0462 | Cost: 0.5608
+Epoch: 099/200 | Batch 0100/0462 | Cost: 0.5767
+Epoch: 099/200 | Batch 0150/0462 | Cost: 0.7290
+Epoch: 099/200 | Batch 0200/0462 | Cost: 0.5409
+Epoch: 099/200 | Batch 0250/0462 | Cost: 0.6666
+Epoch: 099/200 | Batch 0300/0462 | Cost: 0.6337
+Epoch: 099/200 | Batch 0350/0462 | Cost: 0.6671
+Epoch: 099/200 | Batch 0400/0462 | Cost: 0.6477
+Epoch: 099/200 | Batch 0450/0462 | Cost: 0.9703
+MAE/RMSE: | Current Valid: 5.83/7.27 Ep. 98 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 196.18 min
+Epoch: 100/200 | Batch 0000/0462 | Cost: 0.6874
+Epoch: 100/200 | Batch 0050/0462 | Cost: 0.4940
+Epoch: 100/200 | Batch 0100/0462 | Cost: 0.6078
+Epoch: 100/200 | Batch 0150/0462 | Cost: 0.5782
+Epoch: 100/200 | Batch 0200/0462 | Cost: 0.7216
+Epoch: 100/200 | Batch 0250/0462 | Cost: 0.4900
+Epoch: 100/200 | Batch 0300/0462 | Cost: 0.6284
+Epoch: 100/200 | Batch 0350/0462 | Cost: 0.7861
+Epoch: 100/200 | Batch 0400/0462 | Cost: 0.5416
+Epoch: 100/200 | Batch 0450/0462 | Cost: 0.7363
+MAE/RMSE: | Current Valid: 5.77/7.21 Ep. 99 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 198.13 min
+Epoch: 101/200 | Batch 0000/0462 | Cost: 0.5727
+Epoch: 101/200 | Batch 0050/0462 | Cost: 0.4673
+Epoch: 101/200 | Batch 0100/0462 | Cost: 0.6412
+Epoch: 101/200 | Batch 0150/0462 | Cost: 0.7144
+Epoch: 101/200 | Batch 0200/0462 | Cost: 0.5396
+Epoch: 101/200 | Batch 0250/0462 | Cost: 0.7129
+Epoch: 101/200 | Batch 0300/0462 | Cost: 0.6507
+Epoch: 101/200 | Batch 0350/0462 | Cost: 0.6139
+Epoch: 101/200 | Batch 0400/0462 | Cost: 0.6207
+Epoch: 101/200 | Batch 0450/0462 | Cost: 0.6325
+MAE/RMSE: | Current Valid: 6.03/7.44 Ep. 100 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 200.08 min
+Epoch: 102/200 | Batch 0000/0462 | Cost: 0.4123
+Epoch: 102/200 | Batch 0050/0462 | Cost: 0.5547
+Epoch: 102/200 | Batch 0100/0462 | Cost: 0.5261
+Epoch: 102/200 | Batch 0150/0462 | Cost: 0.5290
+Epoch: 102/200 | Batch 0200/0462 | Cost: 0.7016
+Epoch: 102/200 | Batch 0250/0462 | Cost: 0.8079
+Epoch: 102/200 | Batch 0300/0462 | Cost: 0.5693
+Epoch: 102/200 | Batch 0350/0462 | Cost: 0.6399
+Epoch: 102/200 | Batch 0400/0462 | Cost: 0.6764
+Epoch: 102/200 | Batch 0450/0462 | Cost: 0.5796
+MAE/RMSE: | Current Valid: 6.11/7.50 Ep. 101 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 202.04 min
+Epoch: 103/200 | Batch 0000/0462 | Cost: 0.5024
+Epoch: 103/200 | Batch 0050/0462 | Cost: 0.4648
+Epoch: 103/200 | Batch 0100/0462 | Cost: 0.2833
+Epoch: 103/200 | Batch 0150/0462 | Cost: 0.5556
+Epoch: 103/200 | Batch 0200/0462 | Cost: 0.5371
+Epoch: 103/200 | Batch 0250/0462 | Cost: 0.5696
+Epoch: 103/200 | Batch 0300/0462 | Cost: 0.4462
+Epoch: 103/200 | Batch 0350/0462 | Cost: 0.7048
+Epoch: 103/200 | Batch 0400/0462 | Cost: 0.4978
+Epoch: 103/200 | Batch 0450/0462 | Cost: 0.5796
+MAE/RMSE: | Current Valid: 6.27/7.70 Ep. 102 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 204.00 min
+Epoch: 104/200 | Batch 0000/0462 | Cost: 0.4594
+Epoch: 104/200 | Batch 0050/0462 | Cost: 0.5513
+Epoch: 104/200 | Batch 0100/0462 | Cost: 0.7244
+Epoch: 104/200 | Batch 0150/0462 | Cost: 0.6535
+Epoch: 104/200 | Batch 0200/0462 | Cost: 0.5335
+Epoch: 104/200 | Batch 0250/0462 | Cost: 0.5894
+Epoch: 104/200 | Batch 0300/0462 | Cost: 0.6118
+Epoch: 104/200 | Batch 0350/0462 | Cost: 0.5111
+Epoch: 104/200 | Batch 0400/0462 | Cost: 0.5330
+Epoch: 104/200 | Batch 0450/0462 | Cost: 0.6583
+MAE/RMSE: | Current Valid: 6.05/7.47 Ep. 103 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 205.95 min
+Epoch: 105/200 | Batch 0000/0462 | Cost: 0.5699
+Epoch: 105/200 | Batch 0050/0462 | Cost: 0.4268
+Epoch: 105/200 | Batch 0100/0462 | Cost: 0.4613
+Epoch: 105/200 | Batch 0150/0462 | Cost: 0.5417
+Epoch: 105/200 | Batch 0200/0462 | Cost: 0.6811
+Epoch: 105/200 | Batch 0250/0462 | Cost: 0.8121
+Epoch: 105/200 | Batch 0300/0462 | Cost: 0.7040
+Epoch: 105/200 | Batch 0350/0462 | Cost: 0.6075
+Epoch: 105/200 | Batch 0400/0462 | Cost: 0.7764
+Epoch: 105/200 | Batch 0450/0462 | Cost: 0.5418
+MAE/RMSE: | Current Valid: 5.62/7.02 Ep. 104 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 207.90 min
+Epoch: 106/200 | Batch 0000/0462 | Cost: 0.5293
+Epoch: 106/200 | Batch 0050/0462 | Cost: 0.4959
+Epoch: 106/200 | Batch 0100/0462 | Cost: 0.6147
+Epoch: 106/200 | Batch 0150/0462 | Cost: 0.5830
+Epoch: 106/200 | Batch 0200/0462 | Cost: 0.5470
+Epoch: 106/200 | Batch 0250/0462 | Cost: 0.7578
+Epoch: 106/200 | Batch 0300/0462 | Cost: 0.6949
+Epoch: 106/200 | Batch 0350/0462 | Cost: 0.5852
+Epoch: 106/200 | Batch 0400/0462 | Cost: 0.4981
+Epoch: 106/200 | Batch 0450/0462 | Cost: 0.5029
+MAE/RMSE: | Current Valid: 5.96/7.44 Ep. 105 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 209.85 min
+Epoch: 107/200 | Batch 0000/0462 | Cost: 0.4971
+Epoch: 107/200 | Batch 0050/0462 | Cost: 0.4098
+Epoch: 107/200 | Batch 0100/0462 | Cost: 0.4190
+Epoch: 107/200 | Batch 0150/0462 | Cost: 0.3485
+Epoch: 107/200 | Batch 0200/0462 | Cost: 0.4819
+Epoch: 107/200 | Batch 0250/0462 | Cost: 0.7037
+Epoch: 107/200 | Batch 0300/0462 | Cost: 0.5571
+Epoch: 107/200 | Batch 0350/0462 | Cost: 0.6688
+Epoch: 107/200 | Batch 0400/0462 | Cost: 0.4767
+Epoch: 107/200 | Batch 0450/0462 | Cost: 0.7220
+MAE/RMSE: | Current Valid: 5.73/7.21 Ep. 106 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 211.81 min
+Epoch: 108/200 | Batch 0000/0462 | Cost: 0.4457
+Epoch: 108/200 | Batch 0050/0462 | Cost: 0.6050
+Epoch: 108/200 | Batch 0100/0462 | Cost: 0.4178
+Epoch: 108/200 | Batch 0150/0462 | Cost: 0.4252
+Epoch: 108/200 | Batch 0200/0462 | Cost: 0.5462
+Epoch: 108/200 | Batch 0250/0462 | Cost: 0.7383
+Epoch: 108/200 | Batch 0300/0462 | Cost: 0.5457
+Epoch: 108/200 | Batch 0350/0462 | Cost: 0.4288
+Epoch: 108/200 | Batch 0400/0462 | Cost: 0.3648
+Epoch: 108/200 | Batch 0450/0462 | Cost: 0.4549
+MAE/RMSE: | Current Valid: 6.07/7.55 Ep. 107 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 213.76 min
+Epoch: 109/200 | Batch 0000/0462 | Cost: 0.4200
+Epoch: 109/200 | Batch 0050/0462 | Cost: 0.4269
+Epoch: 109/200 | Batch 0100/0462 | Cost: 0.4235
+Epoch: 109/200 | Batch 0150/0462 | Cost: 0.3827
+Epoch: 109/200 | Batch 0200/0462 | Cost: 0.2989
+Epoch: 109/200 | Batch 0250/0462 | Cost: 0.4723
+Epoch: 109/200 | Batch 0300/0462 | Cost: 0.5051
+Epoch: 109/200 | Batch 0350/0462 | Cost: 0.4764
+Epoch: 109/200 | Batch 0400/0462 | Cost: 0.4903
+Epoch: 109/200 | Batch 0450/0462 | Cost: 0.5601
+MAE/RMSE: | Current Valid: 6.02/7.49 Ep. 108 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 215.71 min
+Epoch: 110/200 | Batch 0000/0462 | Cost: 0.5310
+Epoch: 110/200 | Batch 0050/0462 | Cost: 0.4933
+Epoch: 110/200 | Batch 0100/0462 | Cost: 0.5703
+Epoch: 110/200 | Batch 0150/0462 | Cost: 0.5785
+Epoch: 110/200 | Batch 0200/0462 | Cost: 0.2968
+Epoch: 110/200 | Batch 0250/0462 | Cost: 0.8245
+Epoch: 110/200 | Batch 0300/0462 | Cost: 0.7976
+Epoch: 110/200 | Batch 0350/0462 | Cost: 0.6470
+Epoch: 110/200 | Batch 0400/0462 | Cost: 0.8135
+Epoch: 110/200 | Batch 0450/0462 | Cost: 0.5380
+MAE/RMSE: | Current Valid: 6.13/7.58 Ep. 109 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 217.66 min
+Epoch: 111/200 | Batch 0000/0462 | Cost: 0.5212
+Epoch: 111/200 | Batch 0050/0462 | Cost: 0.3604
+Epoch: 111/200 | Batch 0100/0462 | Cost: 0.5593
+Epoch: 111/200 | Batch 0150/0462 | Cost: 0.4605
+Epoch: 111/200 | Batch 0200/0462 | Cost: 0.6016
+Epoch: 111/200 | Batch 0250/0462 | Cost: 0.4490
+Epoch: 111/200 | Batch 0300/0462 | Cost: 0.4779
+Epoch: 111/200 | Batch 0350/0462 | Cost: 0.4173
+Epoch: 111/200 | Batch 0400/0462 | Cost: 0.6395
+Epoch: 111/200 | Batch 0450/0462 | Cost: 0.7340
+MAE/RMSE: | Current Valid: 6.45/7.94 Ep. 110 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 219.62 min
+Epoch: 112/200 | Batch 0000/0462 | Cost: 0.5635
+Epoch: 112/200 | Batch 0050/0462 | Cost: 0.4914
+Epoch: 112/200 | Batch 0100/0462 | Cost: 0.3721
+Epoch: 112/200 | Batch 0150/0462 | Cost: 0.4244
+Epoch: 112/200 | Batch 0200/0462 | Cost: 0.6476
+Epoch: 112/200 | Batch 0250/0462 | Cost: 0.5433
+Epoch: 112/200 | Batch 0300/0462 | Cost: 0.5762
+Epoch: 112/200 | Batch 0350/0462 | Cost: 0.4790
+Epoch: 112/200 | Batch 0400/0462 | Cost: 0.5416
+Epoch: 112/200 | Batch 0450/0462 | Cost: 0.4488
+MAE/RMSE: | Current Valid: 6.17/7.58 Ep. 111 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 221.56 min
+Epoch: 113/200 | Batch 0000/0462 | Cost: 0.4213
+Epoch: 113/200 | Batch 0050/0462 | Cost: 0.4988
+Epoch: 113/200 | Batch 0100/0462 | Cost: 0.2683
+Epoch: 113/200 | Batch 0150/0462 | Cost: 0.3329
+Epoch: 113/200 | Batch 0200/0462 | Cost: 0.4576
+Epoch: 113/200 | Batch 0250/0462 | Cost: 0.5129
+Epoch: 113/200 | Batch 0300/0462 | Cost: 0.4343
+Epoch: 113/200 | Batch 0350/0462 | Cost: 0.5787
+Epoch: 113/200 | Batch 0400/0462 | Cost: 0.6445
+Epoch: 113/200 | Batch 0450/0462 | Cost: 0.4947
+MAE/RMSE: | Current Valid: 6.38/7.83 Ep. 112 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 223.52 min
+Epoch: 114/200 | Batch 0000/0462 | Cost: 0.3652
+Epoch: 114/200 | Batch 0050/0462 | Cost: 0.3757
+Epoch: 114/200 | Batch 0100/0462 | Cost: 0.4754
+Epoch: 114/200 | Batch 0150/0462 | Cost: 0.3609
+Epoch: 114/200 | Batch 0200/0462 | Cost: 0.4408
+Epoch: 114/200 | Batch 0250/0462 | Cost: 0.4132
+Epoch: 114/200 | Batch 0300/0462 | Cost: 0.3760
+Epoch: 114/200 | Batch 0350/0462 | Cost: 0.6193
+Epoch: 114/200 | Batch 0400/0462 | Cost: 0.5276
+Epoch: 114/200 | Batch 0450/0462 | Cost: 0.5294
+MAE/RMSE: | Current Valid: 6.03/7.47 Ep. 113 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 225.47 min
+Epoch: 115/200 | Batch 0000/0462 | Cost: 0.3038
+Epoch: 115/200 | Batch 0050/0462 | Cost: 0.4470
+Epoch: 115/200 | Batch 0100/0462 | Cost: 0.4382
+Epoch: 115/200 | Batch 0150/0462 | Cost: 0.4968
+Epoch: 115/200 | Batch 0200/0462 | Cost: 0.4704
+Epoch: 115/200 | Batch 0250/0462 | Cost: 0.5175
+Epoch: 115/200 | Batch 0300/0462 | Cost: 0.5735
+Epoch: 115/200 | Batch 0350/0462 | Cost: 0.5072
+Epoch: 115/200 | Batch 0400/0462 | Cost: 0.5360
+Epoch: 115/200 | Batch 0450/0462 | Cost: 0.6267
+MAE/RMSE: | Current Valid: 5.57/7.04 Ep. 114 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 227.41 min
+Epoch: 116/200 | Batch 0000/0462 | Cost: 0.3767
+Epoch: 116/200 | Batch 0050/0462 | Cost: 0.3647
+Epoch: 116/200 | Batch 0100/0462 | Cost: 0.4734
+Epoch: 116/200 | Batch 0150/0462 | Cost: 0.3499
+Epoch: 116/200 | Batch 0200/0462 | Cost: 0.5512
+Epoch: 116/200 | Batch 0250/0462 | Cost: 0.3943
+Epoch: 116/200 | Batch 0300/0462 | Cost: 0.5839
+Epoch: 116/200 | Batch 0350/0462 | Cost: 0.6790
+Epoch: 116/200 | Batch 0400/0462 | Cost: 0.5292
+Epoch: 116/200 | Batch 0450/0462 | Cost: 0.4924
+MAE/RMSE: | Current Valid: 6.22/7.62 Ep. 115 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 229.36 min
+Epoch: 117/200 | Batch 0000/0462 | Cost: 0.3129
+Epoch: 117/200 | Batch 0050/0462 | Cost: 0.4505
+Epoch: 117/200 | Batch 0100/0462 | Cost: 0.3510
+Epoch: 117/200 | Batch 0150/0462 | Cost: 0.4724
+Epoch: 117/200 | Batch 0200/0462 | Cost: 0.3667
+Epoch: 117/200 | Batch 0250/0462 | Cost: 0.3642
+Epoch: 117/200 | Batch 0300/0462 | Cost: 0.4137
+Epoch: 117/200 | Batch 0350/0462 | Cost: 0.4907
+Epoch: 117/200 | Batch 0400/0462 | Cost: 0.4322
+Epoch: 117/200 | Batch 0450/0462 | Cost: 0.4799
+MAE/RMSE: | Current Valid: 6.14/7.58 Ep. 116 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 231.32 min
+Epoch: 118/200 | Batch 0000/0462 | Cost: 0.3863
+Epoch: 118/200 | Batch 0050/0462 | Cost: 0.3460
+Epoch: 118/200 | Batch 0100/0462 | Cost: 0.5362
+Epoch: 118/200 | Batch 0150/0462 | Cost: 0.4195
+Epoch: 118/200 | Batch 0200/0462 | Cost: 0.4125
+Epoch: 118/200 | Batch 0250/0462 | Cost: 0.4775
+Epoch: 118/200 | Batch 0300/0462 | Cost: 0.6598
+Epoch: 118/200 | Batch 0350/0462 | Cost: 0.3934
+Epoch: 118/200 | Batch 0400/0462 | Cost: 0.4427
+Epoch: 118/200 | Batch 0450/0462 | Cost: 0.3935
+MAE/RMSE: | Current Valid: 6.29/7.76 Ep. 117 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 233.28 min
+Epoch: 119/200 | Batch 0000/0462 | Cost: 0.4441
+Epoch: 119/200 | Batch 0050/0462 | Cost: 0.3350
+Epoch: 119/200 | Batch 0100/0462 | Cost: 0.3867
+Epoch: 119/200 | Batch 0150/0462 | Cost: 0.5212
+Epoch: 119/200 | Batch 0200/0462 | Cost: 0.4839
+Epoch: 119/200 | Batch 0250/0462 | Cost: 0.5363
+Epoch: 119/200 | Batch 0300/0462 | Cost: 0.4087
+Epoch: 119/200 | Batch 0350/0462 | Cost: 0.5044
+Epoch: 119/200 | Batch 0400/0462 | Cost: 0.5736
+Epoch: 119/200 | Batch 0450/0462 | Cost: 0.6881
+MAE/RMSE: | Current Valid: 6.03/7.46 Ep. 118 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 235.23 min
+Epoch: 120/200 | Batch 0000/0462 | Cost: 0.5465
+Epoch: 120/200 | Batch 0050/0462 | Cost: 0.4899
+Epoch: 120/200 | Batch 0100/0462 | Cost: 0.3033
+Epoch: 120/200 | Batch 0150/0462 | Cost: 0.3177
+Epoch: 120/200 | Batch 0200/0462 | Cost: 0.4421
+Epoch: 120/200 | Batch 0250/0462 | Cost: 0.3940
+Epoch: 120/200 | Batch 0300/0462 | Cost: 0.4442
+Epoch: 120/200 | Batch 0350/0462 | Cost: 0.5490
+Epoch: 120/200 | Batch 0400/0462 | Cost: 0.5804
+Epoch: 120/200 | Batch 0450/0462 | Cost: 0.4316
+MAE/RMSE: | Current Valid: 5.78/7.26 Ep. 119 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 237.18 min
+Epoch: 121/200 | Batch 0000/0462 | Cost: 0.5657
+Epoch: 121/200 | Batch 0050/0462 | Cost: 0.3841
+Epoch: 121/200 | Batch 0100/0462 | Cost: 0.4313
+Epoch: 121/200 | Batch 0150/0462 | Cost: 0.3539
+Epoch: 121/200 | Batch 0200/0462 | Cost: 0.2537
+Epoch: 121/200 | Batch 0250/0462 | Cost: 0.2231
+Epoch: 121/200 | Batch 0300/0462 | Cost: 0.3419
+Epoch: 121/200 | Batch 0350/0462 | Cost: 0.4252
+Epoch: 121/200 | Batch 0400/0462 | Cost: 0.4115
+Epoch: 121/200 | Batch 0450/0462 | Cost: 0.3449
+MAE/RMSE: | Current Valid: 6.30/7.73 Ep. 120 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 239.13 min
+Epoch: 122/200 | Batch 0000/0462 | Cost: 0.3017
+Epoch: 122/200 | Batch 0050/0462 | Cost: 0.3736
+Epoch: 122/200 | Batch 0100/0462 | Cost: 0.3803
+Epoch: 122/200 | Batch 0150/0462 | Cost: 0.4863
+Epoch: 122/200 | Batch 0200/0462 | Cost: 0.5183
+Epoch: 122/200 | Batch 0250/0462 | Cost: 0.4968
+Epoch: 122/200 | Batch 0300/0462 | Cost: 0.3564
+Epoch: 122/200 | Batch 0350/0462 | Cost: 0.3204
+Epoch: 122/200 | Batch 0400/0462 | Cost: 0.4519
+Epoch: 122/200 | Batch 0450/0462 | Cost: 0.3496
+MAE/RMSE: | Current Valid: 5.64/7.08 Ep. 121 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 241.08 min
+Epoch: 123/200 | Batch 0000/0462 | Cost: 0.3398
+Epoch: 123/200 | Batch 0050/0462 | Cost: 0.5276
+Epoch: 123/200 | Batch 0100/0462 | Cost: 0.5713
+Epoch: 123/200 | Batch 0150/0462 | Cost: 0.3883
+Epoch: 123/200 | Batch 0200/0462 | Cost: 0.4119
+Epoch: 123/200 | Batch 0250/0462 | Cost: 0.3679
+Epoch: 123/200 | Batch 0300/0462 | Cost: 0.5248
+Epoch: 123/200 | Batch 0350/0462 | Cost: 0.4625
+Epoch: 123/200 | Batch 0400/0462 | Cost: 0.3830
+Epoch: 123/200 | Batch 0450/0462 | Cost: 0.4864
+MAE/RMSE: | Current Valid: 6.49/7.90 Ep. 122 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 243.03 min
+Epoch: 124/200 | Batch 0000/0462 | Cost: 0.4177
+Epoch: 124/200 | Batch 0050/0462 | Cost: 0.4707
+Epoch: 124/200 | Batch 0100/0462 | Cost: 0.3024
+Epoch: 124/200 | Batch 0150/0462 | Cost: 0.2670
+Epoch: 124/200 | Batch 0200/0462 | Cost: 0.4428
+Epoch: 124/200 | Batch 0250/0462 | Cost: 0.4544
+Epoch: 124/200 | Batch 0300/0462 | Cost: 0.4870
+Epoch: 124/200 | Batch 0350/0462 | Cost: 0.3983
+Epoch: 124/200 | Batch 0400/0462 | Cost: 0.4320
+Epoch: 124/200 | Batch 0450/0462 | Cost: 0.3304
+MAE/RMSE: | Current Valid: 6.22/7.67 Ep. 123 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 244.99 min
+Epoch: 125/200 | Batch 0000/0462 | Cost: 0.3272
+Epoch: 125/200 | Batch 0050/0462 | Cost: 0.4088
+Epoch: 125/200 | Batch 0100/0462 | Cost: 0.2791
+Epoch: 125/200 | Batch 0150/0462 | Cost: 0.3718
+Epoch: 125/200 | Batch 0200/0462 | Cost: 0.3115
+Epoch: 125/200 | Batch 0250/0462 | Cost: 0.4427
+Epoch: 125/200 | Batch 0300/0462 | Cost: 0.4551
+Epoch: 125/200 | Batch 0350/0462 | Cost: 0.5571
+Epoch: 125/200 | Batch 0400/0462 | Cost: 0.3843
+Epoch: 125/200 | Batch 0450/0462 | Cost: 0.4522
+MAE/RMSE: | Current Valid: 6.13/7.55 Ep. 124 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 246.95 min
+Epoch: 126/200 | Batch 0000/0462 | Cost: 0.3214
+Epoch: 126/200 | Batch 0050/0462 | Cost: 0.3474
+Epoch: 126/200 | Batch 0100/0462 | Cost: 0.3035
+Epoch: 126/200 | Batch 0150/0462 | Cost: 0.3167
+Epoch: 126/200 | Batch 0200/0462 | Cost: 0.4216
+Epoch: 126/200 | Batch 0250/0462 | Cost: 0.4069
+Epoch: 126/200 | Batch 0300/0462 | Cost: 0.4494
+Epoch: 126/200 | Batch 0350/0462 | Cost: 0.4206
+Epoch: 126/200 | Batch 0400/0462 | Cost: 0.3498
+Epoch: 126/200 | Batch 0450/0462 | Cost: 0.3876
+MAE/RMSE: | Current Valid: 6.28/7.74 Ep. 125 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 248.90 min
+Epoch: 127/200 | Batch 0000/0462 | Cost: 0.2637
+Epoch: 127/200 | Batch 0050/0462 | Cost: 0.4982
+Epoch: 127/200 | Batch 0100/0462 | Cost: 0.3315
+Epoch: 127/200 | Batch 0150/0462 | Cost: 0.4202
+Epoch: 127/200 | Batch 0200/0462 | Cost: 0.5037
+Epoch: 127/200 | Batch 0250/0462 | Cost: 0.3912
+Epoch: 127/200 | Batch 0300/0462 | Cost: 0.3885
+Epoch: 127/200 | Batch 0350/0462 | Cost: 0.4830
+Epoch: 127/200 | Batch 0400/0462 | Cost: 0.4347
+Epoch: 127/200 | Batch 0450/0462 | Cost: 0.5751
+MAE/RMSE: | Current Valid: 6.09/7.55 Ep. 126 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 250.85 min
+Epoch: 128/200 | Batch 0000/0462 | Cost: 0.1904
+Epoch: 128/200 | Batch 0050/0462 | Cost: 0.2920
+Epoch: 128/200 | Batch 0100/0462 | Cost: 0.3795
+Epoch: 128/200 | Batch 0150/0462 | Cost: 0.3108
+Epoch: 128/200 | Batch 0200/0462 | Cost: 0.4451
+Epoch: 128/200 | Batch 0250/0462 | Cost: 0.3222
+Epoch: 128/200 | Batch 0300/0462 | Cost: 0.2697
+Epoch: 128/200 | Batch 0350/0462 | Cost: 0.4070
+Epoch: 128/200 | Batch 0400/0462 | Cost: 0.3498
+Epoch: 128/200 | Batch 0450/0462 | Cost: 0.4186
+MAE/RMSE: | Current Valid: 6.20/7.63 Ep. 127 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 252.80 min
+Epoch: 129/200 | Batch 0000/0462 | Cost: 0.3890
+Epoch: 129/200 | Batch 0050/0462 | Cost: 0.2650
+Epoch: 129/200 | Batch 0100/0462 | Cost: 0.3011
+Epoch: 129/200 | Batch 0150/0462 | Cost: 0.1612
+Epoch: 129/200 | Batch 0200/0462 | Cost: 0.4359
+Epoch: 129/200 | Batch 0250/0462 | Cost: 0.4066
+Epoch: 129/200 | Batch 0300/0462 | Cost: 0.4114
+Epoch: 129/200 | Batch 0350/0462 | Cost: 0.2873
+Epoch: 129/200 | Batch 0400/0462 | Cost: 0.3162
+Epoch: 129/200 | Batch 0450/0462 | Cost: 0.3286
+MAE/RMSE: | Current Valid: 6.16/7.61 Ep. 128 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 254.75 min
+Epoch: 130/200 | Batch 0000/0462 | Cost: 0.3842
+Epoch: 130/200 | Batch 0050/0462 | Cost: 0.3289
+Epoch: 130/200 | Batch 0100/0462 | Cost: 0.2715
+Epoch: 130/200 | Batch 0150/0462 | Cost: 0.2652
+Epoch: 130/200 | Batch 0200/0462 | Cost: 0.3299
+Epoch: 130/200 | Batch 0250/0462 | Cost: 0.2350
+Epoch: 130/200 | Batch 0300/0462 | Cost: 0.3082
+Epoch: 130/200 | Batch 0350/0462 | Cost: 0.4733
+Epoch: 130/200 | Batch 0400/0462 | Cost: 0.2886
+Epoch: 130/200 | Batch 0450/0462 | Cost: 0.3571
+MAE/RMSE: | Current Valid: 5.78/7.25 Ep. 129 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 256.70 min
+Epoch: 131/200 | Batch 0000/0462 | Cost: 0.3479
+Epoch: 131/200 | Batch 0050/0462 | Cost: 0.3308
+Epoch: 131/200 | Batch 0100/0462 | Cost: 0.3753
+Epoch: 131/200 | Batch 0150/0462 | Cost: 0.2285
+Epoch: 131/200 | Batch 0200/0462 | Cost: 0.2937
+Epoch: 131/200 | Batch 0250/0462 | Cost: 0.3607
+Epoch: 131/200 | Batch 0300/0462 | Cost: 0.3440
+Epoch: 131/200 | Batch 0350/0462 | Cost: 0.2220
+Epoch: 131/200 | Batch 0400/0462 | Cost: 0.3136
+Epoch: 131/200 | Batch 0450/0462 | Cost: 0.3335
+MAE/RMSE: | Current Valid: 6.09/7.53 Ep. 130 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 258.65 min
+Epoch: 132/200 | Batch 0000/0462 | Cost: 0.2112
+Epoch: 132/200 | Batch 0050/0462 | Cost: 0.3993
+Epoch: 132/200 | Batch 0100/0462 | Cost: 0.3366
+Epoch: 132/200 | Batch 0150/0462 | Cost: 0.3786
+Epoch: 132/200 | Batch 0200/0462 | Cost: 0.4247
+Epoch: 132/200 | Batch 0250/0462 | Cost: 0.4726
+Epoch: 132/200 | Batch 0300/0462 | Cost: 0.4223
+Epoch: 132/200 | Batch 0350/0462 | Cost: 0.3202
+Epoch: 132/200 | Batch 0400/0462 | Cost: 0.4552
+Epoch: 132/200 | Batch 0450/0462 | Cost: 0.3037
+MAE/RMSE: | Current Valid: 5.79/7.22 Ep. 131 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 260.59 min
+Epoch: 133/200 | Batch 0000/0462 | Cost: 0.3544
+Epoch: 133/200 | Batch 0050/0462 | Cost: 0.4553
+Epoch: 133/200 | Batch 0100/0462 | Cost: 0.4546
+Epoch: 133/200 | Batch 0150/0462 | Cost: 0.3089
+Epoch: 133/200 | Batch 0200/0462 | Cost: 0.3518
+Epoch: 133/200 | Batch 0250/0462 | Cost: 0.3088
+Epoch: 133/200 | Batch 0300/0462 | Cost: 0.4379
+Epoch: 133/200 | Batch 0350/0462 | Cost: 0.2932
+Epoch: 133/200 | Batch 0400/0462 | Cost: 0.3685
+Epoch: 133/200 | Batch 0450/0462 | Cost: 0.5702
+MAE/RMSE: | Current Valid: 6.13/7.63 Ep. 132 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 262.54 min
+Epoch: 134/200 | Batch 0000/0462 | Cost: 0.4323
+Epoch: 134/200 | Batch 0050/0462 | Cost: 0.3334
+Epoch: 134/200 | Batch 0100/0462 | Cost: 0.4716
+Epoch: 134/200 | Batch 0150/0462 | Cost: 0.4028
+Epoch: 134/200 | Batch 0200/0462 | Cost: 0.2732
+Epoch: 134/200 | Batch 0250/0462 | Cost: 0.2963
+Epoch: 134/200 | Batch 0300/0462 | Cost: 0.4580
+Epoch: 134/200 | Batch 0350/0462 | Cost: 0.3882
+Epoch: 134/200 | Batch 0400/0462 | Cost: 0.6197
+Epoch: 134/200 | Batch 0450/0462 | Cost: 0.3164
+MAE/RMSE: | Current Valid: 5.78/7.26 Ep. 133 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 264.49 min
+Epoch: 135/200 | Batch 0000/0462 | Cost: 0.4338
+Epoch: 135/200 | Batch 0050/0462 | Cost: 0.2380
+Epoch: 135/200 | Batch 0100/0462 | Cost: 0.3682
+Epoch: 135/200 | Batch 0150/0462 | Cost: 0.2652
+Epoch: 135/200 | Batch 0200/0462 | Cost: 0.4138
+Epoch: 135/200 | Batch 0250/0462 | Cost: 0.3387
+Epoch: 135/200 | Batch 0300/0462 | Cost: 0.3939
+Epoch: 135/200 | Batch 0350/0462 | Cost: 0.2451
+Epoch: 135/200 | Batch 0400/0462 | Cost: 0.4694
+Epoch: 135/200 | Batch 0450/0462 | Cost: 0.3948
+MAE/RMSE: | Current Valid: 6.46/7.92 Ep. 134 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 266.43 min
+Epoch: 136/200 | Batch 0000/0462 | Cost: 0.3542
+Epoch: 136/200 | Batch 0050/0462 | Cost: 0.2943
+Epoch: 136/200 | Batch 0100/0462 | Cost: 0.5043
+Epoch: 136/200 | Batch 0150/0462 | Cost: 0.3352
+Epoch: 136/200 | Batch 0200/0462 | Cost: 0.4419
+Epoch: 136/200 | Batch 0250/0462 | Cost: 0.2466
+Epoch: 136/200 | Batch 0300/0462 | Cost: 0.5349
+Epoch: 136/200 | Batch 0350/0462 | Cost: 0.4441
+Epoch: 136/200 | Batch 0400/0462 | Cost: 0.3421
+Epoch: 136/200 | Batch 0450/0462 | Cost: 0.6118
+MAE/RMSE: | Current Valid: 6.10/7.56 Ep. 135 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 268.38 min
+Epoch: 137/200 | Batch 0000/0462 | Cost: 0.2664
+Epoch: 137/200 | Batch 0050/0462 | Cost: 0.3575
+Epoch: 137/200 | Batch 0100/0462 | Cost: 0.2373
+Epoch: 137/200 | Batch 0150/0462 | Cost: 0.3627
+Epoch: 137/200 | Batch 0200/0462 | Cost: 0.3315
+Epoch: 137/200 | Batch 0250/0462 | Cost: 0.2891
+Epoch: 137/200 | Batch 0300/0462 | Cost: 0.4215
+Epoch: 137/200 | Batch 0350/0462 | Cost: 0.3630
+Epoch: 137/200 | Batch 0400/0462 | Cost: 0.2532
+Epoch: 137/200 | Batch 0450/0462 | Cost: 0.2851
+MAE/RMSE: | Current Valid: 6.41/7.88 Ep. 136 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 270.33 min
+Epoch: 138/200 | Batch 0000/0462 | Cost: 0.2549
+Epoch: 138/200 | Batch 0050/0462 | Cost: 0.2895
+Epoch: 138/200 | Batch 0100/0462 | Cost: 0.2181
+Epoch: 138/200 | Batch 0150/0462 | Cost: 0.3623
+Epoch: 138/200 | Batch 0200/0462 | Cost: 0.2334
+Epoch: 138/200 | Batch 0250/0462 | Cost: 0.4833
+Epoch: 138/200 | Batch 0300/0462 | Cost: 0.4048
+Epoch: 138/200 | Batch 0350/0462 | Cost: 0.3570
+Epoch: 138/200 | Batch 0400/0462 | Cost: 0.2731
+Epoch: 138/200 | Batch 0450/0462 | Cost: 0.3495
+MAE/RMSE: | Current Valid: 6.13/7.63 Ep. 137 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 272.28 min
+Epoch: 139/200 | Batch 0000/0462 | Cost: 0.2785
+Epoch: 139/200 | Batch 0050/0462 | Cost: 0.4197
+Epoch: 139/200 | Batch 0100/0462 | Cost: 0.3153
+Epoch: 139/200 | Batch 0150/0462 | Cost: 0.2805
+Epoch: 139/200 | Batch 0200/0462 | Cost: 0.4383
+Epoch: 139/200 | Batch 0250/0462 | Cost: 0.4206
+Epoch: 139/200 | Batch 0300/0462 | Cost: 0.4200
+Epoch: 139/200 | Batch 0350/0462 | Cost: 0.2629
+Epoch: 139/200 | Batch 0400/0462 | Cost: 0.6494
+Epoch: 139/200 | Batch 0450/0462 | Cost: 0.3040
+MAE/RMSE: | Current Valid: 6.35/7.78 Ep. 138 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 274.23 min
+Epoch: 140/200 | Batch 0000/0462 | Cost: 0.3638
+Epoch: 140/200 | Batch 0050/0462 | Cost: 0.3302
+Epoch: 140/200 | Batch 0100/0462 | Cost: 0.4327
+Epoch: 140/200 | Batch 0150/0462 | Cost: 0.3407
+Epoch: 140/200 | Batch 0200/0462 | Cost: 0.2479
+Epoch: 140/200 | Batch 0250/0462 | Cost: 0.2493
+Epoch: 140/200 | Batch 0300/0462 | Cost: 0.2500
+Epoch: 140/200 | Batch 0350/0462 | Cost: 0.2625
+Epoch: 140/200 | Batch 0400/0462 | Cost: 0.3405
+Epoch: 140/200 | Batch 0450/0462 | Cost: 0.4923
+MAE/RMSE: | Current Valid: 6.08/7.58 Ep. 139 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 276.18 min
+Epoch: 141/200 | Batch 0000/0462 | Cost: 0.2919
+Epoch: 141/200 | Batch 0050/0462 | Cost: 0.2973
+Epoch: 141/200 | Batch 0100/0462 | Cost: 0.2000
+Epoch: 141/200 | Batch 0150/0462 | Cost: 0.2718
+Epoch: 141/200 | Batch 0200/0462 | Cost: 0.3576
+Epoch: 141/200 | Batch 0250/0462 | Cost: 0.3033
+Epoch: 141/200 | Batch 0300/0462 | Cost: 0.2203
+Epoch: 141/200 | Batch 0350/0462 | Cost: 0.4746
+Epoch: 141/200 | Batch 0400/0462 | Cost: 0.7635
+Epoch: 141/200 | Batch 0450/0462 | Cost: 0.3704
+MAE/RMSE: | Current Valid: 5.69/7.14 Ep. 140 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 278.12 min
+Epoch: 142/200 | Batch 0000/0462 | Cost: 0.3310
+Epoch: 142/200 | Batch 0050/0462 | Cost: 0.3398
+Epoch: 142/200 | Batch 0100/0462 | Cost: 0.4207
+Epoch: 142/200 | Batch 0150/0462 | Cost: 0.4557
+Epoch: 142/200 | Batch 0200/0462 | Cost: 0.3264
+Epoch: 142/200 | Batch 0250/0462 | Cost: 0.2244
+Epoch: 142/200 | Batch 0300/0462 | Cost: 0.2945
+Epoch: 142/200 | Batch 0350/0462 | Cost: 0.4952
+Epoch: 142/200 | Batch 0400/0462 | Cost: 0.3433
+Epoch: 142/200 | Batch 0450/0462 | Cost: 0.4880
+MAE/RMSE: | Current Valid: 5.79/7.29 Ep. 141 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 280.08 min
+Epoch: 143/200 | Batch 0000/0462 | Cost: 0.4901
+Epoch: 143/200 | Batch 0050/0462 | Cost: 0.1756
+Epoch: 143/200 | Batch 0100/0462 | Cost: 0.2612
+Epoch: 143/200 | Batch 0150/0462 | Cost: 0.2275
+Epoch: 143/200 | Batch 0200/0462 | Cost: 0.3405
+Epoch: 143/200 | Batch 0250/0462 | Cost: 0.4144
+Epoch: 143/200 | Batch 0300/0462 | Cost: 0.2631
+Epoch: 143/200 | Batch 0350/0462 | Cost: 0.4400
+Epoch: 143/200 | Batch 0400/0462 | Cost: 0.4764
+Epoch: 143/200 | Batch 0450/0462 | Cost: 0.3887
+MAE/RMSE: | Current Valid: 5.92/7.37 Ep. 142 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 282.03 min
+Epoch: 144/200 | Batch 0000/0462 | Cost: 0.2298
+Epoch: 144/200 | Batch 0050/0462 | Cost: 0.3004
+Epoch: 144/200 | Batch 0100/0462 | Cost: 0.2522
+Epoch: 144/200 | Batch 0150/0462 | Cost: 0.2471
+Epoch: 144/200 | Batch 0200/0462 | Cost: 0.3036
+Epoch: 144/200 | Batch 0250/0462 | Cost: 0.2569
+Epoch: 144/200 | Batch 0300/0462 | Cost: 0.6010
+Epoch: 144/200 | Batch 0350/0462 | Cost: 0.2677
+Epoch: 144/200 | Batch 0400/0462 | Cost: 0.2952
+Epoch: 144/200 | Batch 0450/0462 | Cost: 0.3356
+MAE/RMSE: | Current Valid: 6.11/7.53 Ep. 143 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 283.97 min
+Epoch: 145/200 | Batch 0000/0462 | Cost: 0.2977
+Epoch: 145/200 | Batch 0050/0462 | Cost: 0.3515
+Epoch: 145/200 | Batch 0100/0462 | Cost: 0.2876
+Epoch: 145/200 | Batch 0150/0462 | Cost: 0.2745
+Epoch: 145/200 | Batch 0200/0462 | Cost: 0.3566
+Epoch: 145/200 | Batch 0250/0462 | Cost: 0.3953
+Epoch: 145/200 | Batch 0300/0462 | Cost: 0.2421
+Epoch: 145/200 | Batch 0350/0462 | Cost: 0.3431
+Epoch: 145/200 | Batch 0400/0462 | Cost: 0.4749
+Epoch: 145/200 | Batch 0450/0462 | Cost: 0.2129
+MAE/RMSE: | Current Valid: 6.41/7.87 Ep. 144 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 285.92 min
+Epoch: 146/200 | Batch 0000/0462 | Cost: 0.2609
+Epoch: 146/200 | Batch 0050/0462 | Cost: 0.3807
+Epoch: 146/200 | Batch 0100/0462 | Cost: 0.4887
+Epoch: 146/200 | Batch 0150/0462 | Cost: 0.3208
+Epoch: 146/200 | Batch 0200/0462 | Cost: 0.2766
+Epoch: 146/200 | Batch 0250/0462 | Cost: 0.2606
+Epoch: 146/200 | Batch 0300/0462 | Cost: 0.4019
+Epoch: 146/200 | Batch 0350/0462 | Cost: 0.3501
+Epoch: 146/200 | Batch 0400/0462 | Cost: 0.4361
+Epoch: 146/200 | Batch 0450/0462 | Cost: 0.4034
+MAE/RMSE: | Current Valid: 5.82/7.30 Ep. 145 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 287.87 min
+Epoch: 147/200 | Batch 0000/0462 | Cost: 0.4001
+Epoch: 147/200 | Batch 0050/0462 | Cost: 0.4163
+Epoch: 147/200 | Batch 0100/0462 | Cost: 0.3293
+Epoch: 147/200 | Batch 0150/0462 | Cost: 0.3725
+Epoch: 147/200 | Batch 0200/0462 | Cost: 0.2849
+Epoch: 147/200 | Batch 0250/0462 | Cost: 0.3212
+Epoch: 147/200 | Batch 0300/0462 | Cost: 0.2672
+Epoch: 147/200 | Batch 0350/0462 | Cost: 0.3029
+Epoch: 147/200 | Batch 0400/0462 | Cost: 0.5678
+Epoch: 147/200 | Batch 0450/0462 | Cost: 0.3302
+MAE/RMSE: | Current Valid: 5.97/7.45 Ep. 146 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 289.82 min
+Epoch: 148/200 | Batch 0000/0462 | Cost: 0.2826
+Epoch: 148/200 | Batch 0050/0462 | Cost: 0.2192
+Epoch: 148/200 | Batch 0100/0462 | Cost: 0.2594
+Epoch: 148/200 | Batch 0150/0462 | Cost: 0.2778
+Epoch: 148/200 | Batch 0200/0462 | Cost: 0.3764
+Epoch: 148/200 | Batch 0250/0462 | Cost: 0.4729
+Epoch: 148/200 | Batch 0300/0462 | Cost: 0.1745
+Epoch: 148/200 | Batch 0350/0462 | Cost: 0.5403
+Epoch: 148/200 | Batch 0400/0462 | Cost: 0.2639
+Epoch: 148/200 | Batch 0450/0462 | Cost: 0.3199
+MAE/RMSE: | Current Valid: 6.14/7.61 Ep. 147 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 291.77 min
+Epoch: 149/200 | Batch 0000/0462 | Cost: 0.3082
+Epoch: 149/200 | Batch 0050/0462 | Cost: 0.2139
+Epoch: 149/200 | Batch 0100/0462 | Cost: 0.2328
+Epoch: 149/200 | Batch 0150/0462 | Cost: 0.3160
+Epoch: 149/200 | Batch 0200/0462 | Cost: 0.3671
+Epoch: 149/200 | Batch 0250/0462 | Cost: 0.1843
+Epoch: 149/200 | Batch 0300/0462 | Cost: 0.3262
+Epoch: 149/200 | Batch 0350/0462 | Cost: 0.2350
+Epoch: 149/200 | Batch 0400/0462 | Cost: 0.2245
+Epoch: 149/200 | Batch 0450/0462 | Cost: 0.4112
+MAE/RMSE: | Current Valid: 6.07/7.56 Ep. 148 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 293.72 min
+Epoch: 150/200 | Batch 0000/0462 | Cost: 0.1469
+Epoch: 150/200 | Batch 0050/0462 | Cost: 0.2630
+Epoch: 150/200 | Batch 0100/0462 | Cost: 0.3509
+Epoch: 150/200 | Batch 0150/0462 | Cost: 0.2459
+Epoch: 150/200 | Batch 0200/0462 | Cost: 0.3974
+Epoch: 150/200 | Batch 0250/0462 | Cost: 0.4518
+Epoch: 150/200 | Batch 0300/0462 | Cost: 0.2364
+Epoch: 150/200 | Batch 0350/0462 | Cost: 0.3520
+Epoch: 150/200 | Batch 0400/0462 | Cost: 0.2190
+Epoch: 150/200 | Batch 0450/0462 | Cost: 0.2617
+MAE/RMSE: | Current Valid: 6.16/7.63 Ep. 149 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 295.67 min
+Epoch: 151/200 | Batch 0000/0462 | Cost: 0.2391
+Epoch: 151/200 | Batch 0050/0462 | Cost: 0.3173
+Epoch: 151/200 | Batch 0100/0462 | Cost: 0.2524
+Epoch: 151/200 | Batch 0150/0462 | Cost: 0.3005
+Epoch: 151/200 | Batch 0200/0462 | Cost: 0.4046
+Epoch: 151/200 | Batch 0250/0462 | Cost: 0.2616
+Epoch: 151/200 | Batch 0300/0462 | Cost: 0.4042
+Epoch: 151/200 | Batch 0350/0462 | Cost: 0.4370
+Epoch: 151/200 | Batch 0400/0462 | Cost: 0.4615
+Epoch: 151/200 | Batch 0450/0462 | Cost: 0.2770
+MAE/RMSE: | Current Valid: 6.25/7.70 Ep. 150 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 297.62 min
+Epoch: 152/200 | Batch 0000/0462 | Cost: 0.2956
+Epoch: 152/200 | Batch 0050/0462 | Cost: 0.5138
+Epoch: 152/200 | Batch 0100/0462 | Cost: 0.2754
+Epoch: 152/200 | Batch 0150/0462 | Cost: 0.2528
+Epoch: 152/200 | Batch 0200/0462 | Cost: 0.3766
+Epoch: 152/200 | Batch 0250/0462 | Cost: 0.2855
+Epoch: 152/200 | Batch 0300/0462 | Cost: 0.4981
+Epoch: 152/200 | Batch 0350/0462 | Cost: 0.3435
+Epoch: 152/200 | Batch 0400/0462 | Cost: 0.3096
+Epoch: 152/200 | Batch 0450/0462 | Cost: 0.1759
+MAE/RMSE: | Current Valid: 5.93/7.37 Ep. 151 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 299.57 min
+Epoch: 153/200 | Batch 0000/0462 | Cost: 0.2683
+Epoch: 153/200 | Batch 0050/0462 | Cost: 0.1807
+Epoch: 153/200 | Batch 0100/0462 | Cost: 0.1582
+Epoch: 153/200 | Batch 0150/0462 | Cost: 0.2008
+Epoch: 153/200 | Batch 0200/0462 | Cost: 0.2716
+Epoch: 153/200 | Batch 0250/0462 | Cost: 0.1938
+Epoch: 153/200 | Batch 0300/0462 | Cost: 0.3045
+Epoch: 153/200 | Batch 0350/0462 | Cost: 0.2970
+Epoch: 153/200 | Batch 0400/0462 | Cost: 0.4208
+Epoch: 153/200 | Batch 0450/0462 | Cost: 0.3198
+MAE/RMSE: | Current Valid: 5.87/7.29 Ep. 152 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 301.52 min
+Epoch: 154/200 | Batch 0000/0462 | Cost: 0.5503
+Epoch: 154/200 | Batch 0050/0462 | Cost: 0.2126
+Epoch: 154/200 | Batch 0100/0462 | Cost: 0.2262
+Epoch: 154/200 | Batch 0150/0462 | Cost: 0.2732
+Epoch: 154/200 | Batch 0200/0462 | Cost: 0.2769
+Epoch: 154/200 | Batch 0250/0462 | Cost: 0.3210
+Epoch: 154/200 | Batch 0300/0462 | Cost: 0.2298
+Epoch: 154/200 | Batch 0350/0462 | Cost: 0.3163
+Epoch: 154/200 | Batch 0400/0462 | Cost: 0.2508
+Epoch: 154/200 | Batch 0450/0462 | Cost: 0.2239
+MAE/RMSE: | Current Valid: 5.97/7.42 Ep. 153 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 303.47 min
+Epoch: 155/200 | Batch 0000/0462 | Cost: 0.3231
+Epoch: 155/200 | Batch 0050/0462 | Cost: 0.2394
+Epoch: 155/200 | Batch 0100/0462 | Cost: 0.2175
+Epoch: 155/200 | Batch 0150/0462 | Cost: 0.1593
+Epoch: 155/200 | Batch 0200/0462 | Cost: 0.2974
+Epoch: 155/200 | Batch 0250/0462 | Cost: 0.2811
+Epoch: 155/200 | Batch 0300/0462 | Cost: 0.2491
+Epoch: 155/200 | Batch 0350/0462 | Cost: 0.2223
+Epoch: 155/200 | Batch 0400/0462 | Cost: 0.8459
+Epoch: 155/200 | Batch 0450/0462 | Cost: 0.2944
+MAE/RMSE: | Current Valid: 6.23/7.67 Ep. 154 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 305.42 min
+Epoch: 156/200 | Batch 0000/0462 | Cost: 0.1718
+Epoch: 156/200 | Batch 0050/0462 | Cost: 0.1528
+Epoch: 156/200 | Batch 0100/0462 | Cost: 0.1556
+Epoch: 156/200 | Batch 0150/0462 | Cost: 0.1659
+Epoch: 156/200 | Batch 0200/0462 | Cost: 0.3390
+Epoch: 156/200 | Batch 0250/0462 | Cost: 0.2597
+Epoch: 156/200 | Batch 0300/0462 | Cost: 0.2296
+Epoch: 156/200 | Batch 0350/0462 | Cost: 0.3496
+Epoch: 156/200 | Batch 0400/0462 | Cost: 0.3101
+Epoch: 156/200 | Batch 0450/0462 | Cost: 0.5290
+MAE/RMSE: | Current Valid: 6.03/7.50 Ep. 155 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 307.37 min
+Epoch: 157/200 | Batch 0000/0462 | Cost: 0.1935
+Epoch: 157/200 | Batch 0050/0462 | Cost: 0.2278
+Epoch: 157/200 | Batch 0100/0462 | Cost: 0.2346
+Epoch: 157/200 | Batch 0150/0462 | Cost: 0.2475
+Epoch: 157/200 | Batch 0200/0462 | Cost: 0.2430
+Epoch: 157/200 | Batch 0250/0462 | Cost: 0.3382
+Epoch: 157/200 | Batch 0300/0462 | Cost: 0.3030
+Epoch: 157/200 | Batch 0350/0462 | Cost: 0.2477
+Epoch: 157/200 | Batch 0400/0462 | Cost: 0.2505
+Epoch: 157/200 | Batch 0450/0462 | Cost: 0.4189
+MAE/RMSE: | Current Valid: 6.03/7.54 Ep. 156 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 309.32 min
+Epoch: 158/200 | Batch 0000/0462 | Cost: 0.2354
+Epoch: 158/200 | Batch 0050/0462 | Cost: 0.2224
+Epoch: 158/200 | Batch 0100/0462 | Cost: 0.4478
+Epoch: 158/200 | Batch 0150/0462 | Cost: 0.2570
+Epoch: 158/200 | Batch 0200/0462 | Cost: 0.3694
+Epoch: 158/200 | Batch 0250/0462 | Cost: 0.3441
+Epoch: 158/200 | Batch 0300/0462 | Cost: 0.3295
+Epoch: 158/200 | Batch 0350/0462 | Cost: 0.2651
+Epoch: 158/200 | Batch 0400/0462 | Cost: 0.2964
+Epoch: 158/200 | Batch 0450/0462 | Cost: 0.2117
+MAE/RMSE: | Current Valid: 5.88/7.38 Ep. 157 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 311.26 min
+Epoch: 159/200 | Batch 0000/0462 | Cost: 0.2805
+Epoch: 159/200 | Batch 0050/0462 | Cost: 0.3280
+Epoch: 159/200 | Batch 0100/0462 | Cost: 0.2145
+Epoch: 159/200 | Batch 0150/0462 | Cost: 0.2920
+Epoch: 159/200 | Batch 0200/0462 | Cost: 0.3654
+Epoch: 159/200 | Batch 0250/0462 | Cost: 0.3851
+Epoch: 159/200 | Batch 0300/0462 | Cost: 0.2742
+Epoch: 159/200 | Batch 0350/0462 | Cost: 0.2524
+Epoch: 159/200 | Batch 0400/0462 | Cost: 0.3617
+Epoch: 159/200 | Batch 0450/0462 | Cost: 0.3512
+MAE/RMSE: | Current Valid: 6.31/7.78 Ep. 158 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 313.21 min
+Epoch: 160/200 | Batch 0000/0462 | Cost: 0.0973
+Epoch: 160/200 | Batch 0050/0462 | Cost: 0.1764
+Epoch: 160/200 | Batch 0100/0462 | Cost: 0.1544
+Epoch: 160/200 | Batch 0150/0462 | Cost: 0.2846
+Epoch: 160/200 | Batch 0200/0462 | Cost: 0.1288
+Epoch: 160/200 | Batch 0250/0462 | Cost: 0.3729
+Epoch: 160/200 | Batch 0300/0462 | Cost: 0.1559
+Epoch: 160/200 | Batch 0350/0462 | Cost: 0.3169
+Epoch: 160/200 | Batch 0400/0462 | Cost: 0.3302
+Epoch: 160/200 | Batch 0450/0462 | Cost: 0.2119
+MAE/RMSE: | Current Valid: 5.96/7.42 Ep. 159 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 315.16 min
+Epoch: 161/200 | Batch 0000/0462 | Cost: 0.1996
+Epoch: 161/200 | Batch 0050/0462 | Cost: 0.2101
+Epoch: 161/200 | Batch 0100/0462 | Cost: 0.4760
+Epoch: 161/200 | Batch 0150/0462 | Cost: 0.2423
+Epoch: 161/200 | Batch 0200/0462 | Cost: 0.2175
+Epoch: 161/200 | Batch 0250/0462 | Cost: 0.4543
+Epoch: 161/200 | Batch 0300/0462 | Cost: 0.5774
+Epoch: 161/200 | Batch 0350/0462 | Cost: 0.2015
+Epoch: 161/200 | Batch 0400/0462 | Cost: 0.2135
+Epoch: 161/200 | Batch 0450/0462 | Cost: 0.2290
+MAE/RMSE: | Current Valid: 6.35/7.77 Ep. 160 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 317.11 min
+Epoch: 162/200 | Batch 0000/0462 | Cost: 0.1813
+Epoch: 162/200 | Batch 0050/0462 | Cost: 0.2135
+Epoch: 162/200 | Batch 0100/0462 | Cost: 0.2440
+Epoch: 162/200 | Batch 0150/0462 | Cost: 0.5623
+Epoch: 162/200 | Batch 0200/0462 | Cost: 0.2338
+Epoch: 162/200 | Batch 0250/0462 | Cost: 0.2242
+Epoch: 162/200 | Batch 0300/0462 | Cost: 0.5583
+Epoch: 162/200 | Batch 0350/0462 | Cost: 0.3169
+Epoch: 162/200 | Batch 0400/0462 | Cost: 0.4025
+Epoch: 162/200 | Batch 0450/0462 | Cost: 0.2706
+MAE/RMSE: | Current Valid: 5.79/7.28 Ep. 161 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 319.06 min
+Epoch: 163/200 | Batch 0000/0462 | Cost: 0.2125
+Epoch: 163/200 | Batch 0050/0462 | Cost: 0.1737
+Epoch: 163/200 | Batch 0100/0462 | Cost: 0.2467
+Epoch: 163/200 | Batch 0150/0462 | Cost: 0.4021
+Epoch: 163/200 | Batch 0200/0462 | Cost: 0.2818
+Epoch: 163/200 | Batch 0250/0462 | Cost: 0.2823
+Epoch: 163/200 | Batch 0300/0462 | Cost: 0.2641
+Epoch: 163/200 | Batch 0350/0462 | Cost: 0.3035
+Epoch: 163/200 | Batch 0400/0462 | Cost: 0.4108
+Epoch: 163/200 | Batch 0450/0462 | Cost: 0.1810
+MAE/RMSE: | Current Valid: 6.25/7.74 Ep. 162 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 321.00 min
+Epoch: 164/200 | Batch 0000/0462 | Cost: 0.1832
+Epoch: 164/200 | Batch 0050/0462 | Cost: 0.2579
+Epoch: 164/200 | Batch 0100/0462 | Cost: 0.1877
+Epoch: 164/200 | Batch 0150/0462 | Cost: 0.3070
+Epoch: 164/200 | Batch 0200/0462 | Cost: 0.2445
+Epoch: 164/200 | Batch 0250/0462 | Cost: 0.2810
+Epoch: 164/200 | Batch 0300/0462 | Cost: 0.3601
+Epoch: 164/200 | Batch 0350/0462 | Cost: 0.1921
+Epoch: 164/200 | Batch 0400/0462 | Cost: 0.2394
+Epoch: 164/200 | Batch 0450/0462 | Cost: 0.2445
+MAE/RMSE: | Current Valid: 6.42/7.92 Ep. 163 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 322.95 min
+Epoch: 165/200 | Batch 0000/0462 | Cost: 0.1594
+Epoch: 165/200 | Batch 0050/0462 | Cost: 0.2027
+Epoch: 165/200 | Batch 0100/0462 | Cost: 0.1265
+Epoch: 165/200 | Batch 0150/0462 | Cost: 0.5601
+Epoch: 165/200 | Batch 0200/0462 | Cost: 0.3530
+Epoch: 165/200 | Batch 0250/0462 | Cost: 0.3652
+Epoch: 165/200 | Batch 0300/0462 | Cost: 0.1579
+Epoch: 165/200 | Batch 0350/0462 | Cost: 0.3917
+Epoch: 165/200 | Batch 0400/0462 | Cost: 0.2873
+Epoch: 165/200 | Batch 0450/0462 | Cost: 0.2637
+MAE/RMSE: | Current Valid: 6.07/7.55 Ep. 164 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 324.91 min
+Epoch: 166/200 | Batch 0000/0462 | Cost: 0.2465
+Epoch: 166/200 | Batch 0050/0462 | Cost: 0.4940
+Epoch: 166/200 | Batch 0100/0462 | Cost: 0.1905
+Epoch: 166/200 | Batch 0150/0462 | Cost: 0.4314
+Epoch: 166/200 | Batch 0200/0462 | Cost: 0.1578
+Epoch: 166/200 | Batch 0250/0462 | Cost: 0.1863
+Epoch: 166/200 | Batch 0300/0462 | Cost: 0.3348
+Epoch: 166/200 | Batch 0350/0462 | Cost: 0.1529
+Epoch: 166/200 | Batch 0400/0462 | Cost: 0.4020
+Epoch: 166/200 | Batch 0450/0462 | Cost: 0.4367
+MAE/RMSE: | Current Valid: 5.97/7.43 Ep. 165 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 326.85 min
+Epoch: 167/200 | Batch 0000/0462 | Cost: 0.1299
+Epoch: 167/200 | Batch 0050/0462 | Cost: 0.2674
+Epoch: 167/200 | Batch 0100/0462 | Cost: 0.2658
+Epoch: 167/200 | Batch 0150/0462 | Cost: 0.2145
+Epoch: 167/200 | Batch 0200/0462 | Cost: 0.2762
+Epoch: 167/200 | Batch 0250/0462 | Cost: 0.2078
+Epoch: 167/200 | Batch 0300/0462 | Cost: 0.4652
+Epoch: 167/200 | Batch 0350/0462 | Cost: 0.2080
+Epoch: 167/200 | Batch 0400/0462 | Cost: 0.2135
+Epoch: 167/200 | Batch 0450/0462 | Cost: 0.2642
+MAE/RMSE: | Current Valid: 6.24/7.72 Ep. 166 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 328.80 min
+Epoch: 168/200 | Batch 0000/0462 | Cost: 0.2025
+Epoch: 168/200 | Batch 0050/0462 | Cost: 0.2176
+Epoch: 168/200 | Batch 0100/0462 | Cost: 0.1799
+Epoch: 168/200 | Batch 0150/0462 | Cost: 0.1605
+Epoch: 168/200 | Batch 0200/0462 | Cost: 0.2344
+Epoch: 168/200 | Batch 0250/0462 | Cost: 0.2546
+Epoch: 168/200 | Batch 0300/0462 | Cost: 0.2541
+Epoch: 168/200 | Batch 0350/0462 | Cost: 0.2276
+Epoch: 168/200 | Batch 0400/0462 | Cost: 0.4397
+Epoch: 168/200 | Batch 0450/0462 | Cost: 0.2252
+MAE/RMSE: | Current Valid: 5.77/7.25 Ep. 167 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 330.75 min
+Epoch: 169/200 | Batch 0000/0462 | Cost: 0.2977
+Epoch: 169/200 | Batch 0050/0462 | Cost: 0.1749
+Epoch: 169/200 | Batch 0100/0462 | Cost: 0.2046
+Epoch: 169/200 | Batch 0150/0462 | Cost: 0.3499
+Epoch: 169/200 | Batch 0200/0462 | Cost: 0.1990
+Epoch: 169/200 | Batch 0250/0462 | Cost: 0.2845
+Epoch: 169/200 | Batch 0300/0462 | Cost: 0.1831
+Epoch: 169/200 | Batch 0350/0462 | Cost: 0.3646
+Epoch: 169/200 | Batch 0400/0462 | Cost: 0.4006
+Epoch: 169/200 | Batch 0450/0462 | Cost: 0.2153
+MAE/RMSE: | Current Valid: 6.02/7.49 Ep. 168 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 332.70 min
+Epoch: 170/200 | Batch 0000/0462 | Cost: 0.2025
+Epoch: 170/200 | Batch 0050/0462 | Cost: 0.2556
+Epoch: 170/200 | Batch 0100/0462 | Cost: 0.2797
+Epoch: 170/200 | Batch 0150/0462 | Cost: 0.1543
+Epoch: 170/200 | Batch 0200/0462 | Cost: 0.2225
+Epoch: 170/200 | Batch 0250/0462 | Cost: 0.4544
+Epoch: 170/200 | Batch 0300/0462 | Cost: 0.2893
+Epoch: 170/200 | Batch 0350/0462 | Cost: 0.3991
+Epoch: 170/200 | Batch 0400/0462 | Cost: 0.3342
+Epoch: 170/200 | Batch 0450/0462 | Cost: 0.4123
+MAE/RMSE: | Current Valid: 5.83/7.29 Ep. 169 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 334.64 min
+Epoch: 171/200 | Batch 0000/0462 | Cost: 0.2404
+Epoch: 171/200 | Batch 0050/0462 | Cost: 0.2927
+Epoch: 171/200 | Batch 0100/0462 | Cost: 0.3534
+Epoch: 171/200 | Batch 0150/0462 | Cost: 0.1852
+Epoch: 171/200 | Batch 0200/0462 | Cost: 0.2983
+Epoch: 171/200 | Batch 0250/0462 | Cost: 0.1632
+Epoch: 171/200 | Batch 0300/0462 | Cost: 0.3292
+Epoch: 171/200 | Batch 0350/0462 | Cost: 0.2802
+Epoch: 171/200 | Batch 0400/0462 | Cost: 0.2107
+Epoch: 171/200 | Batch 0450/0462 | Cost: 0.3615
+MAE/RMSE: | Current Valid: 6.15/7.60 Ep. 170 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 336.59 min
+Epoch: 172/200 | Batch 0000/0462 | Cost: 0.3163
+Epoch: 172/200 | Batch 0050/0462 | Cost: 0.2080
+Epoch: 172/200 | Batch 0100/0462 | Cost: 0.1553
+Epoch: 172/200 | Batch 0150/0462 | Cost: 0.2085
+Epoch: 172/200 | Batch 0200/0462 | Cost: 0.2599
+Epoch: 172/200 | Batch 0250/0462 | Cost: 0.2586
+Epoch: 172/200 | Batch 0300/0462 | Cost: 0.2246
+Epoch: 172/200 | Batch 0350/0462 | Cost: 0.2424
+Epoch: 172/200 | Batch 0400/0462 | Cost: 0.1795
+Epoch: 172/200 | Batch 0450/0462 | Cost: 0.5034
+MAE/RMSE: | Current Valid: 6.40/7.82 Ep. 171 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 338.54 min
+Epoch: 173/200 | Batch 0000/0462 | Cost: 0.2300
+Epoch: 173/200 | Batch 0050/0462 | Cost: 0.2347
+Epoch: 173/200 | Batch 0100/0462 | Cost: 0.1372
+Epoch: 173/200 | Batch 0150/0462 | Cost: 0.1956
+Epoch: 173/200 | Batch 0200/0462 | Cost: 0.1608
+Epoch: 173/200 | Batch 0250/0462 | Cost: 0.1738
+Epoch: 173/200 | Batch 0300/0462 | Cost: 0.2172
+Epoch: 173/200 | Batch 0350/0462 | Cost: 0.1405
+Epoch: 173/200 | Batch 0400/0462 | Cost: 0.2287
+Epoch: 173/200 | Batch 0450/0462 | Cost: 0.2763
+MAE/RMSE: | Current Valid: 5.91/7.38 Ep. 172 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 340.49 min
+Epoch: 174/200 | Batch 0000/0462 | Cost: 0.2174
+Epoch: 174/200 | Batch 0050/0462 | Cost: 0.0906
+Epoch: 174/200 | Batch 0100/0462 | Cost: 0.1444
+Epoch: 174/200 | Batch 0150/0462 | Cost: 0.2048
+Epoch: 174/200 | Batch 0200/0462 | Cost: 0.1821
+Epoch: 174/200 | Batch 0250/0462 | Cost: 0.2656
+Epoch: 174/200 | Batch 0300/0462 | Cost: 0.2310
+Epoch: 174/200 | Batch 0350/0462 | Cost: 0.2273
+Epoch: 174/200 | Batch 0400/0462 | Cost: 0.1927
+Epoch: 174/200 | Batch 0450/0462 | Cost: 0.2762
+MAE/RMSE: | Current Valid: 5.98/7.47 Ep. 173 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 342.43 min
+Epoch: 175/200 | Batch 0000/0462 | Cost: 0.1571
+Epoch: 175/200 | Batch 0050/0462 | Cost: 0.1581
+Epoch: 175/200 | Batch 0100/0462 | Cost: 0.2835
+Epoch: 175/200 | Batch 0150/0462 | Cost: 0.2326
+Epoch: 175/200 | Batch 0200/0462 | Cost: 0.2162
+Epoch: 175/200 | Batch 0250/0462 | Cost: 0.2062
+Epoch: 175/200 | Batch 0300/0462 | Cost: 0.2300
+Epoch: 175/200 | Batch 0350/0462 | Cost: 0.3730
+Epoch: 175/200 | Batch 0400/0462 | Cost: 0.4427
+Epoch: 175/200 | Batch 0450/0462 | Cost: 0.5426
+MAE/RMSE: | Current Valid: 5.86/7.32 Ep. 174 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 344.38 min
+Epoch: 176/200 | Batch 0000/0462 | Cost: 0.2494
+Epoch: 176/200 | Batch 0050/0462 | Cost: 0.1838
+Epoch: 176/200 | Batch 0100/0462 | Cost: 0.4356
+Epoch: 176/200 | Batch 0150/0462 | Cost: 0.4174
+Epoch: 176/200 | Batch 0200/0462 | Cost: 0.3823
+Epoch: 176/200 | Batch 0250/0462 | Cost: 0.2029
+Epoch: 176/200 | Batch 0300/0462 | Cost: 0.2767
+Epoch: 176/200 | Batch 0350/0462 | Cost: 0.3471
+Epoch: 176/200 | Batch 0400/0462 | Cost: 0.1850
+Epoch: 176/200 | Batch 0450/0462 | Cost: 0.2976
+MAE/RMSE: | Current Valid: 5.87/7.29 Ep. 175 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 346.33 min
+Epoch: 177/200 | Batch 0000/0462 | Cost: 0.2189
+Epoch: 177/200 | Batch 0050/0462 | Cost: 0.1471
+Epoch: 177/200 | Batch 0100/0462 | Cost: 0.1542
+Epoch: 177/200 | Batch 0150/0462 | Cost: 0.5426
+Epoch: 177/200 | Batch 0200/0462 | Cost: 0.2817
+Epoch: 177/200 | Batch 0250/0462 | Cost: 0.2995
+Epoch: 177/200 | Batch 0300/0462 | Cost: 0.2456
+Epoch: 177/200 | Batch 0350/0462 | Cost: 0.2918
+Epoch: 177/200 | Batch 0400/0462 | Cost: 0.2943
+Epoch: 177/200 | Batch 0450/0462 | Cost: 0.2159
+MAE/RMSE: | Current Valid: 6.19/7.65 Ep. 176 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 348.28 min
+Epoch: 178/200 | Batch 0000/0462 | Cost: 0.1492
+Epoch: 178/200 | Batch 0050/0462 | Cost: 0.1468
+Epoch: 178/200 | Batch 0100/0462 | Cost: 0.2641
+Epoch: 178/200 | Batch 0150/0462 | Cost: 0.3131
+Epoch: 178/200 | Batch 0200/0462 | Cost: 0.2425
+Epoch: 178/200 | Batch 0250/0462 | Cost: 0.1839
+Epoch: 178/200 | Batch 0300/0462 | Cost: 0.5947
+Epoch: 178/200 | Batch 0350/0462 | Cost: 0.4031
+Epoch: 178/200 | Batch 0400/0462 | Cost: 0.2862
+Epoch: 178/200 | Batch 0450/0462 | Cost: 0.3356
+MAE/RMSE: | Current Valid: 6.31/7.75 Ep. 177 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 350.22 min
+Epoch: 179/200 | Batch 0000/0462 | Cost: 0.1555
+Epoch: 179/200 | Batch 0050/0462 | Cost: 0.1874
+Epoch: 179/200 | Batch 0100/0462 | Cost: 0.2939
+Epoch: 179/200 | Batch 0150/0462 | Cost: 0.5031
+Epoch: 179/200 | Batch 0200/0462 | Cost: 0.2356
+Epoch: 179/200 | Batch 0250/0462 | Cost: 0.2884
+Epoch: 179/200 | Batch 0300/0462 | Cost: 0.3334
+Epoch: 179/200 | Batch 0350/0462 | Cost: 0.2711
+Epoch: 179/200 | Batch 0400/0462 | Cost: 0.2028
+Epoch: 179/200 | Batch 0450/0462 | Cost: 0.1488
+MAE/RMSE: | Current Valid: 6.04/7.52 Ep. 178 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 352.17 min
+Epoch: 180/200 | Batch 0000/0462 | Cost: 0.3091
+Epoch: 180/200 | Batch 0050/0462 | Cost: 0.1815
+Epoch: 180/200 | Batch 0100/0462 | Cost: 0.1962
+Epoch: 180/200 | Batch 0150/0462 | Cost: 0.2733
+Epoch: 180/200 | Batch 0200/0462 | Cost: 0.0928
+Epoch: 180/200 | Batch 0250/0462 | Cost: 0.1807
+Epoch: 180/200 | Batch 0300/0462 | Cost: 0.4113
+Epoch: 180/200 | Batch 0350/0462 | Cost: 0.4044
+Epoch: 180/200 | Batch 0400/0462 | Cost: 0.2550
+Epoch: 180/200 | Batch 0450/0462 | Cost: 0.2966
+MAE/RMSE: | Current Valid: 6.08/7.51 Ep. 179 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 354.12 min
+Epoch: 181/200 | Batch 0000/0462 | Cost: 0.1871
+Epoch: 181/200 | Batch 0050/0462 | Cost: 0.1792
+Epoch: 181/200 | Batch 0100/0462 | Cost: 0.1586
+Epoch: 181/200 | Batch 0150/0462 | Cost: 0.2025
+Epoch: 181/200 | Batch 0200/0462 | Cost: 0.2099
+Epoch: 181/200 | Batch 0250/0462 | Cost: 0.2033
+Epoch: 181/200 | Batch 0300/0462 | Cost: 0.2417
+Epoch: 181/200 | Batch 0350/0462 | Cost: 0.3427
+Epoch: 181/200 | Batch 0400/0462 | Cost: 0.4164
+Epoch: 181/200 | Batch 0450/0462 | Cost: 0.1987
+MAE/RMSE: | Current Valid: 6.28/7.76 Ep. 180 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 356.06 min
+Epoch: 182/200 | Batch 0000/0462 | Cost: 0.1560
+Epoch: 182/200 | Batch 0050/0462 | Cost: 0.1104
+Epoch: 182/200 | Batch 0100/0462 | Cost: 0.3055
+Epoch: 182/200 | Batch 0150/0462 | Cost: 0.3895
+Epoch: 182/200 | Batch 0200/0462 | Cost: 0.1895
+Epoch: 182/200 | Batch 0250/0462 | Cost: 0.1772
+Epoch: 182/200 | Batch 0300/0462 | Cost: 0.2846
+Epoch: 182/200 | Batch 0350/0462 | Cost: 0.2770
+Epoch: 182/200 | Batch 0400/0462 | Cost: 0.3124
+Epoch: 182/200 | Batch 0450/0462 | Cost: 0.2937
+MAE/RMSE: | Current Valid: 5.78/7.26 Ep. 181 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 358.01 min
+Epoch: 183/200 | Batch 0000/0462 | Cost: 0.2312
+Epoch: 183/200 | Batch 0050/0462 | Cost: 0.2306
+Epoch: 183/200 | Batch 0100/0462 | Cost: 0.1383
+Epoch: 183/200 | Batch 0150/0462 | Cost: 0.1135
+Epoch: 183/200 | Batch 0200/0462 | Cost: 0.1151
+Epoch: 183/200 | Batch 0250/0462 | Cost: 0.2405
+Epoch: 183/200 | Batch 0300/0462 | Cost: 0.2061
+Epoch: 183/200 | Batch 0350/0462 | Cost: 0.1453
+Epoch: 183/200 | Batch 0400/0462 | Cost: 0.1759
+Epoch: 183/200 | Batch 0450/0462 | Cost: 0.2560
+MAE/RMSE: | Current Valid: 6.21/7.72 Ep. 182 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 359.96 min
+Epoch: 184/200 | Batch 0000/0462 | Cost: 0.2299
+Epoch: 184/200 | Batch 0050/0462 | Cost: 0.2310
+Epoch: 184/200 | Batch 0100/0462 | Cost: 0.1170
+Epoch: 184/200 | Batch 0150/0462 | Cost: 0.5479
+Epoch: 184/200 | Batch 0200/0462 | Cost: 0.2581
+Epoch: 184/200 | Batch 0250/0462 | Cost: 0.1520
+Epoch: 184/200 | Batch 0300/0462 | Cost: 0.1820
+Epoch: 184/200 | Batch 0350/0462 | Cost: 0.3040
+Epoch: 184/200 | Batch 0400/0462 | Cost: 0.2270
+Epoch: 184/200 | Batch 0450/0462 | Cost: 0.4701
+MAE/RMSE: | Current Valid: 5.82/7.26 Ep. 183 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 361.90 min
+Epoch: 185/200 | Batch 0000/0462 | Cost: 0.1860
+Epoch: 185/200 | Batch 0050/0462 | Cost: 0.3730
+Epoch: 185/200 | Batch 0100/0462 | Cost: 0.5421
+Epoch: 185/200 | Batch 0150/0462 | Cost: 0.2816
+Epoch: 185/200 | Batch 0200/0462 | Cost: 0.2965
+Epoch: 185/200 | Batch 0250/0462 | Cost: 0.2499
+Epoch: 185/200 | Batch 0300/0462 | Cost: 0.2519
+Epoch: 185/200 | Batch 0350/0462 | Cost: 0.3546
+Epoch: 185/200 | Batch 0400/0462 | Cost: 0.2270
+Epoch: 185/200 | Batch 0450/0462 | Cost: 0.1837
+MAE/RMSE: | Current Valid: 6.08/7.52 Ep. 184 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 363.85 min
+Epoch: 186/200 | Batch 0000/0462 | Cost: 0.2798
+Epoch: 186/200 | Batch 0050/0462 | Cost: 0.1688
+Epoch: 186/200 | Batch 0100/0462 | Cost: 0.2916
+Epoch: 186/200 | Batch 0150/0462 | Cost: 0.4845
+Epoch: 186/200 | Batch 0200/0462 | Cost: 0.2339
+Epoch: 186/200 | Batch 0250/0462 | Cost: 0.1010
+Epoch: 186/200 | Batch 0300/0462 | Cost: 0.2386
+Epoch: 186/200 | Batch 0350/0462 | Cost: 0.1661
+Epoch: 186/200 | Batch 0400/0462 | Cost: 0.2383
+Epoch: 186/200 | Batch 0450/0462 | Cost: 0.1567
+MAE/RMSE: | Current Valid: 6.01/7.46 Ep. 185 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 365.80 min
+Epoch: 187/200 | Batch 0000/0462 | Cost: 0.2509
+Epoch: 187/200 | Batch 0050/0462 | Cost: 0.1566
+Epoch: 187/200 | Batch 0100/0462 | Cost: 0.1640
+Epoch: 187/200 | Batch 0150/0462 | Cost: 0.2025
+Epoch: 187/200 | Batch 0200/0462 | Cost: 0.1987
+Epoch: 187/200 | Batch 0250/0462 | Cost: 0.1236
+Epoch: 187/200 | Batch 0300/0462 | Cost: 0.2234
+Epoch: 187/200 | Batch 0350/0462 | Cost: 0.2158
+Epoch: 187/200 | Batch 0400/0462 | Cost: 0.1998
+Epoch: 187/200 | Batch 0450/0462 | Cost: 0.3142
+MAE/RMSE: | Current Valid: 5.90/7.35 Ep. 186 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 367.75 min
+Epoch: 188/200 | Batch 0000/0462 | Cost: 0.2105
+Epoch: 188/200 | Batch 0050/0462 | Cost: 0.1569
+Epoch: 188/200 | Batch 0100/0462 | Cost: 0.3318
+Epoch: 188/200 | Batch 0150/0462 | Cost: 0.1147
+Epoch: 188/200 | Batch 0200/0462 | Cost: 0.3498
+Epoch: 188/200 | Batch 0250/0462 | Cost: 0.4107
+Epoch: 188/200 | Batch 0300/0462 | Cost: 0.6920
+Epoch: 188/200 | Batch 0350/0462 | Cost: 0.3525
+Epoch: 188/200 | Batch 0400/0462 | Cost: 0.1654
+Epoch: 188/200 | Batch 0450/0462 | Cost: 0.3158
+MAE/RMSE: | Current Valid: 5.71/7.17 Ep. 187 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 369.70 min
+Epoch: 189/200 | Batch 0000/0462 | Cost: 0.1645
+Epoch: 189/200 | Batch 0050/0462 | Cost: 0.4069
+Epoch: 189/200 | Batch 0100/0462 | Cost: 0.0962
+Epoch: 189/200 | Batch 0150/0462 | Cost: 0.1808
+Epoch: 189/200 | Batch 0200/0462 | Cost: 0.3088
+Epoch: 189/200 | Batch 0250/0462 | Cost: 0.2254
+Epoch: 189/200 | Batch 0300/0462 | Cost: 0.3282
+Epoch: 189/200 | Batch 0350/0462 | Cost: 0.1117
+Epoch: 189/200 | Batch 0400/0462 | Cost: 0.2861
+Epoch: 189/200 | Batch 0450/0462 | Cost: 0.3425
+MAE/RMSE: | Current Valid: 6.29/7.80 Ep. 188 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 371.65 min
+Epoch: 190/200 | Batch 0000/0462 | Cost: 0.1670
+Epoch: 190/200 | Batch 0050/0462 | Cost: 0.2174
+Epoch: 190/200 | Batch 0100/0462 | Cost: 0.1553
+Epoch: 190/200 | Batch 0150/0462 | Cost: 0.2481
+Epoch: 190/200 | Batch 0200/0462 | Cost: 0.2616
+Epoch: 190/200 | Batch 0250/0462 | Cost: 0.3016
+Epoch: 190/200 | Batch 0300/0462 | Cost: 0.2199
+Epoch: 190/200 | Batch 0350/0462 | Cost: 0.4684
+Epoch: 190/200 | Batch 0400/0462 | Cost: 0.2695
+Epoch: 190/200 | Batch 0450/0462 | Cost: 0.1615
+MAE/RMSE: | Current Valid: 6.03/7.51 Ep. 189 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 373.60 min
+Epoch: 191/200 | Batch 0000/0462 | Cost: 0.1412
+Epoch: 191/200 | Batch 0050/0462 | Cost: 0.2796
+Epoch: 191/200 | Batch 0100/0462 | Cost: 0.0955
+Epoch: 191/200 | Batch 0150/0462 | Cost: 0.1721
+Epoch: 191/200 | Batch 0200/0462 | Cost: 0.1967
+Epoch: 191/200 | Batch 0250/0462 | Cost: 0.1180
+Epoch: 191/200 | Batch 0300/0462 | Cost: 0.1679
+Epoch: 191/200 | Batch 0350/0462 | Cost: 0.3768
+Epoch: 191/200 | Batch 0400/0462 | Cost: 0.2578
+Epoch: 191/200 | Batch 0450/0462 | Cost: 0.3102
+MAE/RMSE: | Current Valid: 5.98/7.43 Ep. 190 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 375.54 min
+Epoch: 192/200 | Batch 0000/0462 | Cost: 0.1573
+Epoch: 192/200 | Batch 0050/0462 | Cost: 0.1358
+Epoch: 192/200 | Batch 0100/0462 | Cost: 0.1391
+Epoch: 192/200 | Batch 0150/0462 | Cost: 0.4241
+Epoch: 192/200 | Batch 0200/0462 | Cost: 0.1582
+Epoch: 192/200 | Batch 0250/0462 | Cost: 0.1052
+Epoch: 192/200 | Batch 0300/0462 | Cost: 0.3366
+Epoch: 192/200 | Batch 0350/0462 | Cost: 0.5138
+Epoch: 192/200 | Batch 0400/0462 | Cost: 0.2435
+Epoch: 192/200 | Batch 0450/0462 | Cost: 0.2238
+MAE/RMSE: | Current Valid: 6.08/7.59 Ep. 191 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 377.49 min
+Epoch: 193/200 | Batch 0000/0462 | Cost: 0.1942
+Epoch: 193/200 | Batch 0050/0462 | Cost: 0.1867
+Epoch: 193/200 | Batch 0100/0462 | Cost: 0.2616
+Epoch: 193/200 | Batch 0150/0462 | Cost: 0.2286
+Epoch: 193/200 | Batch 0200/0462 | Cost: 0.2443
+Epoch: 193/200 | Batch 0250/0462 | Cost: 0.1610
+Epoch: 193/200 | Batch 0300/0462 | Cost: 0.2789
+Epoch: 193/200 | Batch 0350/0462 | Cost: 0.2612
+Epoch: 193/200 | Batch 0400/0462 | Cost: 0.2720
+Epoch: 193/200 | Batch 0450/0462 | Cost: 0.4676
+MAE/RMSE: | Current Valid: 6.15/7.61 Ep. 192 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 379.44 min
+Epoch: 194/200 | Batch 0000/0462 | Cost: 0.1725
+Epoch: 194/200 | Batch 0050/0462 | Cost: 0.1657
+Epoch: 194/200 | Batch 0100/0462 | Cost: 0.3194
+Epoch: 194/200 | Batch 0150/0462 | Cost: 0.2211
+Epoch: 194/200 | Batch 0200/0462 | Cost: 0.1505
+Epoch: 194/200 | Batch 0250/0462 | Cost: 0.2918
+Epoch: 194/200 | Batch 0300/0462 | Cost: 0.1396
+Epoch: 194/200 | Batch 0350/0462 | Cost: 0.1927
+Epoch: 194/200 | Batch 0400/0462 | Cost: 0.5437
+Epoch: 194/200 | Batch 0450/0462 | Cost: 0.4131
+MAE/RMSE: | Current Valid: 6.17/7.58 Ep. 193 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 381.39 min
+Epoch: 195/200 | Batch 0000/0462 | Cost: 0.2477
+Epoch: 195/200 | Batch 0050/0462 | Cost: 0.2015
+Epoch: 195/200 | Batch 0100/0462 | Cost: 0.1834
+Epoch: 195/200 | Batch 0150/0462 | Cost: 0.1082
+Epoch: 195/200 | Batch 0200/0462 | Cost: 0.1624
+Epoch: 195/200 | Batch 0250/0462 | Cost: 0.2591
+Epoch: 195/200 | Batch 0300/0462 | Cost: 0.2151
+Epoch: 195/200 | Batch 0350/0462 | Cost: 0.1816
+Epoch: 195/200 | Batch 0400/0462 | Cost: 0.2748
+Epoch: 195/200 | Batch 0450/0462 | Cost: 0.2067
+MAE/RMSE: | Current Valid: 6.24/7.69 Ep. 194 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 383.34 min
+Epoch: 196/200 | Batch 0000/0462 | Cost: 0.2188
+Epoch: 196/200 | Batch 0050/0462 | Cost: 0.1582
+Epoch: 196/200 | Batch 0100/0462 | Cost: 0.2384
+Epoch: 196/200 | Batch 0150/0462 | Cost: 0.3823
+Epoch: 196/200 | Batch 0200/0462 | Cost: 0.2611
+Epoch: 196/200 | Batch 0250/0462 | Cost: 0.1316
+Epoch: 196/200 | Batch 0300/0462 | Cost: 0.2312
+Epoch: 196/200 | Batch 0350/0462 | Cost: 0.3490
+Epoch: 196/200 | Batch 0400/0462 | Cost: 0.1613
+Epoch: 196/200 | Batch 0450/0462 | Cost: 0.2347
+MAE/RMSE: | Current Valid: 6.30/7.79 Ep. 195 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 385.29 min
+Epoch: 197/200 | Batch 0000/0462 | Cost: 0.1217
+Epoch: 197/200 | Batch 0050/0462 | Cost: 0.2941
+Epoch: 197/200 | Batch 0100/0462 | Cost: 0.2915
+Epoch: 197/200 | Batch 0150/0462 | Cost: 0.1544
+Epoch: 197/200 | Batch 0200/0462 | Cost: 0.1549
+Epoch: 197/200 | Batch 0250/0462 | Cost: 0.2451
+Epoch: 197/200 | Batch 0300/0462 | Cost: 0.4454
+Epoch: 197/200 | Batch 0350/0462 | Cost: 0.3192
+Epoch: 197/200 | Batch 0400/0462 | Cost: 0.2277
+Epoch: 197/200 | Batch 0450/0462 | Cost: 0.2392
+MAE/RMSE: | Current Valid: 6.21/7.69 Ep. 196 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 387.24 min
+Epoch: 198/200 | Batch 0000/0462 | Cost: 0.2236
+Epoch: 198/200 | Batch 0050/0462 | Cost: 0.1362
+Epoch: 198/200 | Batch 0100/0462 | Cost: 0.1559
+Epoch: 198/200 | Batch 0150/0462 | Cost: 0.1207
+Epoch: 198/200 | Batch 0200/0462 | Cost: 0.2439
+Epoch: 198/200 | Batch 0250/0462 | Cost: 0.1758
+Epoch: 198/200 | Batch 0300/0462 | Cost: 0.2515
+Epoch: 198/200 | Batch 0350/0462 | Cost: 0.3211
+Epoch: 198/200 | Batch 0400/0462 | Cost: 0.2535
+Epoch: 198/200 | Batch 0450/0462 | Cost: 0.2122
+MAE/RMSE: | Current Valid: 5.78/7.27 Ep. 197 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 389.19 min
+Epoch: 199/200 | Batch 0000/0462 | Cost: 0.1410
+Epoch: 199/200 | Batch 0050/0462 | Cost: 0.1383
+Epoch: 199/200 | Batch 0100/0462 | Cost: 0.1837
+Epoch: 199/200 | Batch 0150/0462 | Cost: 0.2907
+Epoch: 199/200 | Batch 0200/0462 | Cost: 0.1396
+Epoch: 199/200 | Batch 0250/0462 | Cost: 0.2015
+Epoch: 199/200 | Batch 0300/0462 | Cost: 0.2856
+Epoch: 199/200 | Batch 0350/0462 | Cost: 0.2027
+Epoch: 199/200 | Batch 0400/0462 | Cost: 0.2710
+Epoch: 199/200 | Batch 0450/0462 | Cost: 0.1956
+MAE/RMSE: | Current Valid: 6.04/7.56 Ep. 198 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 391.13 min
+Epoch: 200/200 | Batch 0000/0462 | Cost: 0.1397
+Epoch: 200/200 | Batch 0050/0462 | Cost: 0.2493
+Epoch: 200/200 | Batch 0100/0462 | Cost: 0.1796
+Epoch: 200/200 | Batch 0150/0462 | Cost: 0.3771
+Epoch: 200/200 | Batch 0200/0462 | Cost: 0.1874
+Epoch: 200/200 | Batch 0250/0462 | Cost: 0.1855
+Epoch: 200/200 | Batch 0300/0462 | Cost: 0.1424
+Epoch: 200/200 | Batch 0350/0462 | Cost: 0.3949
+Epoch: 200/200 | Batch 0400/0462 | Cost: 0.1910
+Epoch: 200/200 | Batch 0450/0462 | Cost: 0.2081
+MAE/RMSE: | Current Valid: 6.16/7.58 Ep. 199 | Best Valid : 4.98/6.30 Ep. 23
+Time elapsed: 393.08 min
+MAE/RMSE: | Train: 0.06/0.46 | Valid: 6.16/7.58 | Test: 3.61/5.03
+Total Training Time: 394.31 min
+MAE/RMSE: | Best Train: 2.08/2.84 | Best Valid: 4.98/6.30 | Best Test: 3.50/4.78
